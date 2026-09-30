@@ -1,0 +1,99 @@
+{
+  "col_antes": "Conceito A",
+  "col_depois": "A v2",
+  "contexto": [
+    "Pedido de 26/09: nova versão otimizada da A sem mudar muito o design, mantendo a estética clean. A v1 (D05) gastava ~3 g, mas tinha visual de esqueleto: canal fino com trilhos.",
+    "Por fora é o bloco do conceito A, com arestas arredondadas (R2,5), degrau baixo na frente e ranhura a 15° fechada nas pontas. O bloco ficou mais baixo (12 em vez de 16 mm) e mais estreito (94 em vez de 104 mm; a placa tem 88). A profundidade continua em 44 mm, mas a ranhura foi para a frente: o apoio atrás da placa cresceu e ela fica mais estável do que no conceito.",
+    "Onde saiu o filamento: por baixo, fora de vista, o bloco é oco. Duas cavidades abertas, atrás e na frente da ranhura. As paredes externas têm 0,9 mm (exatamente 2 perímetros da A1 mini). As paredes que seguram a placa têm 1,2 mm. O teto tem 1,2 mm (6 camadas: a ponte e 5 de topo). Os cantos internos são arredondados junto com os externos, então a parede não afina nas curvas.",
+    "Impressão: em pé, como na imagem, sem suportes. O teto da cavidade de trás é impresso em ponte de ~22 mm, o que a A1 mini faz sem problema; a ponte fica escondida por baixo e a face de cima sai com 5 camadas de topo normais. A cavidade da frente tem ponte de ~6,5 mm.",
+    "Encaixe igual ao da v1: ranhura de 6,4 mm (0,2 mm de folga por lado), fundo perpendicular à placa e lábio de 3,5 mm. O topo do degrau da frente fica em Z 6,4, e o texto começa em Z 8,6.",
+    "Modelo gerado por ferramentas/gerar_suporte_A_v2.py (objeto Suporte_A_v2 na cena Suporte_Placa, malha única e manifold). A v1 continua na cena, oculta."
+  ],
+  "decidido_em": "2026-09-26T15:02:08.570Z",
+  "escolha": "ajustar",
+  "fase": "Suporte",
+  "imagens": [
+    {
+      "legenda": "De frente: mesmo bloco clean do conceito A, mais baixo",
+      "src": "img/supA_v2_frente.jpg"
+    },
+    {
+      "legenda": "Perfil: degrau na frente, ranhura a 15° e bloco atrás",
+      "src": "img/supA_v2_lado.jpg"
+    },
+    {
+      "legenda": "Por trás: arestas arredondadas, ranhura fechada nas pontas",
+      "src": "img/supA_v2_tras.jpg"
+    },
+    {
+      "legenda": "Corte ao meio: o bloco é oco por baixo, com paredes de 0,9 a 1,2 mm",
+      "src": "img/supA_v2_corte.jpg"
+    }
+  ],
+  "metricas": [
+    {
+      "antes": "73,2 cm³ (maciço)",
+      "depois": "9,8 cm³",
+      "rotulo": "Volume de material"
+    },
+    {
+      "antes": "≈ 27 g fatiado (15 % de preenchimento)",
+      "depois": "≈ 12 g",
+      "rotulo": "Filamento estimado"
+    },
+    {
+      "antes": "104 × 44 × 16 mm",
+      "depois": "94 × 44 × 12 mm",
+      "rotulo": "Dimensões (L × P × A)"
+    },
+    {
+      "antes": "≈ 13 mm",
+      "depois": "≈ 21 mm",
+      "rotulo": "Apoio traseiro atrás do centro de gravidade"
+    },
+    {
+      "antes": "≈ 27 gf",
+      "depois": "≈ 34 gf",
+      "rotulo": "Força no NFC para tombar para trás"
+    },
+    {
+      "antes": "maciço",
+      "depois": "0,9 / 1,2 mm · 1,2 mm",
+      "rotulo": "Paredes · teto"
+    },
+    {
+      "antes": "nenhum",
+      "depois": "nenhum (ponte escondida)",
+      "rotulo": "Suportes de impressão"
+    }
+  ],
+  "metricas_titulo": "Conceito A × v2 (a v1 esquelética gastava 2,36 cm³ ≈ 3 g)",
+  "n": 6,
+  "nota": "preencha as partes ocas com infill baixo, e me retorne o aumento de gasto",
+  "opcoes": [
+    {
+      "custo": "≈ 12 g por suporte",
+      "descricao": "Seguir com o bloco clean oco: fatiar no Bambu Studio, conferir massa e tempo e gerar o .stl.",
+      "id": "aprovar_v2",
+      "recomendada": true,
+      "titulo": "Aprovar a v2"
+    },
+    {
+      "custo": "≈ 3 g por suporte",
+      "descricao": "Usar o canal fino com trilhos da D05: menos filamento, visual esquelético.",
+      "id": "aprovar_v1",
+      "recomendada": false,
+      "titulo": "Voltar para a v1"
+    },
+    {
+      "custo": "Nova versão da modelagem",
+      "descricao": "Mudar alguma medida (altura, largura, profundidade, raio das arestas, espessuras) e renderizar de novo.",
+      "id": "ajustar",
+      "recomendada": false,
+      "titulo": "Ajustar a v2"
+    }
+  ],
+  "pergunta": "A v2 (visual do conceito A, oca por baixo) pode seguir para o fatiamento e o STL?",
+  "status": "decidida",
+  "titulo": "Suporte A v2: bloco clean e oco, aprovar a modelagem"
+}

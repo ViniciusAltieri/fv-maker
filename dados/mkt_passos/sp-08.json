@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Monte o pacote real (placa, suporte, cartão, envelope) e pese.",
+    "Cadastre peso e medidas **com a embalagem**. A cubagem usa fator 6.000 (C × L × A em cm ÷ 6.000).",
+    "A primeira faixa vai até 500 g: a placa e o kit cabem com folga."
+  ],
+  "critico": true,
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Peso e dimensões",
+    "url": "https://seller.shopee.com.br/edu/article/3305"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Produto › Envio › Peso e dimensões",
+  "ordem": 108,
+  "porque": "Diferença entre o peso cadastrado e o aferido gera cobrança adicional em até 90 dias, e peso e medida errados são violação de anúncio.",
+  "tempo": "20 min",
+  "titulo": "Pesar, medir e cadastrar o pacote com a embalagem"
+}

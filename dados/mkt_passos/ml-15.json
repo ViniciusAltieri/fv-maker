@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Exemplo: 1 un preço cheio · 3 un −8% · 5 un −15% · 10 un −22%.",
+    "Confira na calculadora se a faixa maior ainda dá margem."
+  ],
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Preços de atacado",
+    "url": "https://vendedores.mercadolivre.com.br/nota/adicione-precos-de-atacado-e-aumente-o-seu-volume-de-vendas"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Anúncio › Preço › Preços de atacado",
+  "ordem": 15,
+  "porque": "O comprador típico da placa é um comércio. Até 5 faixas por quantidade, visíveis só para contas com CNPJ validado.",
+  "tempo": "10 min",
+  "titulo": "Cadastrar preços de atacado para empresas"
+}

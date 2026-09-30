@@ -1,0 +1,210 @@
+{
+  "col_antes": "Valor oficial",
+  "col_depois": "Onde está",
+  "contexto": [
+    "Arquivo: placa_google_lote4.3mf, gerado por ferramentas/gerar_lote4.py a partir de placa_google_v0_base_topo_lento.3mf. São 5 pratos: prato 1 com 4 placas (base + relevo) e pratos 2 a 5 com 4 cópias de cada peça colorida.",
+    "Presets de verdade, não copiados para dentro do 3MF: o processo e os filamentos apontam para os presets de usuário pelo nome, com exatamente as chaves que cada preset muda em relação ao sistema. Ao abrir no Bambu Studio devem aparecer selecionados, sem \"(modificado)\". Se um preset mudar, rode o gerador de novo.",
+    "Geometria (26/09): rebaixo das estrelas e do G aumentado de 0,4 para 0,8 mm (fundo em Z 5,2) e peças de 1,4 para 1,8 mm. O topo das peças continua em Z 7,0, alinhado com o relevo branco. A folga lateral continua em ~0,1 mm por lado. Backup em backup_antes_rebaixo_0.8.",
+    "Troca de cor: a base usa o filamento 1 (preto) e o relevo o filamento 2 (branco), os dois com o preset Bambu PLA Lite Flow Rate Calibrated, mudando só a cor. O fatiador gera uma troca T1 em Z 6,2. Ao enviar o prato 1, escolha \"Multi-color with external\": a impressora para e pede a troca do carretel externo. A purga preto→branco é de 607 mm³ (cálculo de cor do Bambu Studio).",
+    "Pausa em Z 4,0 (antes da camada que fecha os compartimentos): inserir as 4 arruelas e o NFC e retomar.",
+    "Torre de purga desligada no preset de processo (26/09): com 4 placas de 88 mm a mesa de 180 mm fica cheia e a torre conflitava com as placas. A purga é feita na rampa de descarte.",
+    "Sem ferro em nenhuma superfície (decisão de 26/09): o preset não define ferro, apesar do nome. Os valores de ferro (25 %, 60 mm/s) ficam no preset, mas não atuam.",
+    "Mantido do 3MF de 1 placa: modificador de faixa de altura em cada placa, de Z 5,2 a 7,0, com parede externa a 60 mm/s, parede interna a 100 mm/s e sólido interno a 120 mm/s (camada de 0,20 mm). Cobre as paredes dos rebaixos, o topo preto e o relevo branco."
+  ],
+  "decidido_em": "2026-09-26T07:00:00Z",
+  "estado": {
+    "base": "Lote v1 · presets de usuário"
+  },
+  "fase": "Configuração oficial",
+  "metricas": [
+    {
+      "antes": "Bambu Lab A1 mini 0.4 · PEI texturizada",
+      "depois": "preset de sistema",
+      "rotulo": "Impressora · mesa"
+    },
+    {
+      "antes": "0.20mm Standard @BBL A1M - Redução velocidade, ferro nas letras e simbolo",
+      "depois": "preset de usuário (herda 0.20mm Standard @BBL A1M)",
+      "rotulo": "Processo"
+    },
+    {
+      "antes": "0,20 mm · 1ª camada 0,20",
+      "depois": "sistema",
+      "rotulo": "Altura de camada"
+    },
+    {
+      "antes": "2 paredes · 5 camadas de topo · 3 de fundo",
+      "depois": "sistema",
+      "rotulo": "Paredes · topo · fundo"
+    },
+    {
+      "antes": "150 mm/s · aceleração 3000",
+      "depois": "preset de processo",
+      "rotulo": "Parede externa"
+    },
+    {
+      "antes": "200 mm/s",
+      "depois": "preset de processo",
+      "rotulo": "Parede interna"
+    },
+    {
+      "antes": "60 mm/s · aceleração 800 · monotonic",
+      "depois": "preset de processo",
+      "rotulo": "Topo"
+    },
+    {
+      "antes": "60 mm/s",
+      "depois": "preset de processo",
+      "rotulo": "Gap infill"
+    },
+    {
+      "antes": "monotonic · giroide",
+      "depois": "preset de processo",
+      "rotulo": "Sólido interno · preenchimento"
+    },
+    {
+      "antes": "só no topo mais alto (topmost)",
+      "depois": "preset de processo",
+      "rotulo": "Uma parede no topo"
+    },
+    {
+      "antes": "ligado · desativada",
+      "depois": "preset de processo",
+      "rotulo": "Evitar cruzar paredes · retração no preenchimento"
+    },
+    {
+      "antes": "sem ferro (fluxo 25 %, 60 mm/s guardados)",
+      "depois": "preset de processo / sistema",
+      "rotulo": "Ferro"
+    },
+    {
+      "antes": "desligada",
+      "depois": "preset de processo",
+      "rotulo": "Torre de purga"
+    },
+    {
+      "antes": "externa 60 · interna 100 · sólido 120 mm/s",
+      "depois": "modificador de altura no 3MF",
+      "rotulo": "Faixa Z 5,2–7,0 (cada placa)"
+    },
+    {
+      "antes": "Bambu PLA Lite Flow Rate Calibrated · preto",
+      "depois": "preset de usuário",
+      "rotulo": "Filamento 1 · base"
+    },
+    {
+      "antes": "Bambu PLA Lite Flow Rate Calibrated · branco",
+      "depois": "preset de usuário",
+      "rotulo": "Filamento 2 · relevo"
+    },
+    {
+      "antes": "200 °C · fluxo 0,931 · 13 mm³/s · retração 0,6 mm",
+      "depois": "preset de filamento (D01, D02)",
+      "rotulo": "PLA Lite (placa)"
+    },
+    {
+      "antes": "SUNLU PLA Matte @BBL A1M - 0.931 flow ratio · 220 °C · fluxo 0,931",
+      "depois": "preset de usuário",
+      "rotulo": "Filamento 3 · amarelo"
+    },
+    {
+      "antes": "BambuLab PLA Lite Flow Rate Calibrated · 220 °C · fluxo 0,89376",
+      "depois": "preset de usuário (herda SUNLU PLA Matte)",
+      "rotulo": "Filamentos 4–6 · vermelho, verde, azul"
+    },
+    {
+      "antes": "Z 4,0 · arruelas e NFC",
+      "depois": "3MF, prato 1",
+      "rotulo": "Pausa"
+    },
+    {
+      "antes": "T1 em Z 6,2 · Multi-color with external · purga 607 mm³",
+      "depois": "3MF + envio",
+      "rotulo": "Troca preto → branco"
+    },
+    {
+      "antes": "0,8 mm (fundo Z 5,2) · peças 1,8 mm",
+      "depois": "Blender / STL",
+      "rotulo": "Rebaixo · peças"
+    },
+    {
+      "antes": "4 h 11 min · 123,5 g preto + 2,4 g branco",
+      "depois": "G-code",
+      "rotulo": "Prato 1 (4 placas)"
+    },
+    {
+      "antes": "14 + 9 + 9 + 9 min · 4,5 g",
+      "depois": "G-code",
+      "rotulo": "Pratos 2–5 (4 jogos)"
+    },
+    {
+      "antes": "0 nos 5 pratos",
+      "depois": "CLI Bambu Studio 2.8",
+      "rotulo": "Avisos do fatiador"
+    }
+  ],
+  "metricas_titulo": "Definições vigentes (26/09/2026)",
+  "n": 3,
+  "observacoes": [
+    {
+      "id": "topo",
+      "item": "Topo preto",
+      "nota": "",
+      "oque": "Manchas de brilho e fosco, linhas do preenchimento aparentes, marcas em volta das letras e do ícone.",
+      "status": "?"
+    },
+    {
+      "id": "pontes",
+      "item": "Tampa dos compartimentos",
+      "nota": "",
+      "oque": "Afundamento ou relevo das arruelas e do NFC no topo; fios soltos por baixo das pontes.",
+      "status": "?"
+    },
+    {
+      "id": "nfc",
+      "item": "Leitura do NFC",
+      "nota": "",
+      "oque": "O celular lê a etiqueta através da tampa.",
+      "status": "?"
+    },
+    {
+      "id": "troca",
+      "item": "Troca com carretel externo",
+      "nota": "",
+      "oque": "A impressora pede a troca em Z 6,2, a purga limpa o preto e não sobra cinza no branco.",
+      "status": "?"
+    },
+    {
+      "id": "branco",
+      "item": "Relevo branco a 200 °C",
+      "nota": "",
+      "oque": "Fiapos entre as letras, cantos das letras, aderência ao preto.",
+      "status": "?"
+    },
+    {
+      "id": "base200",
+      "item": "Base a 200 °C e 13 mm³/s",
+      "nota": "",
+      "oque": "Preenchimento ralo, linhas falhadas ou estalos do extrusor (a base nunca tinha sido impressa a 200 °C).",
+      "status": "?"
+    },
+    {
+      "id": "pecas",
+      "item": "Encaixe das peças (rebaixo 0,8 mm)",
+      "nota": "",
+      "oque": "As peças entram até o fundo sem forçar e ficam niveladas com o relevo branco.",
+      "status": "?"
+    },
+    {
+      "id": "cantos",
+      "item": "Placas nos cantos da mesa",
+      "nota": "",
+      "oque": "Cantos levantando ou falhas nas bordas, com as 4 placas ocupando a mesa inteira.",
+      "status": "?"
+    }
+  ],
+  "observacoes_titulo": "O que observar no primeiro lote",
+  "pergunta": "Com o que o lote de 4 placas é impresso a partir de agora?",
+  "status": "decidida",
+  "titulo": "Lote de 4 placas v1: configuração oficial de impressão"
+}

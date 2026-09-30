@@ -1,0 +1,16 @@
+{
+  "como": [
+    "Fórmula da Shopee: nome do produto + marca + especificações. Modelos na aba Anúncio da placa.",
+    "Na descrição, explique o funcionamento, as medidas, o que vem no pacote e como enviar o link pelo chat.",
+    "Sem WhatsApp, Instagram, sites, Pix externo ou QR code em nenhum lugar do anúncio."
+  ],
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Produto › Informações básicas",
+  "ordem": 114,
+  "porque": "Título com pelo menos 10 caracteres e descrição acima de 60 caracteres são o mínimo para o anúncio ser \"Qualificado\". Marca de terceiros sem autorização, até para indicar compatibilidade, é violação de propriedade intelectual.",
+  "tempo": "30 min",
+  "titulo": "Escrever título e descrição"
+}

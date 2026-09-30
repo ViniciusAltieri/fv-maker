@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Agende com pelo menos 3 dias de antecedência.",
+    "Envie os pedidos pendentes e responda as devoluções antes de ativar."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Modo Férias",
+    "url": "https://seller.shopee.com.br/edu/article/3324"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Configurações da Loja › Modo Férias",
+  "ordem": 110,
+  "porque": "Pausar a loja evita pedidos que você não conseguiria enviar. Não funciona durante campanha em andamento.",
+  "tempo": "2 min",
+  "titulo": "Saber usar o modo férias"
+}

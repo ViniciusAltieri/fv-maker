@@ -1,0 +1,180 @@
+{
+  "componentes": [
+    {
+      "nota": "Hipótese: confirme no simulador",
+      "rotulo": "Tarifa de venda Clássico (12%)",
+      "se": {
+        "variante": "classico"
+      },
+      "tipo": "pct",
+      "valor": 0.12
+    },
+    {
+      "nota": "Hipótese: confirme no simulador",
+      "rotulo": "Tarifa de venda Premium (17%)",
+      "se": {
+        "variante": "premium"
+      },
+      "tipo": "pct",
+      "valor": 0.17
+    },
+    {
+      "faixas": [
+        {
+          "ate": 18.99,
+          "pct": 0.5,
+          "teto": 6.85
+        },
+        {
+          "ate": 48.99,
+          "valor": 6.85
+        },
+        {
+          "ate": 78.99,
+          "valor": 8.15
+        },
+        {
+          "ate": 99.99,
+          "valor": 12.95
+        },
+        {
+          "ate": 119.99,
+          "valor": 14.95
+        },
+        {
+          "ate": 1000000,
+          "valor": 14.95
+        }
+      ],
+      "nota": "Tabela verde / sem reputação",
+      "rotulo": "Custo dos envios (até 0,3 kg)",
+      "se": {
+        "conta": "verde"
+      },
+      "tipo": "faixa"
+    },
+    {
+      "faixas": [
+        {
+          "ate": 18.99,
+          "pct": 0.5,
+          "teto": 7.83
+        },
+        {
+          "ate": 48.99,
+          "valor": 7.83
+        },
+        {
+          "ate": 78.99,
+          "valor": 9.31
+        },
+        {
+          "ate": 99.99,
+          "valor": 15.54
+        },
+        {
+          "ate": 119.99,
+          "valor": 17.94
+        },
+        {
+          "ate": 1000000,
+          "valor": 17.94
+        }
+      ],
+      "nota": "Tabela amarela",
+      "rotulo": "Custo dos envios (até 0,3 kg)",
+      "se": {
+        "conta": "amarela"
+      },
+      "tipo": "faixa"
+    },
+    {
+      "faixas": [
+        {
+          "ate": 18.99,
+          "pct": 0.5,
+          "teto": 9.79
+        },
+        {
+          "ate": 48.99,
+          "valor": 9.79
+        },
+        {
+          "ate": 78.99,
+          "valor": 11.64
+        },
+        {
+          "ate": 99.99,
+          "valor": 25.9
+        },
+        {
+          "ate": 119.99,
+          "valor": 29.9
+        },
+        {
+          "ate": 1000000,
+          "valor": 29.9
+        }
+      ],
+      "nota": "Tabela laranja/vermelha",
+      "rotulo": "Custo dos envios (até 0,3 kg)",
+      "se": {
+        "conta": "laranja"
+      },
+      "tipo": "faixa"
+    },
+    {
+      "rotulo": "Outros custos de envio",
+      "tipo": "frete"
+    }
+  ],
+  "contas": {
+    "nota": "Conta nova sem cor paga a tabela verde.",
+    "opcoes": [
+      {
+        "id": "verde",
+        "rotulo": "Sem cor / verde"
+      },
+      {
+        "id": "amarela",
+        "rotulo": "Amarela"
+      },
+      {
+        "id": "laranja",
+        "rotulo": "Laranja/vermelha"
+      }
+    ],
+    "padrao": "verde",
+    "rotulo": "Reputação"
+  },
+  "fonte": {
+    "rotulo": "Tabela de custos de envio (verde)",
+    "url": "https://www.mercadolivre.com.br/ajuda/40538"
+  },
+  "frete_nota": "O custo do Mercado Envios já está incluído. Use só para passagem até a agência, etiqueta etc.",
+  "frete_rotulo": "Outros custos de envio (R$)",
+  "padrao": {
+    "custo": 8,
+    "custo_nota": "Exemplo: ~25 g de PLA, tag NTAG213 e envelope. Troque pelo seu custo real.",
+    "frete": 0,
+    "imposto": 0,
+    "preco": 59.9
+  },
+  "rodape": "Abaixo de R$ 19 o custo de envio é no máximo metade do preço; acima de R$ 119,99 a calculadora repete a última faixa consultada.",
+  "texto": "Pacote até 0,3 kg, envio pelo Mercado Envios. O custo de envio entra automático pela faixa de preço e pela reputação (tabela oficial de 29/09/2026). A tarifa usa **12% no Clássico e 17% no Premium como hipótese**: troque pela porcentagem que o simulador mostrar para a sua categoria.",
+  "titulo": "Quanto sobra de cada venda no Mercado Livre",
+  "variantes": {
+    "opcoes": [
+      {
+        "id": "classico",
+        "rotulo": "Clássico"
+      },
+      {
+        "id": "premium",
+        "rotulo": "Premium"
+      }
+    ],
+    "padrao": "classico",
+    "rotulo": "Tipo de anúncio"
+  }
+}

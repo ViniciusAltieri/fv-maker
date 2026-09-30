@@ -1,0 +1,257 @@
+{
+  "col_antes": "Preto · tempo",
+  "col_depois": "Diferença",
+  "comparador": {
+    "camadas": [
+      {
+        "antes": "img/eco_antes_z0.6.png",
+        "depois": "img/eco_depois_z0.6.png",
+        "legenda": "Terceira camada. No oficial ainda é sólida (3 camadas de fundo). Na opção A o fundo tem 2 camadas e aqui já entra o lightning. Cinza-escuro = sólido interno; cinza-claro = preenchimento.",
+        "z": "0,6"
+      },
+      {
+        "antes": "img/eco_antes_z1.2.png",
+        "depois": "img/eco_depois_z1.2.png",
+        "legenda": "Abaixo do piso das arruelas. No oficial, as 5 camadas de topo do piso (Z 0,8–1,6) viram discos sólidos. Na opção A o piso tem só Z 1,4 (ponte) e Z 1,6 (topo). Aqui só passam os galhos do lightning.",
+        "z": "1,2"
+      },
+      {
+        "antes": "img/eco_antes_z4.6.png",
+        "depois": "img/eco_depois_z4.6.png",
+        "legenda": "Abaixo do fundo dos rebaixos (Z 5,2). No oficial, sólido embaixo do G e paredes extras nas estrelas (espessura vertical). Na opção A só o lightning: o fundo do rebaixo fica com Z 5,0 e 5,2, escondido pela peça colorida.",
+        "z": "4,6"
+      },
+      {
+        "antes": "img/eco_antes_z5.2.png",
+        "depois": "img/eco_depois_z5.2.png",
+        "legenda": "Primeira das 5 camadas do topo preto visível e fundo dos rebaixos. As duas versões são iguais: a ponte cobre a placa toda e o topo visível não muda.",
+        "z": "5,2"
+      }
+    ],
+    "rotulo_antes": "Oficial",
+    "rotulo_depois": "Economia A",
+    "titulo": "Camadas no G-code: oficial × opção A (placa 1)"
+  },
+  "contexto": [
+    "Pedido de 26/09/2026: gastar o mínimo de filamento sem mudar as dimensões da placa. A geometria do Blender e os STLs não foram tocados. Todos os testes mexem só no fatiamento. A medida é o prato 1 do lote oficial (placa_google_lote4.3mf, D03): 4 placas, 123,5 g de preto, 2,4 g de branco, 4 h 11 min.",
+    "Para onde vai o preto hoje (G-code, 4 placas): 32 % no topo visível (5 camadas, Z 5,2–6,0), 19 % no fundo (3 camadas), 25 % em pisos e tampas dos compartimentos (arruelas e NFC) e no fundo dos rebaixos, e só 13 % no preenchimento esparso. Com 6 mm de espessura, quase tudo vira camada sólida, então trocar o preenchimento rende pouco. O ganho grande está nas superfícies sólidas que ficam escondidas.",
+    "Foram cerca de 70 fatiamentos no CLI do Bambu Studio 2.8, sempre em cópias em %TEMP%. Primeiro um ajuste por vez, depois combinações. A tabela mostra o preto do prato 1. O branco (2,4 g, incluída a purga de 0,8 g) não mudou em nenhum teste.",
+    "Descoberta: o perfil de sistema tem espessura mínima de topo de 1,0 mm, que força 5 camadas. Uma faixa de altura pedindo 2 camadas é ignorada até zerar essa espessura na própria faixa. Com a faixa em Z 0–5,0, só as superfícies escondidas afinam: o piso das arruelas (Z 1,6), o piso do NFC (Z 2,8) e o fundo dos rebaixos das peças (Z 5,2). A camada Z 5,2 fica fora da faixa, então o topo preto continua com 5 camadas. Se a faixa for até 5,2, o topo visível cai para 4 camadas.",
+    "Preenchimento lightning (relâmpago): cria só as árvores que sustentam as superfícies de cima. Rende mais que baixar a densidade do giroide e não deixa o topo sem apoio. Com 0 % de preenchimento, a primeira camada do topo seria uma ponte de 88 mm (descartado).",
+    "Arquivo pronto da opção A: placa_google_lote4_economia.3mf, gerado por ferramentas/gerar_lote4_economia.py. O script importa o gerar_lote4.py sem alterá-lo, só troca o preset e acrescenta a faixa. Preset novo de processo: 0.20mm Standard @BBL A1M - Economia de filamento. É o preset oficial + lightning, 2 camadas de fundo e espessura vertical parcial. O preset oficial e o lote oficial não foram alterados.",
+    "Validado no G-code da opção A (5 pratos): 0 avisos, pausa em Z 4,0 com a ponte das tampas na camada seguinte, troca T1 em Z 6,2, 35 camadas e topo preto com 5 camadas. Lote inteiro: 130,3 g → 101,2 g (−29,1 g, −22 %), ou seja 32,6 → 25,3 g por placa com as peças coloridas. Prato 1: 4 h 11 min → 3 h 51 min."
+  ],
+  "fase": "Economia de filamento",
+  "metricas": [
+    {
+      "antes": "123,5 g · 4 h 11",
+      "depois": "—",
+      "rotulo": "Oficial (D03): giroide 15 %, 2 paredes, topo 5, fundo 3"
+    },
+    {
+      "antes": "118,5 g · 3 h 56",
+      "depois": "−5,0 g",
+      "rotulo": "Só um ajuste · giroide 10 %"
+    },
+    {
+      "antes": "114,2 g · 3 h 46",
+      "depois": "−9,3 g",
+      "rotulo": "Só um ajuste · giroide 5 %"
+    },
+    {
+      "antes": "108,8 g · 3 h 39",
+      "depois": "−14,7 g",
+      "rotulo": "Só um ajuste · 0 % (topo sem apoio)"
+    },
+    {
+      "antes": "123,7 / 122,7 / 124,4 g",
+      "depois": "≈ 0",
+      "rotulo": "Só um ajuste · padrão a 15 %: grade / linhas / zig-zag"
+    },
+    {
+      "antes": "127,8 g · 4 h 27",
+      "depois": "+4,4 g",
+      "rotulo": "Só um ajuste · padrão a 15 %: favo de mel"
+    },
+    {
+      "antes": "119,1 g · 3 h 54",
+      "depois": "−4,3 g",
+      "rotulo": "Só um ajuste · padrão a 15 %: cúbico adaptativo"
+    },
+    {
+      "antes": "114,7 g · 4 h 05",
+      "depois": "−8,7 g",
+      "rotulo": "Só um ajuste · padrão a 15 %: lightning"
+    },
+    {
+      "antes": "117,6 g · 4 h 03",
+      "depois": "−5,9 g",
+      "rotulo": "Só um ajuste · 1 parede"
+    },
+    {
+      "antes": "116,1 g · 4 h 04",
+      "depois": "−7,4 g",
+      "rotulo": "Só um ajuste · topo 4 camadas (visível)"
+    },
+    {
+      "antes": "107,1 g · 3 h 51",
+      "depois": "−16,4 g",
+      "rotulo": "Só um ajuste · topo 3 camadas (visível)"
+    },
+    {
+      "antes": "116,2 g · 4 h 09",
+      "depois": "−7,3 g",
+      "rotulo": "Só um ajuste · fundo 2 camadas"
+    },
+    {
+      "antes": "120,9 / 117,9 g",
+      "depois": "−2,6 / −5,6 g",
+      "rotulo": "Só um ajuste · espessura vertical parcial / desligada"
+    },
+    {
+      "antes": "123,5 / 123,4 g",
+      "depois": "sem efeito",
+      "rotulo": "Só um ajuste · área mínima de esparso 0, sobreposição 0 %"
+    },
+    {
+      "antes": "123,5 g",
+      "depois": "ignorada",
+      "rotulo": "Faixa Z 0–4 com topo 2, sem zerar a espessura"
+    },
+    {
+      "antes": "114,8 g · 4 h 05",
+      "depois": "−8,7 g",
+      "rotulo": "A, passo 1 · lightning 15 %"
+    },
+    {
+      "antes": "107,0 g · 4 h 04",
+      "depois": "−16,4 g",
+      "rotulo": "A, passo 2 · + fundo 2 camadas"
+    },
+    {
+      "antes": "95,2 g · 3 h 51",
+      "depois": "−28,3 g",
+      "rotulo": "A, passo 3 · + faixa Z 0–5,0 com topo 2 (pisos escondidos)"
+    },
+    {
+      "antes": "94,6 g · 3 h 51",
+      "depois": "−28,9 g (−23 %)",
+      "rotulo": "A, passo 4 · + espessura vertical parcial = opção A"
+    },
+    {
+      "antes": "103,9 g · 3 h 54",
+      "depois": "−19,6 g",
+      "rotulo": "A com giroide 15 % no lugar do lightning"
+    },
+    {
+      "antes": "91,6 g · 3 h 35",
+      "depois": "−31,9 g",
+      "rotulo": "A + lightning 10 %"
+    },
+    {
+      "antes": "89,7 g · 3 h 45",
+      "depois": "−33,8 g",
+      "rotulo": "A + 1 parede"
+    },
+    {
+      "antes": "85,1 g · 3 h 24",
+      "depois": "−38,4 g (−31 %)",
+      "rotulo": "B = A + topo visível 4 camadas + lightning 10 %"
+    },
+    {
+      "antes": "69,4 g · 2 h 49",
+      "depois": "−54,1 g (−44 %)",
+      "rotulo": "C = B + lightning 5 %, 1 parede, espessura vertical desligada, pisos escondidos 1 camada"
+    },
+    {
+      "antes": "130,3 g → 101,2 g",
+      "depois": "−29,1 g (−22 %)",
+      "rotulo": "Lote inteiro, opção A (5 pratos)"
+    },
+    {
+      "antes": "32,6 g → 25,3 g",
+      "depois": "−7,3 g",
+      "rotulo": "Por placa com peças, opção A"
+    }
+  ],
+  "metricas_titulo": "Combinações testadas · preto do prato 1 (4 placas)",
+  "n": 7,
+  "observacoes": [
+    {
+      "id": "topo",
+      "item": "Topo preto",
+      "nota": "",
+      "oque": "Igual ao lote oficial: sem marcas do preenchimento nem afundamentos entre os galhos do lightning.",
+      "status": "?"
+    },
+    {
+      "id": "tras",
+      "item": "Face de trás (fundo 2 camadas)",
+      "nota": "",
+      "oque": "Lisa e fechada, sem transparência nem desenho do preenchimento contra a luz.",
+      "status": "?"
+    },
+    {
+      "id": "arruelas",
+      "item": "Piso das arruelas",
+      "nota": "",
+      "oque": "As arruelas assentam planas, sem afundar, e o ímã do suporte segura a placa como antes.",
+      "status": "?"
+    },
+    {
+      "id": "nfc",
+      "item": "Leitura do NFC",
+      "nota": "",
+      "oque": "O celular lê a etiqueta pela frente, como no lote oficial.",
+      "status": "?"
+    },
+    {
+      "id": "rebaixo",
+      "item": "Fundo dos rebaixos",
+      "nota": "",
+      "oque": "As peças coloridas assentam niveladas com o relevo branco. O fundo do rebaixo não cede ao pressionar.",
+      "status": "?"
+    },
+    {
+      "id": "rigidez",
+      "item": "Rigidez",
+      "nota": "",
+      "oque": "A placa não flexiona nem estala ao apertar o centro com o polegar.",
+      "status": "?"
+    }
+  ],
+  "observacoes_titulo": "O que observar na placa de teste da opção A",
+  "opcoes": [
+    {
+      "custo": "−22 % no lote (130,3 → 101,2 g) · −20 min no prato 1 · risco baixo: muda só o que fica embaixo das arruelas, do NFC, das peças e na face de trás",
+      "descricao": "Lightning 15 %, fundo com 2 camadas, espessura vertical parcial e 2 camadas nos pisos escondidos (faixa Z 0–5,0). O topo preto, as paredes e o relevo ficam como hoje. O arquivo já está pronto (placa_google_lote4_economia.3mf), com o preset novo sem \"(modificado)\".",
+      "id": "A",
+      "recomendada": true,
+      "titulo": "A · Só o que não aparece"
+    },
+    {
+      "custo": "−31 % no preto (85,1 g) · −47 min no prato 1 · exige placa de teste olhando o topo sob luz lateral",
+      "descricao": "Além da A: topo preto visível com 4 camadas (0,8 mm) e lightning a 10 %. O topo visível passa a ter 1 camada a menos sobre uma sustentação mais rala, então pode marcar o desenho do preenchimento ou afundar entre os galhos.",
+      "id": "B",
+      "recomendada": false,
+      "titulo": "B · A + topo mais fino"
+    },
+    {
+      "custo": "−44 % no preto (69,4 g) · −1 h 22 no prato 1 · risco alto: bordas frágeis, topo com marcas, piso das arruelas com 0,2 mm",
+      "descricao": "Além da B: 1 parede só, lightning 5 %, espessura vertical desligada e pisos escondidos com 1 camada. É o menor peso que fatia sem aviso, mas afina as bordas de 88 mm, o apoio do topo e o piso onde as arruelas assentam.",
+      "id": "C",
+      "recomendada": false,
+      "titulo": "C · Máximo possível"
+    },
+    {
+      "custo": "123,5 g de preto por prato · nenhum teste novo",
+      "descricao": "Continua com o placa_google_lote4.3mf da D03. O lote econômico e o preset novo ficam disponíveis para um teste futuro.",
+      "id": "manter",
+      "recomendada": false,
+      "titulo": "Manter o oficial"
+    }
+  ],
+  "pergunta": "Quanto filamento cortar da placa, e onde?",
+  "status": "aberta",
+  "titulo": "Menos filamento sem mudar as dimensões"
+}

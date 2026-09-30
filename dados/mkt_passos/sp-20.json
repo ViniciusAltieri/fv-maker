@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Vertical, até 1 min, até 6 produtos por vídeo.",
+    "Sem preço, sem promoção e sem QR legível. Use músicas liberadas."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Shopee Vídeo",
+    "url": "https://seller.shopee.com.br/edu/article/23493"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Live & Vídeo › Vídeo › Enviar Vídeo",
+  "ordem": 120,
+  "porque": "Vídeo curto leva a placa para quem não está buscando por ela. O NFC funcionando em um toque é o gancho visual.",
+  "tempo": "1 h",
+  "titulo": "Publicar 2 ou 3 vídeos no Shopee Vídeo"
+}

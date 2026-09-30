@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Crie um desconto por quantidade (ex.: leve 3, pague menos).",
+    "Inscreva o anúncio no evento de Black Friday quando ele aparecer na Central.",
+    "Prepare estoque extra de placas para novembro e dezembro."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Como aproveitar os descontos",
+    "url": "https://vendedores.mercadolivre.com.br/nota/como-aproveitar-os-descontos-para-vender-mais"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Central de promoções",
+  "ordem": 21,
+  "porque": "A Central de promoções libera com reputação verde, amarela ou Decola. Campanhas comerciais podem reduzir a tarifa. Black Friday em 27/11/2026.",
+  "tempo": "15 min",
+  "titulo": "Inscrever-se no desconto por quantidade e na Black Friday"
+}

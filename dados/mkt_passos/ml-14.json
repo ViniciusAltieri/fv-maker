@@ -1,0 +1,17 @@
+{
+  "como": [
+    "Simule na calculadora os preços que está considerando.",
+    "Mercado Livre: mediana dos concorrentes em R$ 59,90. Sugestão: placa R$ 59,90–64,90; placa + suporte R$ 74,90–78,90.",
+    "Comece no Clássico; o Premium (parcelado sem juros) custa ~5 pontos percentuais a mais.",
+    "Crie um anúncio separado para o kit placa + suporte em vez de vender o suporte avulso."
+  ],
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Aba Taxas e tributação › calculadora",
+  "ordem": 14,
+  "porque": "Entre R$ 79 e ~R$ 84 você recebe menos do que a R$ 78,90, porque o custo de envio salta de R$ 8,15 para R$ 12,95. O kit paga um único custo de envio.",
+  "tempo": "20 min",
+  "titulo": "Definir preço, tipo de anúncio e o kit placa + suporte"
+}

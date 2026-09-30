@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Revise tudo antes de publicar.",
+    "Use o tempo de espera para gravar os vídeos do Shopee Vídeo."
+  ],
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Qualidade do anúncio",
+    "url": "https://seller.shopee.com.br/edu/article/21806"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Produtos › Meus Produtos",
+  "ordem": 117,
+  "porque": "Editar o anúncio durante a análise joga ele de volta para o fim da fila.",
+  "tempo": "até 48 h úteis",
+  "titulo": "Publicar e esperar a aprovação sem editar"
+}

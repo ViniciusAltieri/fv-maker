@@ -1,0 +1,110 @@
+{
+  "col_antes": "Projeto antigo",
+  "col_depois": "v0",
+  "comparador": {
+    "camadas": [
+      {
+        "antes": "img/antigo_z6.0.png",
+        "depois": "img/v0_z6.0.png",
+        "legenda": "Topo preto, a superfície que aparece na placa. Antes: 5 819 trechos de ferro por cima do topo. v0: só o topo, com 382 trechos de gap infill (antes eram 212), a maioria embaixo das letras e do ícone NFC.",
+        "z": "6,0"
+      },
+      {
+        "antes": "img/antigo_z4.0.png",
+        "depois": "img/v0_z4.0.png",
+        "legenda": "Primeira camada depois da pausa 1: as pontes que fecham os 5 compartimentos. A v0 usa pontes normais (antes eram pontes grossas) e preenchimento em grade em vez de giroide.",
+        "z": "4,0"
+      }
+    ],
+    "rotulo_antes": "Antes",
+    "rotulo_depois": "v0",
+    "titulo": "Camadas no G-code: antes × v0"
+  },
+  "contexto": [
+    "O projeto tinha 32 chaves de processo alteradas, retração de impressora alterada, 4 faixas de altura com ajustes próprios, ajustes por objeto nas peças coloridas e um G-code injetado (M104 S210). Vários desses ajustes existiam só para corrigir o efeito colateral de outro.",
+    "A geometria do Blender não foi tocada. O reset vale só para o fatiador. O que é função da peça ficou: as duas pausas (arruelas e NFC em Z 4,0; troca para branco em Z 6,2), os 6 filamentos com as cores, a mesa PEI texturizada e os 5 pratos.",
+    "Arquivo novo: placa_google_v0_base.3mf, com 1 placa e 1 jogo de peças. Os 4 projetos antigos, os presets e o plano antigo estão em backup_antes_reset_total. O lote de 4 placas volta no fim, quando o ajuste estiver fechado.",
+    "Primeiro suspeito já visível no G-code: no topo preto (Z 6,0) o fatiador faz gap infill picotado embaixo das letras e do ícone NFC. É o efeito que tinha motivado a faixa de 1 parede. Fica anotado, sem correção, até a placa de teste mostrar se ele aparece na peça."
+  ],
+  "decidido_em": "2026-09-25T15:05:00Z",
+  "escolha": "std020",
+  "estado": {
+    "base": "Lote v1 · presets de usuário",
+    "placa1": "4 placas: 4 h 11 min · 126 g"
+  },
+  "fase": "Linha de base",
+  "metricas": [
+    {
+      "antes": "1 h 34 min",
+      "depois": "55 min",
+      "rotulo": "Tempo estimado (prato 1)"
+    },
+    {
+      "antes": "36,9 g",
+      "depois": "34,1 g",
+      "rotulo": "Filamento (prato 1)"
+    },
+    {
+      "antes": "37",
+      "depois": "35",
+      "rotulo": "Camadas"
+    },
+    {
+      "antes": "1 (Z 6,0)",
+      "depois": "0",
+      "rotulo": "Camadas com ferro"
+    },
+    {
+      "antes": "33",
+      "depois": "0",
+      "rotulo": "Chaves alteradas no perfil"
+    },
+    {
+      "antes": "4",
+      "depois": "0",
+      "rotulo": "Faixas de altura com ajuste"
+    },
+    {
+      "antes": "M104 S210",
+      "depois": "nenhum",
+      "rotulo": "G-code personalizado"
+    },
+    {
+      "antes": "Z 4,0 · Z 6,2",
+      "depois": "Z 4,0 · Z 6,2",
+      "rotulo": "Pausas"
+    },
+    {
+      "antes": "0",
+      "depois": "0",
+      "rotulo": "Avisos do fatiador (5 pratos)"
+    }
+  ],
+  "metricas_titulo": "O que mudou no fatiamento da placa 1",
+  "n": 0,
+  "nota": "Escolhido na conversa de 25/09/2026. Geometria fica como está; o reset é só no fatiador.",
+  "opcoes": [
+    {
+      "custo": "Teste mais rápido: 55 min por placa",
+      "descricao": "Perfil de sistema da Bambu para A1 mini, sem alterações. Geometria intacta. Mantém só pausas, filamentos, mesa e pratos.",
+      "id": "std020",
+      "recomendada": true,
+      "titulo": "0.20mm Standard puro"
+    },
+    {
+      "custo": "~1 h 50 min por placa",
+      "descricao": "Mesmo reset, partindo do perfil de 0,12 mm. Topo melhor de saída, mas cada teste leva mais tempo.",
+      "id": "fine012",
+      "titulo": "0.12mm Fine puro"
+    },
+    {
+      "custo": "Mais variáveis mudando ao mesmo tempo",
+      "descricao": "Também voltar a geometria ao nominal: sem offset no texto, sem nervuras nas arruelas, sem o \"A\" redesenhado.",
+      "id": "tudo",
+      "titulo": "Reset do fatiador e da geometria"
+    }
+  ],
+  "pergunta": "De onde partimos para voltar a ajustar a impressão?",
+  "status": "decidida",
+  "titulo": "Reset do fatiador para o perfil de sistema"
+}

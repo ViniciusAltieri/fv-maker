@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Adicione a conta em que quer receber.",
+    "Saques são gratuitos, até 7 por semana. O dinheiro fica retido até o comprador confirmar o recebimento ou 7 dias após a entrega, liberado em dias úteis das 9h às 18h."
+  ],
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Contas bancárias e saques",
+    "url": "https://seller.shopee.com.br/edu/article/2856"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Central do Vendedor › Contas Bancárias › + Adicionar",
+  "ordem": 103,
+  "porque": "O nome precisa ser igual ao da Receita. CNPJ só saca para conta da mesma titularidade.",
+  "tempo": "5 min",
+  "titulo": "Cadastrar a conta bancária"
+}

@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Depois das primeiras vendas, abra o desempenho de cada anúncio e corrija o que a plataforma apontar.",
+    "Compare o que os compradores perguntam com o que está na descrição e complete."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Experiência de compra",
+    "url": "https://www.mercadolivre.com.br/ajuda/31968"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Anúncios › Analisar desempenho",
+  "ordem": 20,
+  "porque": "A nota de experiência de compra vai de 0 a 100. Abaixo de 75 o anúncio perde exposição; abaixo de 30 pode ser cancelado.",
+  "tempo": "15 min por semana",
+  "titulo": "Revisar a experiência de compra e a qualidade do anúncio"
+}

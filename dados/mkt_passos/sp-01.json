@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Cadastre-se pelo computador (seller.shopee.com.br) ou pelo app, com mais de 18 anos.",
+    "Informe telefone e um e-mail que você lê todo dia.",
+    "Enviar o cadastro com erro várias vezes no mesmo dia bloqueia novas tentativas por 24 h: confira antes de enviar."
+  ],
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Cadastro de vendedor",
+    "url": "https://seller.shopee.com.br/edu/article/13388"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "seller.shopee.com.br",
+  "ordem": 101,
+  "porque": "Sem telefone cadastrado os produtos não ficam visíveis, e o resultado da análise do cadastro chega por e-mail.",
+  "tempo": "15 min",
+  "titulo": "Criar a conta de vendedor"
+}

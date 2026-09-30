@@ -1,0 +1,11 @@
+{
+  "antigo": "3",
+  "chave": "wall_loops",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Rigidez da base.",
+  "nome": "Paredes",
+  "ordem": 6,
+  "padrao": "2",
+  "status": "mantido"
+}

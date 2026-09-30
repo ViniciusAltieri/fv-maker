@@ -1,0 +1,17 @@
+{
+  "como": [
+    "Leia a seção de tributação na aba Taxas e tributação.",
+    "Recomendação: começar pelo CPF só para testar e abrir o MEI (Artesão em plástico, CNAE 2229-3/99) assim que as vendas ficarem regulares.",
+    "Anote aqui a decisão e a data."
+  ],
+  "critico": true,
+  "fase": "Situação fiscal",
+  "feito": false,
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Aba Taxas e tributação",
+  "ordem": 4,
+  "porque": "Define qual documento acompanha o pacote. Com CPF você usa a Declaração de Conteúdo eletrônica (DC-e); com MEI e Inscrição Estadual, NF-e. Agências e Coleta exigem documento fiscal, e a venda habitual pelo CPF tem risco fiscal.",
+  "tempo": "30 min",
+  "titulo": "Decidir: vender pelo CPF ou abrir o MEI"
+}

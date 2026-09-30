@@ -1,0 +1,23 @@
+{
+  "atencao": [
+    "Agência exige NF-e ou DC-e antes de imprimir a etiqueta."
+  ],
+  "como": [
+    "Encontre a Agência mais próxima no mapa de agências.",
+    "Configure os dias e horários em que consegue despachar.",
+    "Confira o horário-limite de cada venda no detalhe da venda e despache no mesmo dia sempre que puder: 97% no prazo mantém o selo \"Chegará amanhã\"."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Como enviar pelas Agências Mercado Livre",
+    "url": "https://vendedores.mercadolivre.com.br/nota/como-enviar-suas-vendas-nas-agencias-mercado-livre"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Preferências de venda › Horários de despacho",
+  "ordem": 8,
+  "porque": "É a modalidade certa para quem começa: você leva o pacote a um ponto comercial perto de casa. Coleta é por convite e exige volume; Flex exige reputação ou Decola; Full não combina com produção sob demanda.",
+  "tempo": "15 min",
+  "titulo": "Ativar o envio pela Agência Mercado Livre e os horários"
+}

@@ -1,0 +1,21 @@
+{
+  "como": [
+    "CPF: documento (RG, CNH, CIN) frente e verso colorido e selfie.",
+    "CNPJ/MEI: também o CCMEI ou o print do cartão CNPJ da Receita.",
+    "Escreva o nome exatamente como na Receita: MAIÚSCULAS e sem acento."
+  ],
+  "critico": true,
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Documentos para verificação",
+    "url": "https://seller.shopee.com.br/edu/article/7613"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Loja › Perfil da Loja › Verificação de Cadastro",
+  "ordem": 102,
+  "porque": "Loja sem verificação completa tem saque restrito e não passa para CNPJ depois.",
+  "tempo": "até 3 dias úteis",
+  "titulo": "Enviar a verificação de cadastro"
+}

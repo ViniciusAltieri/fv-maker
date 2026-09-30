@@ -1,0 +1,11 @@
+{
+  "antigo": "60 mm/s",
+  "chave": "top_surface_speed",
+  "decisao": "d03",
+  "grupo": "Topo e ferro",
+  "motivo": "Reduzir manchas no topo preto.",
+  "nome": "Velocidade do topo",
+  "ordem": 3,
+  "padrao": "60 mm/s (preset)",
+  "status": "reaplicado"
+}

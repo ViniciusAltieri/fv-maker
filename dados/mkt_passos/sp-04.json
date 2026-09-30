@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Cadastre telefone, e-mail, senha, PIN e reconhecimento facial.",
+    "Denuncie mensagens suspeitas em vez de responder."
+  ],
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Métodos de verificação",
+    "url": "https://seller.shopee.com.br/edu/article/8500"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Configurações da Loja › Conta e Segurança",
+  "ordem": 104,
+  "porque": "Golpes de phishing e ofertas de \"brushing\" (pedidos e avaliações falsos) chegam pelo próprio chat. Brushing congela a conta.",
+  "tempo": "5 min",
+  "titulo": "Ativar mais de um método de verificação"
+}

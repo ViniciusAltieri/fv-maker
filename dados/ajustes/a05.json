@@ -1,0 +1,11 @@
+{
+  "antigo": "50 mm/s",
+  "chave": "gap_infill_speed",
+  "decisao": "d03",
+  "grupo": "Topo e ferro",
+  "motivo": "Centenas de trechos de ~0,2 mm em volta do texto e das estrelas.",
+  "nome": "Velocidade do gap infill",
+  "ordem": 5,
+  "padrao": "60 mm/s (preset)",
+  "status": "reaplicado"
+}

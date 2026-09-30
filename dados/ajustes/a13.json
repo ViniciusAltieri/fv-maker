@@ -1,0 +1,11 @@
+{
+  "antigo": "4",
+  "chave": "bottom_shell_layers",
+  "decisao": "d03",
+  "grupo": "Estrutura",
+  "motivo": "Fundo mais firme.",
+  "nome": "Camadas de fundo",
+  "ordem": 13,
+  "padrao": "3",
+  "status": "mantido"
+}

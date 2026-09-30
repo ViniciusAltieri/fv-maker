@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Mantenha 5 a 10 placas impressas e grave a tag no dia do pedido.",
+    "Pedidos de domingo e segunda vencem na terça: separe a manhã de terça para eles.",
+    "Sob encomenda (2 a 15 dias úteis) só para a versão personalizada. No máximo 20% dos anúncios da loja podem ser sob encomenda, e a liberação é pedida ao Atendimento."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Prazos de envio e sob encomenda",
+    "url": "https://seller.shopee.com.br/edu/article/2804"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Oficina · Pedidos › A Enviar",
+  "ordem": 109,
+  "porque": "Pagamento até 13h (terça a sexta) precisa ser postado no mesmo dia. Atraso em 5% dos pedidos da semana já gera ponto de penalidade.",
+  "tempo": "1 lote de impressão",
+  "titulo": "Organizar a produção para o prazo de 1 dia útil"
+}

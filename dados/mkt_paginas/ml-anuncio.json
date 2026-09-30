@@ -1,0 +1,168 @@
+{
+  "aba": "anuncio",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "itens": [
+        {
+          "tag": "42 preços",
+          "texto": "Faixa central R$ 49,90 – R$ 86,30. Mínimo R$ 23,56, máximo R$ 157.",
+          "titulo": "Mediana R$ 59,90"
+        },
+        {
+          "tag": "Material",
+          "texto": "Três vendedores anunciam impressão 3D, entre R$ 43,70 e R$ 59,90.",
+          "titulo": "Acrílico, PVC e PS"
+        },
+        {
+          "tag": "Líder",
+          "texto": "Anúncio de catálogo com nota 5,0 que vende configuração e confiança, não material.",
+          "titulo": "+1000 vendidos a R$ 89"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "O mercado em números"
+    },
+    {
+      "contar": true,
+      "itens": [
+        {
+          "texto": "Placa Avaliação Google Nfc E Qr Code Com Suporte De Mesa"
+        },
+        {
+          "texto": "Placa Nfc Para Avaliação No Google 3d Com Suporte De Mesa"
+        },
+        {
+          "texto": "Kit 2 Placas Avaliação Google Nfc Qr Code Já Configuradas"
+        },
+        {
+          "texto": "Kit 5 Placas Avaliação Google Nfc E Qr Code Para Comércio"
+        },
+        {
+          "texto": "Placa Avaliação Google Nfc Personalizada Com Sua Logo"
+        },
+        {
+          "texto": "Placa Avalie-nos No Google Nfc Qr Code Sem Mensalidade"
+        }
+      ],
+      "texto": "A marca FV Maker vai no campo Marca da ficha técnica, então não precisa gastar caracteres do título com ela. Sem CAIXA ALTA, \"frete grátis\" ou \"promoção\" no título.",
+      "tipo": "modelos",
+      "titulo": "Títulos prontos (até 60 caracteres)"
+    },
+    {
+      "colunas": [
+        "Oferta",
+        "Preço",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "1 placa configurada",
+          "R$ 59,90–64,90",
+          "Na mediana do mercado."
+        ],
+        [
+          "Placa + suporte (oferta principal)",
+          "R$ 74,90–78,90",
+          "Fique abaixo de R$ 79 para não cair na zona de envio mais caro."
+        ],
+        [
+          "Kit 2",
+          "R$ 119,90",
+          "~R$ 60 por unidade; um único custo de envio."
+        ],
+        [
+          "Kit 5",
+          "R$ 249,90",
+          "~R$ 50 por unidade. Público: redes e franquias."
+        ],
+        [
+          "Personalizada com logo",
+          "R$ 119,90–149,90",
+          "Com prazo de fabricação no anúncio."
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Preços sugeridos"
+    },
+    {
+      "colunas": [
+        "Anúncio",
+        "Preço",
+        "Nota"
+      ],
+      "linhas": [
+        [
+          "Placa De Avaliação Google Com Nfc E Placas Qr Code (catálogo)",
+          "R$ 89,00",
+          "Mais vendido; reclamação de não ter QR."
+        ],
+        [
+          "Placa De Avaliação Google Com Nfc E Qr Code Preto",
+          "R$ 59,90",
+          "Devolução em 30 dias."
+        ],
+        [
+          "Placa Avaliação Google Com Nfc E Qr Code Branco",
+          "R$ 74,00",
+          "+100 vendidos."
+        ],
+        [
+          "Placa De Avaliação Google Personalizada (Wistag)",
+          "R$ 109,00",
+          "Personalizada."
+        ],
+        [
+          "Kit Placa + Cartão Avaliação Google",
+          "R$ 92,90",
+          "Kit de formatos."
+        ],
+        [
+          "Placa Quadro Acrílico Avaliação Google 3mm",
+          "R$ 99,00",
+          "Acrílico 3 mm."
+        ],
+        [
+          "Display Nfc Avaliação Google Qr Code (Damp3d)",
+          "R$ 59,90",
+          "Impressão 3D."
+        ],
+        [
+          "Placa Google Avaliações 10x6cm Premium 3D",
+          "R$ 43,70",
+          "Impressão 3D."
+        ]
+      ],
+      "nota": "Preços vistos no Google Shopping em 29/09/2026; alguns podem ter mudado.",
+      "tipo": "tabela",
+      "titulo": "Concorrentes de referência"
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Anúncio de catálogo líder (MLB2106897630)",
+      "url": "https://www.mercadolivre.com.br/placa-de-avaliacao-google-com-nfc-e-placas-qr-code-avaliacao/p/MLB2106897630"
+    },
+    {
+      "rotulo": "Placa preta R$ 59,90",
+      "url": "https://www.mercadolivre.com.br/placa-de-avaliacao-google-com-nfc-e-qr-code/up/MLBU3173052920"
+    },
+    {
+      "rotulo": "Placa personalizada Wistag",
+      "url": "https://www.mercadolivre.com.br/placa-de-avaliacao-google-personalizada-com-nfc-e-qr-code/up/MLBU3261300737"
+    },
+    {
+      "data": "29/09/2026",
+      "rotulo": "Google Shopping — placa nfc avaliação google",
+      "url": "https://www.google.com/search?q=placa+nfc+avalia%C3%A7%C3%A3o+google&gl=br&hl=pt-BR&udm=28"
+    }
+  ],
+  "inclui": [
+    "comum-produto"
+  ],
+  "intro": "Concorrência, títulos prontos e preços sugeridos para a placa no Mercado Livre. Levantamento feito pelo Google Shopping e por páginas indexadas em 29/09/2026 (o Mercado Livre bloqueia leitura automática das listagens).",
+  "mkt": "ml",
+  "ordem": 4,
+  "rotulo": "Anúncio da placa",
+  "titulo": "Anúncio da placa"
+}

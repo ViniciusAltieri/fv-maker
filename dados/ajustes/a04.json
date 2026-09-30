@@ -1,0 +1,11 @@
+{
+  "antigo": "1000",
+  "chave": "top_surface_acceleration",
+  "decisao": "d03",
+  "grupo": "Topo e ferro",
+  "motivo": "Reduzir manchas no topo preto.",
+  "nome": "Aceleração do topo",
+  "ordem": 4,
+  "padrao": "800 (preset)",
+  "status": "reaplicado"
+}

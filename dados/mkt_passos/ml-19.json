@@ -1,0 +1,15 @@
+{
+  "como": [
+    "Ative as notificações do app para perguntas e vendas.",
+    "Grave a tag e despache na Agência no mesmo dia da venda."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Perguntas · Vendas",
+  "ordem": 19,
+  "porque": "Pergunta sem resposta por mais de 1 hora afeta o tempo de resposta. Despacho atrasado acima de 10% tira o verde.",
+  "tempo": "Todo dia",
+  "titulo": "Responder perguntas em menos de 1 hora e despachar no mesmo dia"
+}

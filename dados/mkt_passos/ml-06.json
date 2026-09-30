@@ -1,0 +1,24 @@
+{
+  "atencao": [
+    "Alguns estados (ES, PR, RS, AL, PE, MS, SC) exigem credenciamento prévio para usar o emissor. Confirme com o contador."
+  ],
+  "como": [
+    "Confirme que o MEI tem Inscrição Estadual (sem IE o MEI não emite NF-e).",
+    "Compre o certificado e-CNPJ A1 e siga o roteiro para Simples Nacional em Faturamento › Emissor de NFe.",
+    "Cadastre o produto com NCM 3926.90.90, CFOP 5.101 (mesmo estado) e 6.107 (outro estado, pessoa física), CSOSN 102, origem 0.",
+    "Converta a conta PF para empresa: Meus dados › Dados pessoais › Preciso de ajuda › Alterar a titularidade."
+  ],
+  "fase": "Situação fiscal",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Como emitir as notas fiscais das minhas vendas",
+    "url": "https://vendedores.mercadolivre.com.br/nota/como-emitir-as-notas-fiscais-das-minhas-vendas"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Faturamento › Emissor de NFe",
+  "ordem": 6,
+  "porque": "O emissor do Mercado Livre é gratuito e envia a nota ao comprador. Pede certificado digital A1 e CNPJ habilitado na SEFAZ com os mesmos dados da conta.",
+  "tempo": "1–3 dias",
+  "titulo": "Se abrir o MEI: configurar o emissor de NF-e e migrar a conta"
+}

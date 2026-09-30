@@ -1,0 +1,17 @@
+{
+  "como": [
+    "Título com até 60 caracteres, no formato do Mercado Livre para marca de terceiros: produto + \"para\" + Avaliação Google. Modelos na aba Anúncio da placa.",
+    "Marca: **FV Maker**. Material: PLA. Largura 8,8 cm, altura 8,8 cm, espessura 0,6 cm.",
+    "Sem código de barras: preencha \"Motivo de GTIN vazio\".",
+    "Preencha peso e medidas da embalagem com os números do passo de envio."
+  ],
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Anúncio › Características",
+  "ordem": 12,
+  "porque": "Ficha técnica completa e categoria correta são os primeiros fatores de posicionamento que a Central de Vendedores cita. Marca e Material são obrigatórios.",
+  "tempo": "30 min",
+  "titulo": "Escrever título e preencher a ficha técnica"
+}

@@ -1,0 +1,162 @@
+{
+  "aba": "produto",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "As diretrizes de marca do Google proíbem usar elementos da marca em mercadorias, imitar o logo ou a combinação de cores e sugerir afiliação. Citar o Google em texto simples, para descrever a função, é defensável.",
+        "Quase todos os concorrentes usam o G em quatro cores e não há relato público de denúncia em massa. O risco é assimétrico: uma única denúncia pelo Programa de Proteção de Marcas pausa todos os anúncios de uma vez, com poucos dias úteis para responder, e reincidência afeta a conta.",
+        "A lei brasileira (LPI, art. 132, IV) só protege a citação de marca \"sem conotação comercial\" [consultar advogado de PI]."
+      ],
+      "tipo": "alerta",
+      "titulo": "O maior risco do produto: o \"G\" colorido do Google"
+    },
+    {
+      "itens": [
+        {
+          "d": "Placa sem o G oficial colorido: estrelas amarelas, ícone NFC e \"Avalie-nos no Google!\" em tipografia própria. A versão com G fica para venda direta.",
+          "t": "Versão marketplace"
+        },
+        {
+          "d": "Foto principal sem o logo do Google. Nas outras, mostre a tela do celular abrindo a avaliação.",
+          "t": "Fotos"
+        },
+        {
+          "d": "\"Placa para Avaliação no Google\". Nunca \"Google Oficial\", \"Original\" ou o nome do Google como marca do produto.",
+          "t": "Título descritivo"
+        },
+        {
+          "d": "Produto independente, não fabricado nem endossado pelo Google (texto pronto abaixo).",
+          "t": "Aviso na descrição"
+        },
+        {
+          "d": "Diferencial e menos dependência da marca Google.",
+          "t": "Personalizada com a logo do cliente"
+        },
+        {
+          "d": "Anúncios separados por variação e kit; venda direta pelo site com o conversor como canal paralelo.",
+          "t": "Espalhar o risco"
+        }
+      ],
+      "ordenada": true,
+      "tipo": "lista",
+      "titulo": "Como reduzir o risco"
+    },
+    {
+      "nivel": "dica",
+      "paragrafos": [
+        "A política de avaliações do Google proíbe pedir avaliações só a clientes satisfeitos e oferecer incentivo. Não escreva \"aumente sua nota\", \"só avaliações 5 estrelas\" ou \"ganhe brinde por avaliar\". Isso também evita reclamação do comprador."
+      ],
+      "tipo": "alerta",
+      "titulo": "Promessa: facilitar a avaliação, nunca garantir 5 estrelas"
+    },
+    {
+      "itens": [
+        {
+          "tag": "Acabamento",
+          "texto": "O mercado é dominado por acrílico e PVC impressos. A peça em relevo e o suporte próprio justificam preço acima da mediana.",
+          "titulo": "Relevo 3D com suporte de mesa"
+        },
+        {
+          "tag": "Configuração",
+          "texto": "Você gera o link curto de avaliação no conversor e grava a tag antes do envio. O líder de vendas cobra por isso; aqui é padrão.",
+          "titulo": "Chega pronta para usar"
+        },
+        {
+          "tag": "Segurança",
+          "texto": "Tag NTAG sem bloqueio pode ser regravada por qualquer celular com o app NFC Tools. Bloquear e dizer isso no anúncio é argumento que ninguém usa.",
+          "titulo": "Tag bloqueada contra regravação"
+        },
+        {
+          "tag": "Honestidade",
+          "texto": "Um concorrente com selo de mais vendido anuncia \"NFC e QR Code\" e não entrega QR, e isso gera reclamação. Só anuncie QR se ele estiver na peça.",
+          "titulo": "NFC e QR de verdade"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "Diferenciais que nenhum concorrente comunica"
+    },
+    {
+      "itens": [
+        {
+          "rotulo": "Precisa baixar aplicativo?",
+          "texto": "Não precisa. Seu cliente encosta o celular na placa (NFC) ou aponta a câmera para o QR Code, e a tela de avaliação da sua empresa no Google abre direto. Você também não precisa instalar nada."
+        },
+        {
+          "rotulo": "Funciona em iPhone?",
+          "texto": "Sim. Do iPhone XS em diante a leitura por aproximação é automática, com a tela desbloqueada. No iPhone 7 ao X, use o Leitor de NFC da Central de Controle. Qualquer iPhone lê o QR Code pela câmera."
+        },
+        {
+          "rotulo": "Funciona em Android?",
+          "texto": "Sim, na maioria dos Android com NFC ligado nas configurações. Quem não tiver NFC usa o QR Code pela câmera."
+        },
+        {
+          "rotulo": "Vem configurada?",
+          "texto": "Vem sim. Depois da compra, envie aqui pelo chat o link da sua empresa no Google Maps, ou o nome e a cidade da empresa. Geramos o link oficial de avaliação, gravamos na placa e testamos antes de enviar."
+        },
+        {
+          "rotulo": "Tem mensalidade?",
+          "texto": "Não. O pagamento é único. O chip não tem bateria e não usa internet: quem abre a avaliação é o celular do seu cliente."
+        },
+        {
+          "rotulo": "Alguém pode mudar o link da placa?",
+          "texto": "Não. Depois de gravar, bloqueamos o chip, então ninguém consegue reprogramá-lo com outro celular."
+        },
+        {
+          "rotulo": "Quanto tempo dura?",
+          "texto": "O chip não tem bateria e guarda o link por anos. A placa é de uso interno: evite sol direto e fontes de calor."
+        },
+        {
+          "rotulo": "Funciona colada em metal?",
+          "texto": "Em vidro, madeira, MDF e balcão funciona normalmente. Superfície de metal atrapalha a leitura por aproximação; nesse caso use o suporte de mesa que acompanha o kit."
+        },
+        {
+          "rotulo": "Qual o tamanho?",
+          "texto": "A placa mede 8,8 × 8,8 cm e tem 6 mm de espessura. No suporte de mesa, fica inclinada para leitura no balcão."
+        },
+        {
+          "rotulo": "Garante mais avaliações boas?",
+          "texto": "A placa facilita muito a avaliação, porque o cliente chega à tela em um toque. A nota quem dá é o cliente, e o Google não permite oferecer brinde em troca de avaliação."
+        },
+        {
+          "rotulo": "Aviso de não afiliação (descrição)",
+          "texto": "Produto independente, fabricado pela FV Maker. Não é fabricado, patrocinado nem endossado pelo Google. Google é marca registrada da Google LLC e é citada apenas para indicar a função do produto."
+        },
+        {
+          "rotulo": "Mensagem logo após a venda",
+          "texto": "Obrigado por comprar na FV Maker! Para gravarmos a sua placa, envie por aqui o link da sua empresa no Google Maps (no app do Maps: abra a sua empresa > Compartilhar > Copiar link) ou o nome e a cidade da empresa como aparecem no Google. Gravamos, testamos e enviamos no mesmo dia."
+        }
+      ],
+      "texto": "Use como respostas rápidas nas perguntas e no chat. Sem telefone, links ou redes sociais.",
+      "tipo": "modelos",
+      "titulo": "Respostas-modelo para as perguntas mais comuns"
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Google — Brand Resource Center (diretrizes de marca)",
+      "url": "https://about.google/brand-resource-center/guidance/"
+    },
+    {
+      "rotulo": "Google — política de conteúdo das avaliações",
+      "url": "https://support.google.com/local-guides/answer/2622994"
+    },
+    {
+      "rotulo": "Mercado Livre — uso indevido de marca",
+      "url": "https://www.mercadolivre.com.br/ajuda/17754"
+    },
+    {
+      "rotulo": "Mercado Livre — Programa de Proteção da Propriedade Intelectual",
+      "url": "https://www.mercadolivre.com.br/ajuda/Programa-de-Prote%C3%A7ao-Propriedade-Intelectual_2099"
+    },
+    {
+      "rotulo": "Nubimetrics — propriedade intelectual no Mercado Livre",
+      "url": "https://academia.nubimetrics.com/br/propriedade-intelectual-no-mercado-livre-o-que-voce-precisa-saber"
+    }
+  ],
+  "intro": "Vale para o Mercado Livre e para a Shopee. Levantado a partir de ~70 anúncios concorrentes, das diretrizes de marca do Google e das políticas de propriedade intelectual das duas plataformas.",
+  "mkt": "comum",
+  "ordem": 0,
+  "titulo": "Marca, promessa e perguntas frequentes"
+}

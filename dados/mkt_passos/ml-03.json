@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Entre no Mercado Pago com a mesma conta e cadastre a conta bancária para saque.",
+    "Depois da primeira venda, veja em Saldos e extratos a data prevista de liberação e anote aqui.",
+    "A antecipação existe, mas a taxa só aparece na hora de confirmar. Evite no início."
+  ],
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Quando o dinheiro é liberado",
+    "url": "https://www.mercadolivre.com.br/ajuda/3143"
+  },
+  "incerto": true,
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Mercado Pago › Saldos e extratos",
+  "ordem": 3,
+  "porque": "As páginas oficiais divergem: entre 5 e 12 dias após a entrega, a depender da reputação. Sem reputação o prazo é maior. Saber o prazo real define quanto capital de giro você precisa para filamento e tags.",
+  "tempo": "10 min",
+  "titulo": "Conferir o Mercado Pago e o prazo de liberação do dinheiro"
+}

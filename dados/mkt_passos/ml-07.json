@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Monte o pacote real: placa (~58 g), suporte (~13 g), cartão de instruções e envelope de segurança.",
+    "Pese e meça; o alvo é ficar folgado abaixo de 0,3 kg e caber em 12 × 15 × 25 cm.",
+    "Use embalagem justa: envelope bolha do tamanho da placa, não caixa."
+  ],
+  "critico": true,
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Custos de envio por peso",
+    "url": "https://www.mercadolivre.com.br/ajuda/3362"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Balança de cozinha + régua",
+  "ordem": 7,
+  "porque": "O custo de envio é calculado pelo pacote pronto, e o Mercado Livre remede depois do despacho. Passar de 0,3 kg muda a faixa de custo das vendas seguintes.",
+  "tempo": "20 min",
+  "titulo": "Medir e pesar o pacote final"
+}

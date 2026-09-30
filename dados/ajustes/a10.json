@@ -1,0 +1,11 @@
+{
+  "antigo": "150 mm/s",
+  "chave": "inner_wall_speed",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Acompanhar a parede externa mais lenta.",
+  "nome": "Velocidade da parede interna",
+  "ordem": 10,
+  "padrao": "200 mm/s (preset) · 100 de Z 5,2 a 7",
+  "status": "reaplicado"
+}

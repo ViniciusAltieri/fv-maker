@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Imprima um lote com o preset econômico e grave as tags só depois da venda (o link é de cada cliente).",
+    "Use o \"Prazo de disponibilidade do produto\" apenas na versão personalizada com logo do cliente.",
+    "O prazo conta corrido, com fins de semana e feriados, a partir da hora da venda."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Prazo de disponibilidade do produto",
+    "url": "https://www.mercadolivre.com.br/ajuda/como-ajustar-prazo-disponibilidade-produto_3441"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Oficina",
+  "ordem": 9,
+  "porque": "Prazo de fabricação reduz a visibilidade do anúncio. Com a placa leve e barata de imprimir, manter um pequeno estoque permite prazo zero e despacho em menos de 24 h, o que pesa no ranking.",
+  "tempo": "1 lote de impressão",
+  "titulo": "Deixar 5 a 10 placas prontas em estoque"
+}

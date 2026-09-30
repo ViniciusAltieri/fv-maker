@@ -1,0 +1,24 @@
+{
+  "atencao": [
+    "A regra dos \"90 dias consecutivos com vendas ativas\" não explica como é medida [incerto]."
+  ],
+  "como": [
+    "Com CPF, o pacote segue com Declaração de Conteúdo, já integrada à etiqueta.",
+    "Se abrir o MEI antes de começar, cadastre a loja já como CNPJ.",
+    "Se começar no CPF, planeje a migração: Loja › Perfil da Loja › Verificação de cadastro › Converter para CNPJ. Leva ~30 dias, é irreversível e a loja continua vendendo."
+  ],
+  "critico": true,
+  "fase": "Situação fiscal",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Comissão CPF e CNPJ em 2026",
+    "url": "https://seller.shopee.com.br/edu/article/26839"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Aba Taxas e tributação",
+  "ordem": 105,
+  "porque": "A Shopee exige migrar para CNPJ ao atingir R$ 81 mil em 12 meses **ou** ao manter 90 dias consecutivos com vendas ativas; quem não migra pode ter a loja restringida. CPF paga R$ 3 a mais por item acima de 450 pedidos em 90 dias e não tem acesso a Vendedor Indicado, Afiliados, Shopee Acelera nem coleta.",
+  "tempo": "30 min",
+  "titulo": "Decidir: CPF ou CNPJ"
+}

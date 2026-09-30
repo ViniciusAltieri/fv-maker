@@ -1,0 +1,165 @@
+{
+  "aba": "visibilidade",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "itens": [
+        {
+          "d": "Todos os atributos da categoria preenchidos, não só os obrigatórios.",
+          "t": "Ficha técnica completa"
+        },
+        {
+          "d": "Letreiros no luminosos ou Placas Decorativas. Categoria errada derruba a relevância.",
+          "t": "Categoria correta"
+        },
+        {
+          "d": "Fundo branco na primeira, 1200 × 1200 px, sem textos nem marcas.",
+          "t": "Fotos dentro das regras"
+        },
+        {
+          "d": "Mediana dos concorrentes: R$ 59,90.",
+          "t": "Preço competitivo"
+        },
+        {
+          "d": "Despachar em menos de 24 h.",
+          "t": "Reputação e despacho rápido"
+        },
+        {
+          "d": "Nota por anúncio, de 0 a 100; acima de 75 é boa.",
+          "t": "Experiência de compra"
+        },
+        {
+          "d": "Responder rápido às perguntas aumenta a exposição.",
+          "t": "Tempo de resposta"
+        }
+      ],
+      "nota": "Anúncios de catálogo aparecem primeiro, mas produto próprio sem GTIN dificilmente entra. Use anúncio próprio com variações de cor.",
+      "ordenada": true,
+      "tipo": "lista",
+      "titulo": "O que pesa no ranking da busca"
+    },
+    {
+      "itens": [
+        {
+          "tag": "Conta nova",
+          "texto": "R$ 250 guardados no Mercado Pago dão reputação verde por até 365 dias, até R$ 250 em anúncios pagos, Central de promoções, Clips e Flex.",
+          "titulo": "Programa Decola"
+        },
+        {
+          "tag": "Anúncios pagos",
+          "texto": "Custo por clique. Sem Decola exige reputação amarela (10 vendas). A métrica agora é o ROAS objetivo. Comece pela campanha automática.",
+          "titulo": "Product Ads"
+        },
+        {
+          "tag": "Promoções",
+          "texto": "Desconto %, desconto por quantidade e cupons (1 mês), Oferta do dia (24 h), Oferta relâmpago (6 h), campanhas comerciais com redução de tarifa e eventos.",
+          "titulo": "Central de promoções"
+        },
+        {
+          "tag": "Empresas",
+          "texto": "Até 5 faixas por quantidade, vistas só por compradores com CNPJ validado. Perfeito para lojas com várias unidades ou mesas.",
+          "titulo": "Preços de atacado"
+        },
+        {
+          "tag": "Vídeo",
+          "texto": "Vertical 9:16, 10 s a 1 min, aprovação em até 2 dias. Mostre o celular lendo a placa: é o momento que convence.",
+          "titulo": "Clips"
+        },
+        {
+          "tag": "Variações",
+          "texto": "Agrupe cores num anúncio só (as vendas somam no mesmo anúncio) e crie anúncios separados para kits.",
+          "titulo": "Um anúncio, várias cores"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "Ferramentas para acelerar"
+    },
+    {
+      "itens": [
+        {
+          "d": "Pergunta parada por mais de 1 hora já afeta o tempo de resposta. Cada pergunta só pode ser respondida uma vez: revise antes de enviar.",
+          "t": "Perguntas"
+        },
+        {
+          "d": "Logo após a venda, peça pelo chat o link do Google Maps ou o nome e cidade da empresa para gravar a tag. É o único canal permitido.",
+          "t": "Mensagem pós-venda"
+        },
+        {
+          "d": "Instruções de teste (encoste o celular, abra a câmera no QR) e onde deixar a placa. Evita reclamação de \"não funciona\".",
+          "t": "Cartão na embalagem"
+        },
+        {
+          "d": "Peça a avaliação do anúncio só depois de confirmar que a placa abriu a tela certa.",
+          "t": "Opinião do produto"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Engajamento com o comprador"
+    },
+    {
+      "colunas": [
+        "Data",
+        "O que fazer"
+      ],
+      "linhas": [
+        [
+          "Outubro",
+          "Ativar Decola e Product Ads; juntar as 10 primeiras vendas."
+        ],
+        [
+          "Início de novembro",
+          "Inscrever o anúncio no evento de Black Friday na Central de promoções; imprimir estoque extra."
+        ],
+        [
+          "27/11/2026",
+          "Black Friday. Cyber Monday em 30/11."
+        ],
+        [
+          "Dezembro",
+          "Comércio se prepara para o movimento de fim de ano: bom momento para kits e atacado."
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Calendário comercial até o fim do ano"
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Como posicionar seus produtos na busca",
+      "url": "https://vendedores.mercadolivre.com.br/aprender/nota/como-posicionar-seus-produtos-nos-resultados-de-busca-nuevo"
+    },
+    {
+      "rotulo": "Responda todas as perguntas",
+      "url": "https://vendedores.mercadolivre.com.br/nota/responda-a-todas-as-perguntas-e-conclua-a-transacao-de-forma-mais-rapida"
+    },
+    {
+      "rotulo": "Requisitos do Product Ads",
+      "url": "https://vendedores.mercadolivre.com.br/nota/quais-requisitos-devo-cumprir-para-usar-o-product-ads"
+    },
+    {
+      "rotulo": "De ACOS a ROAS",
+      "url": "https://vendedores.mercadolivre.com.br/nota/de-acos-a-roas-entenda-o-retorno-real-da-sua-publicidade"
+    },
+    {
+      "rotulo": "Central de promoções",
+      "url": "https://vendedores.mercadolivre.com.br/nota/como-aproveitar-os-descontos-para-vender-mais"
+    },
+    {
+      "rotulo": "Preços de atacado",
+      "url": "https://vendedores.mercadolivre.com.br/nota/adicione-precos-de-atacado-e-aumente-o-seu-volume-de-vendas"
+    },
+    {
+      "rotulo": "Requisitos dos Clips",
+      "url": "https://vendedores.mercadolivre.com.br/nota/confira-os-requisitos-para-aprovar-seus-clips"
+    },
+    {
+      "rotulo": "Programa Decola (ajuda 33314)",
+      "url": "https://www.mercadolivre.com.br/ajuda/33314"
+    }
+  ],
+  "intro": "O que a Central de Vendedores diz que coloca um anúncio no topo da busca, e as ferramentas para acelerar as primeiras vendas de uma conta nova.",
+  "mkt": "ml",
+  "ordem": 2,
+  "rotulo": "Visibilidade e vendas",
+  "titulo": "Visibilidade e vendas"
+}

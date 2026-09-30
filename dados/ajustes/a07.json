@@ -1,0 +1,11 @@
+{
+  "antigo": "Arachne",
+  "chave": "wall_generator",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Traços finos do texto e do ícone com largura variável.",
+  "nome": "Gerador de paredes",
+  "ordem": 7,
+  "padrao": "Classic",
+  "status": "mantido"
+}

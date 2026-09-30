@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Crie com lance automático e orçamento diário pequeno (ex.: R$ 10).",
+    "Não mexa por 7 dias (fase de aprendizado).",
+    "Compare o ROAS com o de equilíbrio da calculadora (preço ÷ lucro por unidade)."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Portal Shopee Ads",
+    "url": "https://ads.shopee.com.br/learn"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Shopee Ads › GMV Max",
+  "ordem": 118,
+  "porque": "Não há programa oficial de exposição para loja nova. Esta campanha é feita para itens com até 30 dias e busca os primeiros pedidos com lance automático.",
+  "tempo": "15 min",
+  "titulo": "Ativar \"Promover Meus Novos Produtos\""
+}

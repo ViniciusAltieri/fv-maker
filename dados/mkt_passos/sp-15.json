@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Até 9 imagens em 1:1, até 2 MB cada. Capa em fundo limpo.",
+    "**Desfoque ou esconda o QR code** em todas as fotos e não mostre o logotipo do Google.",
+    "Vídeo de 10 a 60 s, até 30 MB: o celular encostando e a tela de avaliação abrindo."
+  ],
+  "critico": true,
+  "fase": "Primeiro anúncio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Transações fora da Shopee",
+    "url": "https://seller.shopee.com.br/edu/article/11123"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Produto › Mídia",
+  "ordem": 115,
+  "porque": "Anúncio com vídeo sobe de \"Qualificado\" para \"Excelente\". Na Shopee, QR code visível na foto é tratado como direcionamento para fora da plataforma: 2 pontos de penalidade por ocorrência.",
+  "tempo": "1–2 h",
+  "titulo": "Fotos 1:1 e vídeo para o anúncio \"Excelente\""
+}

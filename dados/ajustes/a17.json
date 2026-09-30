@@ -1,0 +1,11 @@
+{
+  "antigo": "0,1 mm",
+  "chave": "elefant_foot_compensation",
+  "decisao": "d03",
+  "grupo": "Mesa e 1ª camada",
+  "motivo": "Borda inferior da placa.",
+  "nome": "Compensação de pé de elefante (base)",
+  "ordem": 17,
+  "padrao": "0",
+  "status": "mantido"
+}

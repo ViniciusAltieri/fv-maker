@@ -1,0 +1,11 @@
+{
+  "antigo": "desligada",
+  "chave": "enable_prime_tower",
+  "decisao": "d03",
+  "grupo": "Sem efeito aqui",
+  "motivo": "Com 4 placas a mesa fica cheia e a torre conflita com as placas. A purga da troca preto → branco vai para a rampa.",
+  "nome": "Torre de purga",
+  "ordem": 27,
+  "padrao": "desligada (preset)",
+  "status": "reaplicado"
+}

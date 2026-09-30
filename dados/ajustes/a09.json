@@ -1,0 +1,11 @@
+{
+  "antigo": "2000",
+  "chave": "outer_wall_acceleration",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Idem.",
+  "nome": "Aceleração da parede externa",
+  "ordem": 9,
+  "padrao": "3000 (preset)",
+  "status": "reaplicado"
+}

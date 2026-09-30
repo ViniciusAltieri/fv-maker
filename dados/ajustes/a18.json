@@ -1,0 +1,11 @@
+{
+  "antigo": "nenhum",
+  "chave": "brim_type",
+  "decisao": "d03",
+  "grupo": "Mesa e 1ª camada",
+  "motivo": "Evitar brim. Na v0 o automático não gerou brim.",
+  "nome": "Brim",
+  "ordem": 18,
+  "padrao": "automático",
+  "status": "mantido"
+}

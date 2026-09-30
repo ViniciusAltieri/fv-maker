@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Ative antes de ficar indisponível, não depois da venda chegar.",
+    "Não altere estoque durante as férias: isso pode reativar anúncios."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Modo férias",
+    "url": "https://www.mercadolivre.com.br/ajuda/32434"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Anúncios › botão no canto superior direito",
+  "ordem": 10,
+  "porque": "Se a impressora parar ou você viajar, pausar tudo evita atrasos e cancelamentos. Você continua obrigado a responder perguntas e reclamações.",
+  "tempo": "2 min",
+  "titulo": "Saber onde fica o modo férias"
+}

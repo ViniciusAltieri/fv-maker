@@ -1,0 +1,11 @@
+{
+  "antigo": "90°",
+  "chave": "ironing_direction",
+  "decisao": "d03",
+  "grupo": "Topo e ferro",
+  "motivo": "Passadas perpendiculares às linhas do topo. A opção só existe no JSON, não na interface.",
+  "nome": "Direção do ferro",
+  "ordem": 2,
+  "padrao": "45°",
+  "status": "sem-efeito"
+}

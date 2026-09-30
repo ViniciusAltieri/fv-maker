@@ -1,0 +1,11 @@
+{
+  "antigo": "externa",
+  "chave": "seam_slope_type",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Esconder a costura nas laterais.",
+  "nome": "Costura em rampa (scarf)",
+  "ordem": 12,
+  "padrao": "nenhuma",
+  "status": "mantido"
+}

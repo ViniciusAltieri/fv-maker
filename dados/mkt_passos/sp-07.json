@@ -1,0 +1,19 @@
+{
+  "como": [
+    "Veja qual canal a sua conta recebeu.",
+    "Localize a agência Shopee Xpress mais próxima em shopeexpress.com.br/service-point."
+  ],
+  "fase": "Envio",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Métodos de envio",
+    "url": "https://seller.shopee.com.br/edu/article/16287"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Pedido › Configurações de Envio › Canal Logístico",
+  "ordem": 107,
+  "porque": "Você não escolhe o canal: a Shopee define pelo CPF/CNPJ e pela região. CPF costuma postar em agência Shopee Xpress; CNPJ em região atendida entra na coleta.",
+  "tempo": "10 min",
+  "titulo": "Conferir o canal logístico e a agência mais próxima"
+}

@@ -1,0 +1,194 @@
+{
+  "aba": "taxas",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "colunas": [
+        "Tipo de anúncio",
+        "Tarifa",
+        "O que muda"
+      ],
+      "linhas": [
+        [
+          "Clássico",
+          "10–14%",
+          "Sem parcelamento sem juros. Recomendado para começar."
+        ],
+        [
+          "Premium",
+          "15–19%",
+          "Parcelamento sem juros: 2x (R$ 30–59,99) ou 3x (R$ 60–99,99); 4x/5x no cartão Mercado Pago."
+        ],
+        [
+          "Grátis",
+          "0%",
+          "Até 5 vendas por ano, estoque de 1 unidade, baixa exposição. Não serve."
+        ]
+      ],
+      "nota": "A porcentagem exata da categoria só aparece no simulador com login. Blogs citam 11,5–13% (Clássico) em Casa e Decoração e 12% em Indústria e Comércio [incerto].",
+      "tipo": "tabela",
+      "titulo": "Tarifa de venda"
+    },
+    {
+      "colunas": [
+        "Reputação",
+        "R$ 19–48,99",
+        "R$ 49–78,99",
+        "R$ 79–99,99",
+        "R$ 100–119,99"
+      ],
+      "linhas": [
+        [
+          "Sem cor, verde ou MercadoLíder",
+          "R$ 6,85",
+          "R$ 8,15",
+          "R$ 12,95",
+          "R$ 14,95"
+        ],
+        [
+          "Amarela",
+          "R$ 7,83",
+          "R$ 9,31",
+          "R$ 15,54",
+          "R$ 17,94"
+        ],
+        [
+          "Laranja ou vermelha",
+          "R$ 9,79",
+          "R$ 11,64",
+          "R$ 25,90",
+          "R$ 29,90"
+        ]
+      ],
+      "nota": "A partir de R$ 79 o frete grátis rápido é obrigatório. Abaixo de R$ 19 você paga no máximo metade do preço.",
+      "texto": "A placa (58 g) e o kit placa + suporte (71 g) cabem nessa faixa com envelope. Conta sem reputação paga a tabela verde, que já tem até 50% de desconto.",
+      "tipo": "tabela",
+      "titulo": "Custo dos envios para pacote até 0,3 kg"
+    },
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "A R$ 78,90 no Clássico você recebe cerca de R$ 61,28. A R$ 79,00 recebe cerca de R$ 56,57, porque o custo de envio sobe de R$ 8,15 para R$ 12,95. Só volta a compensar perto de R$ 84,40.",
+        "O mesmo acontece em escala menor entre R$ 48,99 e R$ 49,00 (+R$ 1,30 de envio)."
+      ],
+      "tipo": "alerta",
+      "titulo": "Zona de preço a evitar: R$ 79,00 a ~R$ 84,40"
+    },
+    {
+      "colunas": [
+        "Preço",
+        "Tipo",
+        "Tarifa",
+        "Envio",
+        "Você recebe"
+      ],
+      "linhas": [
+        [
+          "R$ 49,90",
+          "Clássico 12%",
+          "R$ 5,99",
+          "R$ 8,15",
+          "R$ 35,76 (71,7%)"
+        ],
+        [
+          "R$ 49,90",
+          "Premium 17%",
+          "R$ 8,48",
+          "R$ 8,15",
+          "R$ 33,27 (66,7%)"
+        ],
+        [
+          "R$ 89,90",
+          "Clássico 12%",
+          "R$ 10,79",
+          "R$ 12,95",
+          "R$ 66,16 (73,6%)"
+        ],
+        [
+          "R$ 89,90",
+          "Premium 17%",
+          "R$ 15,28",
+          "R$ 12,95",
+          "R$ 61,67 (68,6%)"
+        ]
+      ],
+      "nota": "Ainda falta descontar o custo de produção e o imposto.",
+      "tipo": "tabela",
+      "titulo": "Exemplos: quanto você recebe (sem reputação, tarifa hipotética)"
+    },
+    {
+      "itens": [
+        {
+          "d": "Placa + suporte num anúncio de kit paga um único custo de envio. Vender o suporte avulso a R$ 20–25 perde R$ 6,85 de envio mais a tarifa.",
+          "t": "Kit"
+        },
+        {
+          "d": "Entre 5 e 12 dias após a entrega, conforme a página oficial e a reputação [incerto]. Confira em Mercado Pago › Saldos e extratos.",
+          "t": "Liberação do dinheiro"
+        },
+        {
+          "d": "Disponível no Mercado Pago; a porcentagem só aparece antes de confirmar.",
+          "t": "Antecipação"
+        },
+        {
+          "d": "Mantém custo fixo por unidade: R$ 6,25 (até R$ 19), R$ 6,65 (R$ 19–48,99), R$ 7,75 (R$ 49–78,99). Exige reputação amarela ou verde, ou Decola.",
+          "t": "Flex"
+        },
+        {
+          "d": "Armazenagem de R$ 0,007 por unidade por dia no tamanho pequeno, mas exige CNPJ e produto industrializado. Não combina com produção sob demanda.",
+          "t": "Full"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Outros custos e prazos"
+    }
+  ],
+  "calculadora": true,
+  "fontes": [
+    {
+      "rotulo": "Tarifas para vender (ajuda 870)",
+      "url": "https://www.mercadolivre.com.br/ajuda/870"
+    },
+    {
+      "rotulo": "Custos de envio por peso (ajuda 3362)",
+      "url": "https://www.mercadolivre.com.br/ajuda/3362"
+    },
+    {
+      "rotulo": "Tabela verde / sem reputação (ajuda 40538)",
+      "url": "https://www.mercadolivre.com.br/ajuda/40538"
+    },
+    {
+      "rotulo": "Tabela amarela (ajuda 40545)",
+      "url": "https://www.mercadolivre.com.br/ajuda/40545"
+    },
+    {
+      "rotulo": "Tabela laranja e vermelha (ajuda 40547)",
+      "url": "https://www.mercadolivre.com.br/ajuda/40547"
+    },
+    {
+      "rotulo": "Parcelamento no Premium (ajuda 22737)",
+      "url": "https://www.mercadolivre.com.br/ajuda/22737"
+    },
+    {
+      "rotulo": "Envios Flex (ajuda 4726)",
+      "url": "https://www.mercadolivre.com.br/ajuda/4726"
+    },
+    {
+      "rotulo": "Quando o dinheiro é liberado (ajuda 3143)",
+      "url": "https://www.mercadolivre.com.br/ajuda/3143"
+    },
+    {
+      "data": "12/02/2026",
+      "rotulo": "JoomPulse — custos do Mercado Livre em 2026",
+      "url": "https://blog.joompulse.com/2026/02/12/custos-mercado-livre-o-que-muda-para-sellers-2026/"
+    }
+  ],
+  "inclui": [
+    "comum-tributacao"
+  ],
+  "intro": "O Mercado Livre cobra duas coisas em cada venda: a tarifa de venda (porcentagem que depende da categoria e do tipo de anúncio) e o custo dos envios (valor por faixa de peso e de preço). Desde 02/03/2026 o custo de envio é cobrado em todas as vendas, inclusive abaixo de R$ 79.",
+  "mkt": "ml",
+  "ordem": 1,
+  "rotulo": "Taxas e tributação",
+  "titulo": "Taxas e tributação"
+}

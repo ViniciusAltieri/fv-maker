@@ -1,0 +1,11 @@
+{
+  "antigo": "1,0 mm",
+  "chave": "retraction_length",
+  "decisao": "d03",
+  "grupo": "Impressora",
+  "motivo": "Fiapos no relevo branco.",
+  "nome": "Retração",
+  "ordem": 19,
+  "padrao": "0,8 mm · filamento da placa 0,6 mm (D01)",
+  "status": "mantido"
+}

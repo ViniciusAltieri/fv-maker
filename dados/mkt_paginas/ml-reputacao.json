@@ -1,0 +1,143 @@
+{
+  "aba": "reputacao",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "colunas": [
+        "Métrica",
+        "MercadoLíder",
+        "Verde",
+        "Amarela",
+        "Laranja",
+        "Vermelha"
+      ],
+      "linhas": [
+        [
+          "Reclamações",
+          "1%",
+          "2%",
+          "4,5%",
+          "8%",
+          "> 8%"
+        ],
+        [
+          "Cancelamentos por você",
+          "0,5%",
+          "1,5%",
+          "3,5%",
+          "4%",
+          "> 4%"
+        ],
+        [
+          "Despacho atrasado",
+          "6%",
+          "10%",
+          "18%",
+          "22%",
+          "> 22%"
+        ]
+      ],
+      "nota": "Período: 60 dias para quem tem volume alto de vendas; abaixo disso, 365 dias. As páginas oficiais divergem sobre o corte (60 ou 101 vendas) [incerto].",
+      "tipo": "tabela",
+      "titulo": "Limites de cada cor"
+    },
+    {
+      "itens": [
+        {
+          "d": "Reclamações de defeito, qualidade ou item faltando; vendas canceladas por você; envio atrasado ou para o depósito errado.",
+          "t": "Conta"
+        },
+        {
+          "d": "Devolução por arrependimento ou \"não serve\" (e o frete dela é grátis para você).",
+          "t": "Não conta"
+        },
+        {
+          "d": "Produto novo pode ser devolvido até 30 dias após o recebimento. \"Diferente do anunciado\" custa a devolução para você e pesa na reputação: descreva medidas e material com precisão.",
+          "t": "Devolução"
+        },
+        {
+          "d": "3 dias úteis para reportar problema em uma devolução recebida.",
+          "t": "Prazo para contestar"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "O que conta e o que não conta"
+    },
+    {
+      "colunas": [
+        "Nível",
+        "Vendas",
+        "Faturamento"
+      ],
+      "linhas": [
+        [
+          "Líder",
+          "230",
+          "R$ 37.000"
+        ],
+        [
+          "Gold",
+          "575",
+          "R$ 118.400"
+        ],
+        [
+          "Platinum",
+          "1.725",
+          "R$ 296.000"
+        ]
+      ],
+      "nota": "Todos exigem mais de 4 meses de cadastro, documento fiscal, verde escuro, reclamações < 1%, mediações < 0,5%, cancelamentos < 0,5% e envios incorretos < 6%.",
+      "tipo": "tabela",
+      "titulo": "Níveis de MercadoLíder (últimos 3 meses)"
+    },
+    {
+      "nivel": "dica",
+      "paragrafos": [
+        "Atraso é a métrica mais fácil de estourar para quem imprime: o limite do verde é 10% de despachos atrasados. Com 10 vendas, um atraso já é 10%.",
+        "Por isso o roteiro recomenda estoque de placas prontas e gravar a tag no dia da venda.",
+        "O ponto frágil é o link: sem ele a placa não funciona. Deixe claro no anúncio que o comprador deve mandar o link do Google Maps (ou nome e cidade da empresa) pelo chat logo após a compra. Se ele não responder em algumas horas, procure a empresa pelo nome, gere o link no conversor, grave e confirme por mensagem antes de despachar."
+      ],
+      "tipo": "alerta",
+      "titulo": "Como a produção sob demanda afeta a reputação"
+    },
+    {
+      "paragrafos": [
+        "Cada anúncio tem uma nota de 0 a 100: **Boa** de 75 a 100; **Mediana** de 50 a 74 (perde exposição e pode ser pausado); **Ruim** até 30 (pode ser cancelado). Entram reclamações, atrasos, cancelamentos, perguntas, opiniões, mensagens e título ou descrição inconsistentes."
+      ],
+      "tipo": "texto",
+      "titulo": "Experiência de compra por anúncio"
+    }
+  ],
+  "fontes": [
+    {
+      "data": "11/08/2025",
+      "rotulo": "Reputação de vendedores (developers)",
+      "url": "https://developers.mercadolivre.com.br/pt_br/reputacao-de-vendedores"
+    },
+    {
+      "rotulo": "Variáveis da reputação",
+      "url": "https://www.mercadolivre.com.br/ajuda/variaveis-reputacao_30193"
+    },
+    {
+      "rotulo": "Como ganhar cor (ajuda 866)",
+      "url": "https://www.mercadolivre.com.br/ajuda/866"
+    },
+    {
+      "rotulo": "Como ser MercadoLíder",
+      "url": "https://www.mercadolivre.com.br/ajuda/Como-ser-MercadoLider_864"
+    },
+    {
+      "rotulo": "Devoluções",
+      "url": "https://www.mercadolivre.com.br/ajuda/devolucoes-expressas_3448"
+    },
+    {
+      "rotulo": "Experiência de compra (ajuda 31968)",
+      "url": "https://www.mercadolivre.com.br/ajuda/31968"
+    }
+  ],
+  "intro": "A reputação decide o custo do envio, o acesso a promoções e anúncios pagos e quanto o comprador confia. Conta nova começa cinza e precisa de 10 vendas concluídas em 365 dias para ganhar cor.",
+  "mkt": "ml",
+  "ordem": 3,
+  "rotulo": "Reputação",
+  "titulo": "Reputação e métricas"
+}

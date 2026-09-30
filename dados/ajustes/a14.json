@@ -1,0 +1,11 @@
+{
+  "antigo": "giroide",
+  "chave": "sparse_infill_pattern",
+  "decisao": "d03",
+  "grupo": "Estrutura",
+  "motivo": "Preferência; sem problema observado registrado.",
+  "nome": "Padrão de preenchimento",
+  "ordem": 14,
+  "padrao": "giroide (preset)",
+  "status": "reaplicado"
+}

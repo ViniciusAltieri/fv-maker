@@ -1,0 +1,78 @@
+{
+  "componentes": [
+    {
+      "faixas": [
+        {
+          "ate": 79.99,
+          "pct": 0.2,
+          "valor": 4.5
+        },
+        {
+          "ate": 99.99,
+          "pct": 0.14,
+          "valor": 16
+        },
+        {
+          "ate": 199.99,
+          "pct": 0.14,
+          "valor": 20
+        },
+        {
+          "ate": 1000000,
+          "pct": 0.14,
+          "valor": 26
+        }
+      ],
+      "rotulo": "Comissão + taxa fixa",
+      "tipo": "faixa"
+    },
+    {
+      "nota": "Mais de 450 pedidos em 90 dias",
+      "rotulo": "Adicional CPF",
+      "se": {
+        "conta": "cpf450"
+      },
+      "tipo": "fixo",
+      "valor": 3
+    },
+    {
+      "rotulo": "Custo até a agência",
+      "tipo": "frete"
+    }
+  ],
+  "contas": {
+    "nota": "CPF paga R$ 3 a mais por item depois de 450 pedidos em 90 dias.",
+    "opcoes": [
+      {
+        "id": "cnpj",
+        "rotulo": "CNPJ"
+      },
+      {
+        "id": "cpf",
+        "rotulo": "CPF"
+      },
+      {
+        "id": "cpf450",
+        "rotulo": "CPF +450 pedidos"
+      }
+    ],
+    "padrao": "cnpj",
+    "rotulo": "Tipo de conta"
+  },
+  "fonte": {
+    "rotulo": "Comissão para vendedores CNPJ e CPF em 2026",
+    "url": "https://seller.shopee.com.br/edu/article/26839"
+  },
+  "frete_nota": "A Shopee não cobra frete do vendedor. Use para passagem ou etiqueta, se houver.",
+  "frete_rotulo": "Custo até a agência (R$)",
+  "padrao": {
+    "custo": 8,
+    "custo_nota": "Exemplo: ~25 g de PLA, tag NTAG213 e envelope. Troque pelo seu custo real.",
+    "frete": 0,
+    "imposto": 0,
+    "preco": 59.9
+  },
+  "rodape": "Itens muito baratos têm regra própria (CNPJ abaixo de R$ 9, CPF abaixo de R$ 12). Acima de R$ 80 o pagamento via Pix recebe subsídio de 5% da Shopee sem mudar o seu líquido.",
+  "texto": "Tabela oficial em vigor a partir de **01/10/2026** (taxa fixa da primeira faixa sobe de R$ 4,00 para R$ 4,50). A comissão já inclui a taxa de transação e o Programa de Frete Grátis; a Shopee não cobra frete do vendedor.",
+  "titulo": "Quanto sobra de cada venda na Shopee"
+}

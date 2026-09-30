@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Deixe R$ 250 guardados no Mercado Pago.",
+    "Ative o programa e confira os benefícios liberados: publicidade, Central de promoções, Clips e Flex.",
+    "O valor volta integral se nenhuma venda for afetada; cada venda afetada (até 5) desconta R$ 50."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Programa Decola",
+    "url": "https://www.mercadolivre.com.br/ajuda/33314"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Reputação › Programa Decola",
+  "ordem": 17,
+  "porque": "Conta nova fica cinza até 10 vendas e sem cor não entra em promoções nem em anúncios pagos. O Decola dá reputação verde por até 365 dias e até R$ 250 em publicidade grátis.",
+  "tempo": "10 min",
+  "titulo": "Ativar o Programa Decola"
+}

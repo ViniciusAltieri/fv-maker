@@ -1,0 +1,221 @@
+{
+  "aba": "reputacao",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "colunas": [
+        "Métrica",
+        "Como é medida",
+        "Saudável",
+        "Gera ponto"
+      ],
+      "linhas": [
+        [
+          "Taxa de não envio",
+          "Cancelamentos e devoluções por sua culpa, últimos 7 dias",
+          "< 2%",
+          "8% ou mais (com 2+ pedidos): 1 ponto"
+        ],
+        [
+          "Envio atrasado",
+          "Postados depois do prazo, últimos 7 dias",
+          "< 2%",
+          "5% ou mais (com 2+ pedidos): 1 ponto"
+        ],
+        [
+          "Taxa de resposta do chat",
+          "Respostas em até 12 h, últimos 30 dias",
+          "≥ 60%",
+          "Não gera ponto, mas conta para o Vendedor Indicado"
+        ],
+        [
+          "Direcionar para fora",
+          "Contato, link ou QR externo no anúncio, chat ou pacote",
+          "Nunca",
+          "2 pontos por ocorrência"
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Métricas que geram pontos"
+    },
+    {
+      "colunas": [
+        "Pontos",
+        "Suspensão",
+        "Visibilidade",
+        "Frete grátis",
+        "Cobrança*"
+      ],
+      "linhas": [
+        [
+          "1–2",
+          "Só alerta",
+          "—",
+          "Mantém",
+          "—"
+        ],
+        [
+          "3–5",
+          "14 dias",
+          "−5%",
+          "Mantém",
+          "R$ 100"
+        ],
+        [
+          "6–8",
+          "14 dias",
+          "−10%",
+          "Perde",
+          "R$ 250"
+        ],
+        [
+          "9–11",
+          "21 dias",
+          "−20%",
+          "Perde",
+          "R$ 500"
+        ],
+        [
+          "12–14",
+          "28 dias",
+          "−30%",
+          "Perde",
+          "R$ 1.000"
+        ],
+        [
+          "15+",
+          "Conta congelada",
+          "—",
+          "—",
+          "R$ 1.500"
+        ]
+      ],
+      "nota": "* Cobrança só se as vendas do mês anterior passarem de R$ 2.500. Recurso em até 14 dias: Desempenho da Conta › Resumo dos Pontos › Ver violação › Entrar com recurso.",
+      "tipo": "tabela",
+      "titulo": "Faixas de penalidade"
+    },
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "O limite de 5% vale a partir de 2 pedidos na semana. Com 2 pedidos, 1 atrasado já é 50%. Por isso o estoque de placas prontas e o envio até 13h são a regra mais importante da loja nova."
+      ],
+      "tipo": "alerta",
+      "titulo": "Com poucas vendas, um único atraso pesa muito"
+    },
+    {
+      "colunas": [
+        "Critério",
+        "Entrar",
+        "Sair"
+      ],
+      "linhas": [
+        [
+          "CNPJ",
+          "Sim",
+          "—"
+        ],
+        [
+          "Loja ativa",
+          "> 90 dias",
+          "< 90 dias"
+        ],
+        [
+          "Pedidos em 30 dias",
+          "≥ 30",
+          "< 15"
+        ],
+        [
+          "Compradores únicos em 30 dias",
+          "≥ 10",
+          "< 5"
+        ],
+        [
+          "Avaliação da loja",
+          "≥ 4,5",
+          "< 4,2"
+        ],
+        [
+          "Taxa de resposta",
+          "≥ 60%",
+          "< 50%"
+        ],
+        [
+          "Tempo de preparação",
+          "≤ 1 dia útil",
+          "> 1,3 dia útil"
+        ],
+        [
+          "Envio aos sábados",
+          "≥ 20% dos pendentes",
+          "< 20%"
+        ],
+        [
+          "Pontos de penalidade",
+          "≤ 1",
+          "≥ 3"
+        ],
+        [
+          "Taxa de não envio",
+          "≤ 2%",
+          "> 3%"
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Vendedor Indicado: para entrar e para sair"
+    },
+    {
+      "itens": [
+        {
+          "d": "Média das avaliações; meta de 4,5 ou mais.",
+          "t": "Nota da loja"
+        },
+        {
+          "d": "30 dias para avaliar; pode editar uma vez.",
+          "t": "Prazo do comprador"
+        },
+        {
+          "d": "Única e não editável. Responda com calma.",
+          "t": "Sua resposta"
+        },
+        {
+          "d": "Proporção de notas 1 e 2 nos últimos 14 dias, por anúncio. Pode remover o anúncio.",
+          "t": "Item de qualidade insatisfatória"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Avaliações"
+    }
+  ],
+  "fontes": [
+    {
+      "data": "09/09/2026",
+      "rotulo": "Pontos de penalidade (ID 7955)",
+      "url": "https://seller.shopee.com.br/edu/article/7955"
+    },
+    {
+      "data": "06/05/2026",
+      "rotulo": "Métricas de envio (ID 3280)",
+      "url": "https://seller.shopee.com.br/edu/article/3280"
+    },
+    {
+      "data": "08/07/2026",
+      "rotulo": "Tempo de preparação (ID 19542)",
+      "url": "https://seller.shopee.com.br/edu/article/19542"
+    },
+    {
+      "data": "29/06/2026",
+      "rotulo": "Vendedor Indicado (ID 18456)",
+      "url": "https://seller.shopee.com.br/edu/article/18456"
+    },
+    {
+      "data": "21/07/2026",
+      "rotulo": "Avaliações (ID 24761)",
+      "url": "https://seller.shopee.com.br/edu/article/24761"
+    }
+  ],
+  "intro": "A Shopee mede semanalmente o envio e mensalmente o chat, e transforma deslizes em pontos de penalidade. Os pontos zeram a cada trimestre (o próximo zeramento é na virada para outubro).",
+  "mkt": "shopee",
+  "ordem": 3,
+  "rotulo": "Métricas e penalidades",
+  "titulo": "Métricas e penalidades"
+}

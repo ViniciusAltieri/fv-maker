@@ -1,0 +1,20 @@
+{
+  "como": [
+    "Crie a campanha automática com o anúncio da placa e o do kit.",
+    "Use o ROAS objetivo sugerido pela plataforma no início; revise depois de 2 semanas.",
+    "Pause palavras que gastam sem vender (ex.: buscas por tag NFC avulsa)."
+  ],
+  "fase": "Primeiras semanas",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Requisitos do Product Ads",
+    "url": "https://vendedores.mercadolivre.com.br/nota/quais-requisitos-devo-cumprir-para-usar-o-product-ads"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Publicidade › Product Ads",
+  "ordem": 18,
+  "porque": "Anúncio novo sem histórico demora a aparecer na busca orgânica. Com o crédito do Decola, a primeira campanha sai sem custo.",
+  "tempo": "20 min",
+  "titulo": "Criar a primeira campanha de Product Ads"
+}

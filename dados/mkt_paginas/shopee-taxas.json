@@ -1,0 +1,169 @@
+{
+  "aba": "taxas",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "colunas": [
+        "Preço do item",
+        "Comissão + taxa fixa",
+        "Subsídio Pix",
+        "Cupom de frete da Shopee"
+      ],
+      "linhas": [
+        [
+          "Até R$ 79,99",
+          "20% + R$ 4,50",
+          "—",
+          "fretes até R$ 20"
+        ],
+        [
+          "R$ 80 – 99,99",
+          "14% + R$ 16",
+          "5%",
+          "até R$ 30"
+        ],
+        [
+          "R$ 100 – 199,99",
+          "14% + R$ 20",
+          "5%",
+          "até R$ 30"
+        ],
+        [
+          "R$ 200 – 499,99",
+          "14% + R$ 26",
+          "5%",
+          "até R$ 40"
+        ],
+        [
+          "Acima de R$ 500",
+          "14% + R$ 26",
+          "até 8%",
+          "até R$ 40"
+        ]
+      ],
+      "nota": "Até 30/09/2026 a primeira faixa é 20% + R$ 4,00. Comissão não é cobrada em cancelamento ou devolução e é calculada só sobre o produto; desconto dado por você reduz a base.",
+      "tipo": "tabela",
+      "titulo": "Comissão por faixa de preço (a partir de 01/10/2026)"
+    },
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "A R$ 79,90 você recebe R$ 59,42. A R$ 80,00 recebe R$ 52,80. Só volta a empatar perto de R$ 87,78, e a R$ 89,90 ganha apenas R$ 1,89 a mais que a R$ 79,90 (compensado em parte pelo subsídio Pix e pelo cupom de frete maior)."
+      ],
+      "tipo": "alerta",
+      "titulo": "Zona de preço a evitar: R$ 80,00 a ~R$ 87,78"
+    },
+    {
+      "colunas": [
+        "Conta",
+        "R$ 49,90",
+        "R$ 89,90"
+      ],
+      "linhas": [
+        [
+          "CNPJ ou CPF abaixo de 450 pedidos/90 dias",
+          "R$ 35,42 (taxa de 29,0%)",
+          "R$ 61,31 (taxa de 31,8%)"
+        ],
+        [
+          "CPF acima de 450 pedidos/90 dias",
+          "R$ 32,42",
+          "R$ 58,31"
+        ]
+      ],
+      "nota": "Ainda falta descontar o custo de produção e o imposto.",
+      "tipo": "tabela",
+      "titulo": "Exemplos: quanto você recebe"
+    },
+    {
+      "itens": [
+        {
+          "d": "Item errado, faltando, com defeito ou mal embalado: frete integral + R$ 15, se você quiser receber a devolução de volta.",
+          "t": "Devolução por sua culpa"
+        },
+        {
+          "d": "Cobrança adicional em até 90 dias se o pacote pesar mais que o cadastrado; R$ 50 de manuseio se passar das medidas máximas.",
+          "t": "Divergência de peso"
+        },
+        {
+          "d": "De R$ 100 a R$ 1.500 por faixa de pontos, só se as vendas do mês anterior passarem de R$ 2.500.",
+          "t": "Penalidades"
+        },
+        {
+          "d": "Por convite. Cobram 3,5% sobre todas as vendas da loja enquanto você participa, e renovam sozinhas.",
+          "t": "Campanhas de Destaque"
+        },
+        {
+          "d": "Só CNPJ. Comissão mínima de 4%, que depois só pode subir.",
+          "t": "Afiliados"
+        },
+        {
+          "d": "Recarga mínima de R$ 15 [incerto]. Ads Fácil 2.0 recarrega no mínimo 2% das vendas.",
+          "t": "Shopee Ads"
+        },
+        {
+          "d": "Só CNPJ. Recebe até 24 h após o envio pagando 3,5% por resgate (2% para Vendedor Indicado).",
+          "t": "Shopee Acelera"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Outros custos que podem aparecer"
+    },
+    {
+      "paragrafos": [
+        "O valor fica retido até o comprador clicar em \"Pedido Recebido\" ou até 7 dias após a entrega. A liberação acontece em dias úteis, das 9h às 18h: na prática, até 10 dias corridos depois da entrega. Acompanhe em Minha Renda › Pendente. Saques são gratuitos, até 7 por semana."
+      ],
+      "tipo": "texto",
+      "titulo": "Quando o dinheiro cai"
+    }
+  ],
+  "calculadora": true,
+  "fontes": [
+    {
+      "data": "18/09/2026",
+      "rotulo": "Comissão para vendedores CNPJ e CPF em 2026 (ID 26839)",
+      "url": "https://seller.shopee.com.br/edu/article/26839"
+    },
+    {
+      "rotulo": "Programa de Frete Grátis (ID 23431)",
+      "url": "https://seller.shopee.com.br/edu/article/23431"
+    },
+    {
+      "data": "01/07/2026",
+      "rotulo": "Taxa de devolução (ID 23740)",
+      "url": "https://seller.shopee.com.br/edu/article/23740"
+    },
+    {
+      "data": "21/09/2026",
+      "rotulo": "Cobrança por faixa de penalidade (ID 28322)",
+      "url": "https://seller.shopee.com.br/edu/article/28322"
+    },
+    {
+      "data": "22/09/2026",
+      "rotulo": "Campanhas de Destaque (ID 18712)",
+      "url": "https://seller.shopee.com.br/edu/article/18712"
+    },
+    {
+      "data": "13/07/2026",
+      "rotulo": "Afiliados do Vendedor (ID 24595)",
+      "url": "https://seller.shopee.com.br/edu/article/24595"
+    },
+    {
+      "data": "21/09/2026",
+      "rotulo": "Pagamentos e saques (ID 2856)",
+      "url": "https://seller.shopee.com.br/edu/article/2856"
+    },
+    {
+      "rotulo": "Brazil Journal — reajuste da taxa fixa",
+      "url": "https://braziljournal.com/7ou4"
+    }
+  ],
+  "inclui": [
+    "comum-tributacao"
+  ],
+  "intro": "Na Shopee só existe uma cobrança por venda: comissão percentual + taxa fixa por item, que variam pela faixa de preço. Desde 01/03/2026 o frete grátis vale para todos e o teto de R$ 100 por item acabou.",
+  "mkt": "shopee",
+  "ordem": 1,
+  "rotulo": "Taxas e tributação",
+  "titulo": "Taxas e tributação"
+}

@@ -1,0 +1,172 @@
+{
+  "aba": "anuncio",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "A política de marca registrada considera violação usar marca sem autorização no produto, na embalagem, no anúncio ou **para indicar compatibilidade** (código 601). Anúncio removido por propriedade intelectual costuma ser apagado de vez.",
+        "QR code visível nas fotos é tratado como direcionamento para fora da plataforma. Desfoque o QR em todas as imagens.",
+        "Por isso há duas colunas de títulos abaixo: com a palavra Google (mais busca, mais risco) e sem ela (menos risco, depende de \"avaliação\" e \"NFC\" para ser encontrado)."
+      ],
+      "tipo": "alerta",
+      "titulo": "Na Shopee, marca de terceiros e QR code pedem cuidado extra"
+    },
+    {
+      "itens": [
+        {
+          "tag": "27 preços",
+          "texto": "Faixa central R$ 29,99 – R$ 74,90. Mínimo R$ 19,90.",
+          "titulo": "Mediana R$ 42,50"
+        },
+        {
+          "tag": "Líderes",
+          "texto": "Placa personalizada a R$ 94,05 com 206 vendidos; cartões NFC de R$ 29,90 a R$ 69,90.",
+          "titulo": "Wistag e Onetag"
+        },
+        {
+          "tag": "Categoria",
+          "texto": "Onde a maioria dos concorrentes está. Fuja das categorias de eletrônicos.",
+          "titulo": "Papelaria › Outros"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "O mercado em números"
+    },
+    {
+      "contar": true,
+      "itens": [
+        {
+          "texto": "Placa Avaliação Google NFC e QR Code 3D Preta com Suporte - Já Configurada - Sem App e Sem Mensalidade - iPhone/Android"
+        },
+        {
+          "texto": "Placa Avaliação no Google NFC por Aproximação - Plaquinha Avalie-nos 9x9cm Impressão 3D com Suporte de Balcão"
+        },
+        {
+          "texto": "Kit 2 Placas Avaliação Google NFC + QR Code Configuradas - Plaquinha Avalie-nos para Balcão, Restaurante, Salão, Clínica"
+        }
+      ],
+      "tipo": "modelos",
+      "titulo": "Títulos com a palavra Google"
+    },
+    {
+      "contar": true,
+      "itens": [
+        {
+          "texto": "Placa de Avaliação NFC e QR Code para Comércio - Aproximação Sem App - Impressão 3D 9x9cm com Suporte de Balcão"
+        },
+        {
+          "texto": "Plaquinha Avalie-nos NFC por Aproximação - Placa de Avaliação para Loja, Restaurante, Salão e Clínica - Já Configurada"
+        }
+      ],
+      "tipo": "modelos",
+      "titulo": "Títulos sem marca de terceiros"
+    },
+    {
+      "colunas": [
+        "Oferta",
+        "Preço",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "1 placa configurada",
+          "R$ 44,90–49,90",
+          "Acima da mediana, justificado pelo relevo 3D e pela configuração."
+        ],
+        [
+          "Placa + suporte (oferta principal)",
+          "R$ 59,90–64,90",
+          "Uma taxa fixa só."
+        ],
+        [
+          "Kit 2",
+          "R$ 99,90",
+          "Acima da zona morta de R$ 80–87,78."
+        ],
+        [
+          "Kit 5",
+          "R$ 199,90",
+          "~R$ 40 por unidade."
+        ],
+        [
+          "Personalizada com logo",
+          "R$ 99,90–119,90",
+          "Anúncio sob encomenda (no máximo 20% dos anúncios da loja)."
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Preços sugeridos"
+    },
+    {
+      "colunas": [
+        "Anúncio",
+        "Preço",
+        "Nota"
+      ],
+      "linhas": [
+        [
+          "Placa De Avaliação Google Personalizada Com Nfc E Qr Code (Wistag)",
+          "R$ 94,05 no Pix",
+          "5,0 (66 avaliações), sob encomenda."
+        ],
+        [
+          "Placa De Avaliação Google Com Nfc E Qrcode (Onetag)",
+          "R$ 58,90",
+          "Com app e link configurável."
+        ],
+        [
+          "Placa/cartão Google Avaliação Com Chip Nfc E Qr Code",
+          "R$ 49,90",
+          "Kit 3 a R$ 85,41."
+        ],
+        [
+          "Placa Google Avaliação NFC 8x10cm Acrílico",
+          "R$ 24,90",
+          "Acrílico transparente, dupla face."
+        ],
+        [
+          "Placa de Avaliação no Google - QR CODE e NFC",
+          "~R$ 79,90",
+          "Configuração inclusa pelo link enviado."
+        ],
+        [
+          "Placa de Avaliação Google com NFC (impressão 3D)",
+          "—",
+          "Concorrente direto em 3D."
+        ]
+      ],
+      "nota": "Preços vistos no Google Shopping e em páginas indexadas em 29/09/2026.",
+      "tipo": "tabela",
+      "titulo": "Concorrentes de referência"
+    }
+  ],
+  "fontes": [
+    {
+      "data": "14/07/2026",
+      "rotulo": "Marca registrada (ID 2642)",
+      "url": "https://seller.shopee.com.br/edu/article/2642"
+    },
+    {
+      "data": "19/06/2026",
+      "rotulo": "Transações fora da Shopee (ID 11123)",
+      "url": "https://seller.shopee.com.br/edu/article/11123"
+    },
+    {
+      "rotulo": "Wistag — placa personalizada",
+      "url": "https://shopee.com.br/Placa-De-Avalia%C3%A7%C3%A3o-Google-Personalizada-Com-Nfc-E-Qr-Code-i.1358416203.23694298017"
+    },
+    {
+      "rotulo": "Onetag — placa NFC e QR",
+      "url": "https://shopee.com.br/Placa-De-Avalia%C3%A7%C3%A3o-Google-Com-Nfc-E-Qrcode-(aproxima%C3%A7%C3%A3o)-onetag-cart%C3%A3o-de-visita-digital-i.1064049779.58206552774"
+    }
+  ],
+  "inclui": [
+    "comum-produto"
+  ],
+  "intro": "Concorrência, títulos prontos e preços para a placa na Shopee. A Shopee é cerca de 30% mais barata que o Mercado Livre e mais rígida com marca de terceiros e QR code nas fotos.",
+  "mkt": "shopee",
+  "ordem": 4,
+  "rotulo": "Anúncio da placa",
+  "titulo": "Anúncio da placa"
+}

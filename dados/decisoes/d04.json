@@ -1,0 +1,145 @@
+{
+  "col_antes": "Placa",
+  "col_depois": "Como o suporte respeita",
+  "contexto": [
+    "Conceitos em volume, montados no Blender com a placa real (numa cena temporária, fora do arquivo da placa). Servem para comparar forma, uso e custo de impressão. Medidas finas, chanfros e folgas ficam para a modelagem.",
+    "Todos respeitam a placa atual: contorno de 88 × 88 mm com cantos R13, base de 6 mm e relevo de +1 mm na frente. O texto começa a 5,8 mm da borda de baixo, então nenhum lábio frontal passa de 4 mm de altura. As 4 arruelas de aço Ø28 ficam a 1,6 mm da face de trás, com centros em ±27,2 mm. Por isso os conceitos magnéticos (C, E e F) usam 4 ímãs alinhados com elas.",
+    "O NFC é lido pela frente e o suporte fica atrás ou embaixo, sem cobrir o ícone. Os ímãs ficam a mais de 10 mm do chip, a mesma distância que as arruelas já têm hoje.",
+    "Tudo cabe na mesa da A1 mini (180 × 180 mm). O maior é o G, com 162 mm de largura. Os pesos são estimativas grosseiras (2 paredes, 15 % de preenchimento) e mudam na modelagem.",
+    "Nas imagens C e F a placa está afastada do suporte (vista explodida) para mostrar os ímãs. Na montagem, ela encosta no suporte.",
+    "Pode escolher mais de um: marque o principal aqui e cite os outros na nota, ou responda na conversa. Depois da escolha começa a modelagem no Blender. O fatiamento e o STL saem só depois que a modelagem final for aprovada."
+  ],
+  "decidido_em": "2026-09-26T14:00:00Z",
+  "escolha": "A",
+  "fase": "Suporte",
+  "imagens": [
+    {
+      "legenda": "A · Base de ranhura: bloco baixo, placa inclinada 15°",
+      "src": "img/sup_A.jpg"
+    },
+    {
+      "legenda": "B · Cavalete: aba de apoio e perna traseira, 20°",
+      "src": "img/sup_B.jpg"
+    },
+    {
+      "legenda": "C · Painel magnético inclinado (vista explodida)",
+      "src": "img/sup_C.jpg"
+    },
+    {
+      "legenda": "D · Moldura em U: a placa desce por cima, 12°",
+      "src": "img/sup_D.jpg"
+    },
+    {
+      "legenda": "E · Totem dupla face para mesa: 2 placas",
+      "src": "img/sup_E.jpg"
+    },
+    {
+      "legenda": "F · Base de parede magnética (vista explodida)",
+      "src": "img/sup_F.jpg"
+    },
+    {
+      "legenda": "G · Ranhura + porta-cartões de visita",
+      "src": "img/sup_G.jpg"
+    },
+    {
+      "legenda": "H · Pedestal com haste e berço",
+      "src": "img/sup_H.jpg"
+    }
+  ],
+  "metricas": [
+    {
+      "antes": "88 × 88 mm · cantos R13",
+      "depois": "ranhura/bolso 88,6 mm · R13,3 (folga 0,3 mm/lado)",
+      "rotulo": "Contorno"
+    },
+    {
+      "antes": "6 mm + relevo 1 mm",
+      "depois": "ranhura 6,4 mm; o relevo fica acima do lábio",
+      "rotulo": "Espessura"
+    },
+    {
+      "antes": "5,8 mm",
+      "depois": "lábio frontal ≤ 4 mm",
+      "rotulo": "Margem inferior até o texto"
+    },
+    {
+      "antes": "6,2 mm",
+      "depois": "moldura cobre ≤ 2 mm",
+      "rotulo": "Margem superior até as estrelas"
+    },
+    {
+      "antes": "Ø28 · centros ±27,2 · 1,6 mm da face de trás",
+      "depois": "ímãs na mesma posição (C, E, F)",
+      "rotulo": "Arruelas de aço"
+    },
+    {
+      "antes": "180 × 180 × 180 mm",
+      "depois": "maior peça: 162 mm (G)",
+      "rotulo": "Mesa A1 mini"
+    }
+  ],
+  "metricas_titulo": "Compatibilidade com a placa",
+  "n": 4,
+  "nota": "Escolhido na conversa de 26/09/2026: opção A, otimizada para gastar o mínimo de filamento possível. As dimensões podem mudar para isso.",
+  "opcoes": [
+    {
+      "custo": "≈ 35 g · 1 peça · nenhum extra",
+      "descricao": "Bloco de 104 × 44 × 16 mm com canal de 6,4 mm inclinado 15°. A placa entra de cima e fica presa pelo peso. O lábio da frente tem 4 mm. Uma peça, sem suportes de impressão, sem ferragens.",
+      "id": "A",
+      "recomendada": true,
+      "titulo": "A · Base de ranhura"
+    },
+    {
+      "custo": "≈ 30 g · 2 peças + pino da articulação · menos estável",
+      "descricao": "Painel fino atrás da placa, com aba e lábio embaixo e uma perna traseira articulada. Imprime deitado e dobra para guardar. Visual de porta-retrato, leve e discreto.",
+      "id": "B",
+      "recomendada": false,
+      "titulo": "B · Cavalete com perna"
+    },
+    {
+      "custo": "≈ 55–65 g · 4 ímãs (ex.: Ø12 × 3 mm) · pausa para inserir os ímãs",
+      "descricao": "Painel inclinado 20° com 4 ímãs de neodímio embutidos, alinhados às arruelas. A placa gruda e sai com um puxão, sem ranhura aparecendo. De frente, só se vê a placa.",
+      "id": "C",
+      "recomendada": false,
+      "titulo": "C · Painel magnético inclinado"
+    },
+    {
+      "custo": "≈ 60 g · 1 peça + pé · bolso impresso de pé exige cuidado com a folga",
+      "descricao": "Moldura de 100 × 96 mm com borda de 2 mm nas laterais e embaixo. A placa desce por cima e fica emoldurada. Tem um pé traseiro com inclinação de 12°. Acabamento mais premium; a moldura pode sair em outra cor.",
+      "id": "D",
+      "recomendada": false,
+      "titulo": "D · Moldura em U"
+    },
+    {
+      "custo": "≈ 85 g · 2 placas por totem · opcional 8 ímãs",
+      "descricao": "Prisma triangular de 104 × 60 × 97 mm com um bolso em cada face, para 2 placas de costas uma para a outra. Serve para mesa de restaurante vista dos dois lados. Presa por ímã ou por encaixe justo.",
+      "id": "E",
+      "recomendada": false,
+      "titulo": "E · Totem dupla face"
+    },
+    {
+      "custo": "≈ 35 g · 4 ímãs · parafusos ou fita VHB",
+      "descricao": "Chapa de 90 × 90 × 4 mm com 4 ímãs e 2 furos escareados, ou fita dupla face. Fica fixa na parede, no balcão ou no caixa, e a placa gruda por cima. Dá para trocar ou tirar a placa para limpar.",
+      "id": "F",
+      "recomendada": false,
+      "titulo": "F · Base de parede magnética"
+    },
+    {
+      "custo": "≈ 55 g · 1 peça · ocupa quase a mesa inteira",
+      "descricao": "Base de ranhura (A) alongada para 162 mm, com um segundo canal para cerca de 25 cartões de visita em pé (50 × 90 mm). Junta a avaliação no Google e o cartão no balcão.",
+      "id": "G",
+      "recomendada": false,
+      "titulo": "G · Ranhura + porta-cartões"
+    },
+    {
+      "custo": "≈ 45 g · 2–3 peças (haste encaixada) · mais alto, pede lastro",
+      "descricao": "Base redonda de Ø84 mm, haste de Ø16 mm e berço com ranhura no topo. A placa fica a cerca de 65 mm da mesa, mais visível atrás de copos e cardápios. A base pode levar moedas ou arruelas de lastro.",
+      "id": "H",
+      "recomendada": false,
+      "titulo": "H · Pedestal com haste"
+    }
+  ],
+  "pergunta": "Qual suporte (ou quais) vamos modelar para expor a placa?",
+  "status": "decidida",
+  "titulo": "Suporte para a placa: 8 conceitos"
+}

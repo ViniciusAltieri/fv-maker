@@ -1,0 +1,298 @@
+{
+  "aba": "tributacao",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "itens": [
+        {
+          "tag": "Limite do MEI",
+          "texto": "Média de R$ 6.750 por mês. O projeto que sobe o teto para R$ 130 mil (PLP 108/2021) ainda aguarda parecer na Câmara e **não é lei**.",
+          "titulo": "R$ 81.000 por ano"
+        },
+        {
+          "tag": "DAS-MEI indústria/comércio",
+          "texto": "R$ 81,05 de INSS (5% do salário mínimo de R$ 1.621) + R$ 1,00 de ICMS. Valor fixo, não importa quanto você vende. Vence todo dia 20.",
+          "titulo": "R$ 82,05 por mês"
+        },
+        {
+          "tag": "Ocupação MEI sugerida",
+          "texto": "CNAE 2229-3/99. Não existe ocupação MEI de \"impressão 3D\". Secundária possível: Fabricante de letreiros, placas e painéis não luminosos (3299-0/03) — confira se ela acrescenta ISS [contador].",
+          "titulo": "Artesão(ã) em plástico independente"
+        },
+        {
+          "tag": "Simples Nacional (ME)",
+          "texto": "Anexo II (indústria), primeira faixa até R$ 180 mil em 12 meses. O DAS já inclui IRPJ, CSLL, PIS, COFINS, CPP, IPI e ICMS.",
+          "titulo": "4,5% sobre a venda"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "Os números que importam em 2026"
+    },
+    {
+      "colunas": [
+        "Faturamento",
+        "CPF",
+        "MEI",
+        "ME (Simples, Anexo II)"
+      ],
+      "linhas": [
+        [
+          "R$ 2 mil/mês",
+          "Sem imposto recolhido na prática, mas o ICMS é devido e a venda habitual pode ser equiparada a empresa. Aceitável só para teste.",
+          "R$ 82,05 de DAS + certificado/emissor → cerca de 4 a 9% do faturamento",
+          "DAS ~R$ 90 + contador R$ 150–500 [estimativa] → não compensa"
+        ],
+        [
+          "R$ 6 mil/mês",
+          "Risco alto: DIMP e e-Financeira informam essas vendas ao Fisco. Perto da cobrança extra de CPF da Shopee.",
+          "R$ 82,05 → cerca de 1,4%. Dentro do limite, mas perto do teto.",
+          "DAS ~R$ 270 + contador + pró-labore → R$ 420–950 [estimativa]"
+        ],
+        [
+          "R$ 10 mil/mês",
+          "Inviável",
+          "Não permitido: 48% acima do limite, desenquadramento retroativo a janeiro",
+          "DAS ~R$ 450 + contador + pró-labore → R$ 600–1.130 [estimativa]"
+        ]
+      ],
+      "nota": "Pró-labore de 1 salário mínimo na ME = R$ 178,31 de INSS (11%) [contador].",
+      "texto": "Só tributos e custo fixo de formalização. As taxas dos marketplaces estão na calculadora acima.",
+      "tipo": "tabela",
+      "titulo": "CPF, MEI ou ME: quanto custa em cada faturamento"
+    },
+    {
+      "nivel": "dica",
+      "paragrafos": [
+        "Abrir o **MEI** antes de a venda virar rotina. Custa R$ 82,05 por mês, dá CNPJ (que a Shopee e o Mercado Livre tratam melhor que CPF) e cobre com folga as primeiras centenas de placas.",
+        "Vender pelo CPF só enquanto testa o anúncio. Mercado Pago e ShopeePay informam os recebimentos à Receita (e-Financeira) e às SEFAZ (DIMP), inclusive de quem vende por CPF."
+      ],
+      "tipo": "alerta",
+      "titulo": "Recomendação para começar"
+    },
+    {
+      "itens": [
+        {
+          "d": "Mercado Livre e Shopee aceitam CPF. A Shopee cobra R$ 3,00 a mais por item de vendedor CPF com mais de 450 pedidos em 90 dias e não dá acesso a algumas campanhas. O Full do Mercado Livre exige CNPJ.",
+          "t": "Plataformas"
+        },
+        {
+          "d": "Quem vende com habitualidade o que fabrica pode ser equiparado a empresa individual (RIR/2018, art. 162) e cobrado como pessoa jurídica, com multa de 75% em fiscalização [contador].",
+          "t": "Imposto de Renda"
+        },
+        {
+          "d": "É contribuinte quem faz circular mercadoria com habitualidade (LC 87/1996, art. 4º), com ou sem CNPJ.",
+          "t": "ICMS"
+        },
+        {
+          "d": "Pessoa física com receita abaixo de R$ 40.500/ano não paga IBS/CBS e está dispensada de CNPJ para esses tributos até 2028. Isso **não** afasta ICMS nem IR [contador].",
+          "t": "Nanoempreendedor"
+        },
+        {
+          "d": "Desde 2026 há isenção efetiva até R$ 5.000/mês de rendimento. O enquadramento do lucro de venda de produto fabricado em carnê-leão não está claro [contador].",
+          "t": "IR da pessoa física"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Vender pelo CPF: o que a lei diz"
+    },
+    {
+      "itens": [
+        {
+          "d": "O MEI está dispensado de emitir nota na venda a consumidor pessoa física (Resolução CGSN 140/2018, art. 106). Para comprador com CNPJ, a nota é obrigatória.",
+          "t": "A lei"
+        },
+        {
+          "d": "A Shopee só libera a etiqueta de envio de vendedor CNPJ com a chave da NF-e. O Mercado Livre exige nota no Full e para compradores CNPJ. Na prática, prepare-se para emitir NF-e em todas as vendas.",
+          "t": "A prática"
+        },
+        {
+          "d": "Inscrição Estadual (em SP sai automática com o CNAE de indústria; em outros estados, pedir pela Redesim/SEFAZ) e certificado digital e-CNPJ A1 (~R$ 150–250 por ano [estimativa]).",
+          "t": "O que você precisa"
+        },
+        {
+          "d": "Emissor gratuito do Mercado Livre (exige A1 e IE; tem restrições em ES, PR, RS, AL, PE, MS e SC), um ERP integrado à Shopee, ou o app Nota Fiscal Fácil da SEFAZ (módulo MEI em SP, ES, AL, PA).",
+          "t": "Onde emitir"
+        },
+        {
+          "d": "DASN-SIMEI até 31 de maio do ano seguinte. Guarde as notas de compra de filamento e tags e faça o relatório mensal de receitas.",
+          "t": "Declaração anual"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Nota fiscal como MEI"
+    },
+    {
+      "colunas": [
+        "Campo",
+        "Valor sugerido",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "NCM",
+          "3926.90.90",
+          "Outras obras de plástico. A tag NFC embutida não muda a natureza da peça. Alternativa discutível: 8523.52.10 (cartões e etiquetas de aproximação) [contador]."
+        ],
+        [
+          "CFOP dentro do estado",
+          "5.101",
+          "Venda de produção própria."
+        ],
+        [
+          "CFOP para outro estado, pessoa física",
+          "6.107",
+          "É o caso da maioria das vendas de marketplace."
+        ],
+        [
+          "CFOP para outro estado, empresa com IE",
+          "6.101",
+          "Comprador com CNPJ e Inscrição Estadual."
+        ],
+        [
+          "CRT",
+          "4 (MEI) · 1 (ME)",
+          ""
+        ],
+        [
+          "CSOSN",
+          "102",
+          "Tributada pelo Simples sem permissão de crédito."
+        ],
+        [
+          "Origem",
+          "0 (nacional)",
+          "Filamento importado não muda a origem de um produto transformado aqui [contador]."
+        ],
+        [
+          "Unidade",
+          "UN",
+          ""
+        ],
+        [
+          "Intermediador",
+          "CNPJ do marketplace + nº do pedido",
+          "Grupo infIntermed da NF-e."
+        ]
+      ],
+      "nota": "Não use CFOP 5.102/6.102/6.108: são de revenda de mercadoria de terceiros.",
+      "tipo": "tabela",
+      "titulo": "Dados da NF-e para a placa"
+    },
+    {
+      "itens": [
+        {
+          "d": "Para Simples Nacional, a SEFAZ-SP entende que não é devido na venda a consumidor de outro estado (STF, ADI 5464; Resposta à Consulta 32.935/2025). O MEI também não paga. Alguns estados tentam cobrar: confirme a posição do seu [contador].",
+          "t": "DIFAL"
+        },
+        {
+          "d": "Para MEI e Simples passam a ser obrigatórios em **01/01/2027**. Em 2026 não são. O emissor precisa estar atualizado até dezembro.",
+          "t": "Campos de CBS/IBS na NF-e"
+        },
+        {
+          "d": "Voluntário em 2027 e obrigatório só em 2028, apenas entre empresas (B2B). Sem data para venda a consumidor em marketplace.",
+          "t": "Split payment"
+        },
+        {
+          "d": "Pela LC 214/2025, a plataforma responde pelo IBS/CBS de vendedor que não emite nota ou não está inscrito. Espere mais pressão por CNPJ e NF-e.",
+          "t": "Responsabilidade dos marketplaces"
+        },
+        {
+          "d": "Tag NFC passiva (sem bateria) é vendida no Brasil sem código de homologação e os marketplaces cobram o código de aparelhos que transmitem. Não há norma que dispense expressamente [incerto]. Anuncie fora da categoria de eletrônicos e guarde a ficha técnica do chip.",
+          "t": "Anatel"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "DIFAL, reforma tributária e Anatel"
+    },
+    {
+      "itens": [
+        "Conta gov.br nível prata ou ouro.",
+        "Verificar na prefeitura se a atividade industrial em casa é permitida no seu endereço (atividade de baixo risco dispensa alvará, mas varia por município).",
+        "Abrir o MEI em gov.br/empresas-e-negocios (gratuito). Principal: Artesão(ã) em plástico independente (2229-3/99). Forma de atuação: internet.",
+        "Conferir se a Inscrição Estadual saiu automática; se não, pedir na Redesim/SEFAZ.",
+        "Credenciar-se como emissor de NF-e na SEFAZ, se o estado exigir.",
+        "Comprar o certificado e-CNPJ A1.",
+        "Configurar o emissor com NCM 3926.90.90, CFOP 5.101/6.107, CSOSN 102, origem 0, CRT 4.",
+        "Migrar as contas do Mercado Livre e da Shopee para CNPJ e cadastrar conta bancária PJ.",
+        "Rotina: DAS até o dia 20, relatório mensal de receitas, DASN-SIMEI até 31/05 e acompanhar o acumulado do ano para não passar de R$ 81 mil."
+      ],
+      "ordenada": true,
+      "tipo": "lista",
+      "titulo": "Passo a passo para virar MEI"
+    },
+    {
+      "nivel": "incerto",
+      "paragrafos": [
+        "NCM final (3926.90.90 ou 8523.52.10) · se a ocupação 3299-0/03 soma ISS ao DAS · posição do seu estado sobre DIFAL, antecipação na compra de filamento e ICMS-ST · se o estado exige IE ou credenciamento do MEI para NF-e · como tratar as vendas já feitas pelo CPF · atualização do emissor para CBS/IBS até 01/01/2027."
+      ],
+      "tipo": "alerta",
+      "titulo": "Levar para o contador"
+    }
+  ],
+  "fontes": [
+    {
+      "data": "consultada 29/09/2026",
+      "rotulo": "Câmara dos Deputados — tramitação do PLP 108/2021",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2295251"
+    },
+    {
+      "data": "2026",
+      "rotulo": "Fast Company Brasil — valores do DAS-MEI 2026",
+      "url": "https://fastcompanybrasil.com/money/mei-contribuicao-do-das-muda-em-2026-confira-os-novos-valores/"
+    },
+    {
+      "rotulo": "Portal do Empreendedor — atividades permitidas ao MEI",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/atividades-permitidas"
+    },
+    {
+      "data": "31/08/2021",
+      "rotulo": "SEFAZ-SP — Resposta à Consulta 24.248/2021 (MEI dispensado de NF para PF)",
+      "url": "https://legislacao.fazenda.sp.gov.br/Paginas/RC24248_2021.aspx"
+    },
+    {
+      "data": "15/12/2025",
+      "rotulo": "SEFAZ-SP — Resposta à Consulta 32.935/2025 (DIFAL no Simples)",
+      "url": "https://legislacao.fazenda.sp.gov.br/Paginas/RC32935_2025.aspx"
+    },
+    {
+      "rotulo": "Agilize — emitir NF no Mercado Livre como MEI",
+      "url": "https://agilize.com.br/artigos/emitir-nota-fiscal-mercadolivre-mei"
+    },
+    {
+      "rotulo": "Buscador NCM — 3926.90.90",
+      "url": "https://buscadorncm.com.br/ncm/39269090"
+    },
+    {
+      "data": "2026",
+      "rotulo": "Contmatic — tabela do Simples Nacional 2026",
+      "url": "https://simplifique.contmatic.com.br/blogs/simples-nacional-tabela-2026-aliquotas-faixas-faturamento"
+    },
+    {
+      "data": "03/08/2026",
+      "rotulo": "Contmatic — cronograma dos campos IBS/CBS",
+      "url": "https://simplifique.contmatic.com.br/blogs/obrigatoriedade-ibs-cbs-documentos-fiscais-4-ondas-2026"
+    },
+    {
+      "data": "31/08/2026",
+      "rotulo": "Reforma Tributária — split payment só em 2028",
+      "url": "https://www.reformatributaria.com/tecnologia/split-payment-so-sera-obrigatorio-em-2028-diz-receita-federal"
+    },
+    {
+      "data": "31/08/2026",
+      "rotulo": "Rota da Jurisprudência — nanoempreendedor dispensado de CNPJ para IBS/CBS",
+      "url": "https://rotadajurisprudencia.com.br/2026/08/receita-e-comite-gestor-dispensam-nanoempreendedor-de-cnpj-e-documento-fiscal-de-ibs-e-cbs/"
+    },
+    {
+      "rotulo": "Omie — CFOP 6.107",
+      "url": "https://www.omie.com.br/blog/cfop-6107-o-que-e-e-regras-de-venda-a-nao-contribuinte/"
+    },
+    {
+      "rotulo": "Anatel — Resolução 680/2017 (radiação restrita)",
+      "url": "https://informacoes.anatel.gov.br/legislacao/resolucoes/2017/936resolucao-680"
+    }
+  ],
+  "intro": "Resumo para quem fabrica a placa em casa e vende pelos marketplaces para todo o Brasil. Números de 2026. Tudo o que tem [contador] no texto deve ser confirmado com um contador antes de valer como regra.",
+  "mkt": "comum",
+  "ordem": 0,
+  "titulo": "Tributação: CPF, MEI ou ME"
+}

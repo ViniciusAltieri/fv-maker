@@ -1,0 +1,24 @@
+{
+  "atencao": [
+    "MEI sem Inscrição Estadual não usa o emissor: emite nota avulsa (NFA-e) no site da SEFAZ."
+  ],
+  "como": [
+    "Requisitos: CNPJ, Inscrição Estadual, Simples ou MEI com IE, certificado A1 (.pfx).",
+    "Em Emissor de NF-e padrão, escolha Shopee e envie o certificado.",
+    "Em cada produto: NCM 3926.90.90, CFOP 5.101 e 6.107, origem 0, CSOSN 102, unidade UN.",
+    "Emita por pedido em Meus Pedidos › A Enviar › Emitir NF-e, ou em massa (até 50) em Pedido › Envio em massa › NF-e Pendente."
+  ],
+  "fase": "Situação fiscal",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Emissor de NF-e da Shopee",
+    "url": "https://seller.shopee.com.br/edu/article/8334"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Perfil da loja › Configurações da NF-e",
+  "ordem": 106,
+  "porque": "Com CNPJ, toda venda precisa de NF-e para liberar a etiqueta. O emissor da Shopee é o caminho mais simples para o MEI.",
+  "tempo": "1 h",
+  "titulo": "Se tiver CNPJ: ativar o emissor de NF-e da Shopee"
+}

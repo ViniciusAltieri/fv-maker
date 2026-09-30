@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Na venda, clique em Emitir DC-e (só funciona no computador).",
+    "Confira os dados do produto e confirme; a SEFAZ autoriza e a etiqueta é liberada.",
+    "Imprima a etiqueta e a declaração e cole no pacote."
+  ],
+  "critico": true,
+  "fase": "Situação fiscal",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Como emitir a Declaração de Conteúdo",
+    "url": "https://vendedores.mercadolivre.com.br/nota/como-emitir-a-declaracao-de-conteudo-das-minhas-vendas"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Vendas › Emitir DC-e (computador)",
+  "ordem": 5,
+  "porque": "Sem a DC-e a etiqueta não é liberada, e **após 3 dias sem emiti-la a venda é cancelada automaticamente**. Cancelamento pesa na reputação.",
+  "tempo": "10 min por venda",
+  "titulo": "Se ficar no CPF: aprender a emitir a DC-e"
+}

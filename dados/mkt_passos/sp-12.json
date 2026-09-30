@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Resposta automática padrão com o pedido do link do Google Maps (texto na aba Anúncio da placa).",
+    "Resposta fora do horário (só pela Central no computador).",
+    "Atalhos com as respostas-modelo das perguntas frequentes.",
+    "Ative as notificações do app para responder rápido."
+  ],
+  "fase": "Loja e atendimento",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Taxa de resposta do chat",
+    "url": "https://seller.shopee.com.br/edu/article/2713"
+  },
+  "mkt": "shopee",
+  "nota": "",
+  "onde": "Atendimento ao cliente › Assistente do Chat",
+  "ordem": 112,
+  "porque": "A taxa de resposta só conta respostas em até 12 horas, inclusive fins de semana. Resposta automática não conta, mas atalhos enviados em até 12 h contam.",
+  "tempo": "20 min",
+  "titulo": "Configurar o assistente do chat"
+}

@@ -1,0 +1,63 @@
+{
+  "col_antes": "Vazão máxima",
+  "col_depois": "Tempo estimado",
+  "contexto": [
+    "Complementa a D01. A Bambu limita o PLA Lite a 16 mm³/s a 220 °C. Baixar 20 °C costuma reduzir a vazão máxima do PLA em algo como 20 a 30%, então 16 mm³/s a 200 °C pode passar do que o bico consegue derreter.",
+    "O que já foi comprovado a 200 °C: ~9,6 mm³/s, no benchmark 3×3 (1ª camada a 105 mm/s e relevo a até 120 mm/s). O limite real a 200 °C não foi medido.",
+    "Na placa, o limite só freia as partes rápidas da base: paredes internas (200 mm/s) e preenchimentos (250–270 mm/s). A parede externa (150 mm/s ≈ 11 mm³/s) e o relevo ficam abaixo de 13 mm³/s e não mudam.",
+    "Onde aplicar: no mesmo preset de filamento da D01, em Vazão volumétrica máxima = 13 mm³/s.",
+    "Se aparecer preenchimento ralo, linhas falhadas ou estalos do extrusor, baixar para 11–12 mm³/s. Para saber o limite real, rodar Calibração → Mais → Fluxo máximo a 200 °C (início 8, fim 20, passo 0,5; vazão = 8 + 0,5 × altura em mm)."
+  ],
+  "decidido_em": "2026-09-26T13:00:00Z",
+  "escolha": "v13",
+  "fase": "Fios no relevo",
+  "metricas": [
+    {
+      "antes": "16 mm³/s",
+      "depois": "1 h 06 min 44 s",
+      "rotulo": "Atual"
+    },
+    {
+      "antes": "13 mm³/s",
+      "depois": "1 h 08 min 19 s (+1,5 min)",
+      "rotulo": "Escolhida"
+    },
+    {
+      "antes": "12 mm³/s",
+      "depois": "1 h 09 min 02 s (+2,3 min)",
+      "rotulo": "Alternativa"
+    }
+  ],
+  "metricas_titulo": "Placa 1 fatiada a 200 °C (placa_google_v0_base_topo_lento.3mf)",
+  "n": 2,
+  "nota": "Escolhido em 26/09/2026 sem calibração: o custo em tempo é pequeno (+1,5 min por placa).",
+  "opcoes": [
+    {
+      "custo": "Risco de subextrusão na base a 200 °C",
+      "descricao": "Valor do perfil da Bambu, pensado para 220 °C.",
+      "id": "v16",
+      "titulo": "Manter 16 mm³/s"
+    },
+    {
+      "custo": "+1,5 min por placa",
+      "descricao": "Limite seguro estimado para 200 °C, sem calibração.",
+      "id": "v13",
+      "titulo": "13 mm³/s"
+    },
+    {
+      "custo": "+2,3 min por placa",
+      "descricao": "Margem maior abaixo da estimativa.",
+      "id": "v12",
+      "titulo": "12 mm³/s"
+    },
+    {
+      "custo": "~20 min de teste",
+      "descricao": "Rodar o teste de fluxo máximo a 200 °C e usar ~10% abaixo do valor medido.",
+      "id": "calib",
+      "titulo": "Calibrar antes"
+    }
+  ],
+  "pergunta": "Com o PLA Lite a 200 °C (D01), qual vazão máxima usar para o bico dar conta de derreter o filamento nos trechos rápidos?",
+  "status": "decidida",
+  "titulo": "Vazão máxima de 13 mm³/s no preset de 200 °C"
+}

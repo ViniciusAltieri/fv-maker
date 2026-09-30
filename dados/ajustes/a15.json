@@ -1,0 +1,11 @@
+{
+  "antigo": "ligado",
+  "chave": "thick_bridges",
+  "decisao": "d03",
+  "grupo": "Estrutura",
+  "motivo": "Fechar os compartimentos com pontes mais robustas.",
+  "nome": "Pontes grossas",
+  "ordem": 15,
+  "padrao": "desligado",
+  "status": "mantido"
+}

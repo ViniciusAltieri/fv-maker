@@ -1,0 +1,21 @@
+{
+  "como": [
+    "Ative o 2FA por Google Authenticator (mais seguro que SMS).",
+    "Proteja o app com biometria ou PIN.",
+    "Use senha com 14 caracteres ou mais e revise dispositivos e aplicativos autorizados."
+  ],
+  "critico": true,
+  "fase": "Conta e segurança",
+  "feito": false,
+  "fonte": {
+    "rotulo": "Como manter sua conta segura",
+    "url": "https://vendedores.mercadolivre.com.br/nota/como-manter-sua-conta-segura-no-mercado-livre"
+  },
+  "mkt": "ml",
+  "nota": "",
+  "onde": "Configuração › Segurança",
+  "ordem": 2,
+  "porque": "Conta de vendedor com dinheiro no Mercado Pago é alvo de golpe. O Mercado Livre nunca pede senha e nunca escreve de @gmail ou @hotmail.",
+  "tempo": "5 min",
+  "titulo": "Ativar a verificação em duas etapas"
+}

@@ -1,0 +1,11 @@
+{
+  "antigo": "ligado",
+  "chave": "reduce_crossing_wall",
+  "decisao": "d03",
+  "grupo": "Estrutura",
+  "motivo": "Menos marcas de deslocamento no topo.",
+  "nome": "Evitar cruzar paredes",
+  "ordem": 16,
+  "padrao": "ligado (preset)",
+  "status": "reaplicado"
+}

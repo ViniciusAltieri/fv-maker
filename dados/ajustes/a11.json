@@ -1,0 +1,11 @@
+{
+  "antigo": "ligado",
+  "chave": "detect_thin_wall",
+  "decisao": "d03",
+  "grupo": "Paredes",
+  "motivo": "Imprimir os traços finos do relevo.",
+  "nome": "Detectar paredes finas",
+  "ordem": 11,
+  "padrao": "desligado",
+  "status": "mantido"
+}

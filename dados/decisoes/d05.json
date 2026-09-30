@@ -1,0 +1,97 @@
+{
+  "col_antes": "Conceito A",
+  "col_depois": "A otimizado v1",
+  "contexto": [
+    "Continuação da D04 (opção A). Pedido: gastar o mínimo de filamento possível, podendo mudar as dimensões.",
+    "O bloco maciço virou um perfil de paredes finas. O canal em U segue a inclinação de 15°: parede traseira de 14 mm afunilando de 2,4 para 1,2 mm, fundo de 1,2 mm e lábio frontal de 1,2 × 3,5 mm. Embaixo do canal, uma cunha deixa a base plana na mesa. O canal tem 30 mm de largura, contra 104 mm no conceito, porque a borda reta de baixo da placa tem 62 mm.",
+    "A estabilidade vem de 2 trilhos de 4 × 1,6 mm que saem para trás em V, até 59 mm atrás da placa e com 64 mm de abertura. Custam pouco material e ficam mais longe do centro de gravidade que a traseira do bloco maciço. Por isso, a placa resiste mais a tombar para trás quando alguém encosta o celular no NFC.",
+    "Encaixe: ranhura de 6,4 mm (placa de 6,0, com 0,2 mm de folga por lado). O fundo da ranhura fica perpendicular à placa, então ela assenta plana. O lábio de 3,5 mm fica abaixo do texto, que começa a 5,8 mm da borda. De frente, o suporte quase não aparece.",
+    "Impressão: em pé, na posição das imagens, sem suportes. A base plana (canal + trilhos) fica na mesa. Todas as paredes têm 1,2 a 2,4 mm, então a peça sai praticamente maciça, sem preenchimento. A massa real vem do fatiador, que só roda depois desta aprovação.",
+    "Modelo gerado por ferramentas/gerar_suporte_A.py, na cena Suporte_Placa do placa_google_89mm.blend (objeto Suporte_A, malha única e manifold). Todas as medidas acima são parâmetros no topo do script."
+  ],
+  "decidido_em": "2026-09-26T15:00:00Z",
+  "escolha": "ajustar",
+  "fase": "Suporte",
+  "imagens": [
+    {
+      "legenda": "De frente: só o lábio de 3,5 mm aparece abaixo do texto",
+      "src": "img/supA_v1_frente.jpg"
+    },
+    {
+      "legenda": "Perfil: canal em U a 15°, parede afunilada e trilho no chão",
+      "src": "img/supA_v1_lado.jpg"
+    },
+    {
+      "legenda": "Por trás: trilhos em V dão o apoio contra tombar",
+      "src": "img/supA_v1_tras.jpg"
+    },
+    {
+      "legenda": "Suporte sozinho, na posição de impressão",
+      "src": "img/supA_v1_suporte.jpg"
+    }
+  ],
+  "metricas": [
+    {
+      "antes": "73,2 cm³",
+      "depois": "2,36 cm³",
+      "rotulo": "Volume da peça"
+    },
+    {
+      "antes": "≈ 35 g",
+      "depois": "≈ 3 g (peça maciça)",
+      "rotulo": "Filamento estimado"
+    },
+    {
+      "antes": "104 × 44 × 16 mm",
+      "depois": "64 × 67 × 15 mm",
+      "rotulo": "Dimensões (L × P × A)"
+    },
+    {
+      "antes": "104 mm",
+      "depois": "30 mm",
+      "rotulo": "Largura do canal"
+    },
+    {
+      "antes": "≈ 13 mm",
+      "depois": "≈ 51 mm",
+      "rotulo": "Apoio traseiro atrás do centro de gravidade"
+    },
+    {
+      "antes": "≈ 27 gf",
+      "depois": "≈ 68 gf",
+      "rotulo": "Força no NFC para tombar para trás (placa ≈ 58 g)"
+    },
+    {
+      "antes": "15° · 4 mm",
+      "depois": "15° · 3,5 mm",
+      "rotulo": "Inclinação · lábio frontal"
+    },
+    {
+      "antes": "nenhum",
+      "depois": "nenhum",
+      "rotulo": "Suportes de impressão"
+    }
+  ],
+  "metricas_titulo": "Conceito A × modelagem otimizada",
+  "n": 5,
+  "nota": "26/09/2026: a v1 gastava pouco, mas mudou demais o visual. Pedido: nova versão otimizada sem alterar muito o design, mantendo a estética clean → D06.",
+  "opcoes": [
+    {
+      "custo": "Próximo passo: fatiar, conferir massa/tempo e exportar o STL",
+      "descricao": "Seguir para o fatiamento no Bambu Studio e gerar o .stl do Suporte_A.",
+      "id": "aprovar",
+      "recomendada": true,
+      "titulo": "Aprovar"
+    },
+    {
+      "custo": "Nova versão (v2) da modelagem",
+      "descricao": "Mudar alguma medida (largura, trilhos, altura da parede, inclinação, folga) e renderizar de novo. Diga o que mudar na nota ou na conversa.",
+      "id": "ajustar",
+      "recomendada": false,
+      "titulo": "Ajustar antes"
+    }
+  ],
+  "pergunta": "A modelagem do suporte A com mínimo de filamento pode seguir para o fatiamento e o STL?",
+  "status": "decidida",
+  "titulo": "Suporte A otimizado: aprovar a modelagem"
+}

@@ -1,0 +1,67 @@
+{
+  "col_antes": "Combinação",
+  "col_depois": "Observado",
+  "contexto": [
+    "Benchmark benchmark_fios_3x3.3mf: 9 células impressas uma por vez (modo Por objeto), cada uma com base branca de 2 camadas e 1 cópia do relevo original em preto. Combinações: 200/210/220 °C × 0,4/0,8/1,2 mm de retração, com as mesmas velocidades do relevo da placa (paredes 60/100 mm/s, ferro no topo). Cada relevo teve seu próprio preset de filamento, sem G-code.",
+    "Resultado: as 3 células a 200 °C ficaram melhores que as 3 a 210 °C. As células a 220 °C não foram impressas, porque a tendência já estava clara. A 200 °C as três retrações ficaram quase iguais; a de 0,8 mm teve um pouco mais de fios, o que parece acaso, já que 0,4 e 1,2 mm ficaram bons.",
+    "Escolha de 0,6 mm: fica entre valores que funcionaram (0,4 e 0,8 mm) e dá folga se a condição piorar (filamento úmido, outra cor). Referências: a Bambu usa 0,4 mm no perfil do PLA Pure para a A1 mini, e guias de extrusora direta recomendam 0,5 a 1 mm para PLA.",
+    "Onde aplicar: no preset de filamento, em Substituições de configurações: Length 0,6 mm; temperatura do bico 200 °C (camada inicial e demais). A retração da impressora continua em 0,8 mm. Os ajustes a19 (retração 1,0 mm na impressora) e a26 (M104 S210 por G-code) seguem em quarentena: esta decisão resolve o mesmo problema pelo preset.",
+    "Pendente: na placa atual, base e relevo usam o mesmo slot de filamento (troca de cor por pausa), então 200 °C valeria também para a base de 6 mm, o que o benchmark não testou."
+  ],
+  "decidido_em": "2026-09-26T12:00:00Z",
+  "escolha": "t200r06",
+  "fase": "Fios no relevo",
+  "metricas": [
+    {
+      "antes": "200 °C · 0,4 mm",
+      "depois": "Quase sem fios",
+      "rotulo": "C1"
+    },
+    {
+      "antes": "200 °C · 0,8 mm",
+      "depois": "Um pouco mais de fios",
+      "rotulo": "C2"
+    },
+    {
+      "antes": "200 °C · 1,2 mm",
+      "depois": "Quase sem fios",
+      "rotulo": "C3"
+    },
+    {
+      "antes": "210 °C · 0,4/0,8/1,2 mm",
+      "depois": "Mais fios que a 200 °C",
+      "rotulo": "C4–C6"
+    },
+    {
+      "antes": "220 °C · 0,4/0,8/1,2 mm",
+      "depois": "Não impressas",
+      "rotulo": "C7–C9"
+    }
+  ],
+  "metricas_titulo": "Benchmark 3×3 (26/09/2026)",
+  "n": 1,
+  "nota": "Escolhido em 26/09/2026 depois do benchmark 3×3. 0,6 mm como margem acima dos 0,4 mm que já funcionaram.",
+  "opcoes": [
+    {
+      "custo": "Sem folga se a condição piorar",
+      "descricao": "A menor retração testada que já ficou quase sem fios (célula 1). Mesmo valor do perfil Bambu PLA Pure para a A1 mini.",
+      "id": "t200r04",
+      "titulo": "200 °C · 0,4 mm"
+    },
+    {
+      "custo": "Valor interpolado, não impresso no teste",
+      "descricao": "Entre dois valores que funcionaram a 200 °C, com margem acima dos 0,4 mm.",
+      "id": "t200r06",
+      "titulo": "200 °C · 0,6 mm"
+    },
+    {
+      "custo": "Mais fios, pela tendência 200 → 210 °C",
+      "descricao": "Manter o ajuste de hoje.",
+      "id": "t220r08",
+      "titulo": "220 °C · 0,8 mm (atual)"
+    }
+  ],
+  "pergunta": "Com qual temperatura e retração o PLA Lite deixa menos fios no relevo (NFC + texto)?",
+  "status": "decidida",
+  "titulo": "Temperatura e retração do relevo: 200 °C e 0,6 mm"
+}

@@ -1,0 +1,93 @@
+{
+  "col_antes": "v2 oca",
+  "col_depois": "v3 preenchida",
+  "contexto": [
+    "Pedido de 26/09: preencher as partes ocas da v2 (D06) com infill baixo e medir o aumento de gasto.",
+    "A v3 é o mesmo bloco da v2 por fora (94 × 44 × 12 mm, mesma ranhura e mesmo lábio), mas sem as cavidades. O miolo passa a ser preenchimento esparso do fatiador, com base fechada de 3 camadas e 5 camadas de topo. Objeto Suporte_A_v3, gerado por ferramentas/gerar_suporte_A_v2.py com oco=False.",
+    "Números medidos no Bambu Studio 2.8, com os presets reais: A1 mini 0.4, processo de usuário 0.20mm Standard (paredes 2, topo 5, fundo 3) e filamento Bambu PLA Lite Flow Rate Calibrated. Entre as rodadas só mudaram o padrão e a densidade do preenchimento esparso. Todas fatiaram sem aviso, com 60 camadas.",
+    "Lightning (relâmpago) cria só os galhos que sustentam a face de cima. Rende mais que o gyroide na mesma densidade, como apareceu também nos testes da placa (D07). Como o suporte não leva carga no miolo (a placa fica apoiada nas paredes da ranhura), ele serve bem aqui.",
+    "A v3 imprime mais rápido que a v2. As paredes finas da v2 geram muito gap infill (147 trechos, contra 15 na v3) e pontes, o que deixa a impressão lenta.",
+    "Recomendação: lightning 10 %, com +1,6 g (+13 %) sobre a v2 e 2 minutos a menos de impressão. No gyroide, abaixo de 8 % a face de cima fica sobre uma malha bem aberta e pode marcar.",
+    "No fatiamento final, o padrão e a densidade entram como ajuste do objeto no 3MF. O preset de processo continua como está.",
+    "STL gerado em 26/09/2026: 07_suporte_A_v3.stl, na pasta do projeto. Bloco maciço de 94 × 44 × 12 mm em coordenadas de impressão (base em Z 0, ranhura para cima), 432 triângulos, fechado (0 arestas abertas), 38,3 cm³ de volume externo. Abre e fatia no Bambu Studio sem aviso. O preenchimento fica a critério do usuário, ajustado na mão no fatiador."
+  ],
+  "fase": "Suporte",
+  "imagens": [
+    {
+      "legenda": "Por fora, v2 e v3 são iguais; muda só o miolo",
+      "src": "img/supA_v2_frente.jpg"
+    }
+  ],
+  "metricas": [
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "12,83 g (+0,74 g · +6 %) · 30 min 07 s",
+      "rotulo": "Lightning 5 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "13,67 g (+1,58 g · +13 %) · 32 min 48 s",
+      "rotulo": "Lightning 10 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "14,33 g (+2,24 g · +19 %) · 35 min 39 s",
+      "rotulo": "Lightning 15 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "14,59 g (+2,50 g · +21 %) · 30 min 39 s",
+      "rotulo": "Gyroide 5 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "15,72 g (+3,63 g · +30 %) · 32 min 55 s",
+      "rotulo": "Gyroide 8 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "16,38 g (+4,29 g · +35 %) · 33 min 55 s",
+      "rotulo": "Gyroide 10 %"
+    },
+    {
+      "antes": "12,09 g · 34 min 44 s",
+      "depois": "18,22 g (+6,13 g · +51 %) · 39 min 21 s",
+      "rotulo": "Gyroide 15 % (padrão do preset)"
+    }
+  ],
+  "metricas_titulo": "Peso e tempo por suporte (fatiador) · v2 oca × v3 preenchida",
+  "n": 8,
+  "opcoes": [
+    {
+      "custo": "13,7 g · 33 min · +1,6 g sobre a v2",
+      "descricao": "Miolo preenchido só onde sustenta a face de cima. Menor aumento com topo bem apoiado, e imprime mais rápido que a v2.",
+      "id": "light10",
+      "recomendada": true,
+      "titulo": "v3 · lightning 10 %"
+    },
+    {
+      "custo": "12,8 g · 30 min · +0,7 g sobre a v2",
+      "descricao": "O mínimo, com galhos mais espaçados sob o topo.",
+      "id": "light5",
+      "recomendada": false,
+      "titulo": "v3 · lightning 5 %"
+    },
+    {
+      "custo": "16,4 g · 34 min · +4,3 g sobre a v2",
+      "descricao": "Miolo inteiro preenchido por igual, mais rígido por dentro. Gasta mais que o lightning.",
+      "id": "gyroid10",
+      "recomendada": false,
+      "titulo": "v3 · gyroide 10 %"
+    },
+    {
+      "custo": "12,1 g · 35 min",
+      "descricao": "Menor peso, mas imprime mais devagar (paredes finas e pontes).",
+      "id": "v2",
+      "recomendada": false,
+      "titulo": "Manter a v2 oca"
+    }
+  ],
+  "pergunta": "Quanto custa trocar as cavidades da v2 por preenchimento esparso baixo, e qual densidade usar?",
+  "status": "aberta",
+  "titulo": "Suporte A v3: oco preenchido com infill baixo"
+}

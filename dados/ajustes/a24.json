@@ -1,0 +1,11 @@
+{
+  "antigo": "faixas",
+  "chave": "",
+  "decisao": "d03",
+  "grupo": "Faixas de altura",
+  "motivo": "Evitar ferro no fundo dos compartimentos, nos rebaixos e no branco.",
+  "nome": "Ferro só no topo preto",
+  "ordem": 24,
+  "padrao": "sem ferro",
+  "status": "sem-efeito"
+}

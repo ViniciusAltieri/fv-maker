@@ -1,0 +1,152 @@
+{
+  "aba": "visibilidade",
+  "atualizado_em": "2026-09-29",
+  "blocos": [
+    {
+      "colunas": [
+        "Nível",
+        "O que precisa"
+      ],
+      "linhas": [
+        [
+          "Qualificado",
+          "Título com 10+ caracteres e nome do produto, sem excesso de termos; descrição com 60+ caracteres; fotos nítidas em fundo limpo, sem marca d'água sobre o produto; 3+ atributos; categoria certa."
+        ],
+        [
+          "Excelente",
+          "Tudo acima + vídeo do produto (10–60 s)."
+        ]
+      ],
+      "nota": "Fotos: até 9, formato 1:1, até 2 MB. Título: fórmula produto + marca + especificações; o limite exato no Brasil não foi confirmado em fonte oficial (terceiros citam 120).",
+      "tipo": "tabela",
+      "titulo": "Qualidade do anúncio"
+    },
+    {
+      "itens": [
+        {
+          "tag": "Grátis",
+          "texto": "Transforma visitante em seguidor, e seguidor recebe as novidades da loja.",
+          "titulo": "Cupom de Seguidor"
+        },
+        {
+          "tag": "Grátis",
+          "texto": "Níveis por quantidade: 2 placas com 10%, 3 com 15%. Conversa com o comprador de várias unidades.",
+          "titulo": "Leve Mais por Menos"
+        },
+        {
+          "tag": "Grátis",
+          "texto": "Sem aprovação. Crie com 3 dias de antecedência para aparecer o lembrete.",
+          "titulo": "Oferta Relâmpago da Loja"
+        },
+        {
+          "tag": "Grátis",
+          "texto": "Até 1 minuto, vertical, sem preço. Mostra a placa para quem não estava buscando.",
+          "titulo": "Shopee Vídeo"
+        },
+        {
+          "tag": "Pago",
+          "texto": "GMV Max com lance automático para itens com até 30 dias. Não mexa por 7 dias. Exemplo oficial: R$ 10 por dia.",
+          "titulo": "Promover Meus Novos Produtos"
+        },
+        {
+          "tag": "Pago",
+          "texto": "Modo manual com 10 a 15 palavras-chave. Custo por clique; cliques inválidos não são cobrados.",
+          "titulo": "Anúncios de Busca"
+        },
+        {
+          "tag": "Convite",
+          "texto": "Datas duplas 10.10, 11.11 e 12.12, só para convidados. O desconto sai do seu bolso e o produto não sai depois de aprovado.",
+          "titulo": "Campanhas oficiais"
+        },
+        {
+          "tag": "CNPJ",
+          "texto": "Criadores divulgam a placa e recebem a partir de 4% por venda. Bom depois das primeiras avaliações.",
+          "titulo": "Afiliados"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "Ferramentas, da mais barata para a mais cara"
+    },
+    {
+      "nivel": "incerto",
+      "paragrafos": [
+        "O antigo botão \"Impulsionar\" (5 produtos no topo a cada 4 horas) aparece em artigo de 2024; confira se ainda existe no seu painel. Shopee Live, Prêmio de Avaliação e Moedas do Vendedor são só para vendedores selecionados."
+      ],
+      "tipo": "alerta",
+      "titulo": "Não há programa oficial para lojas novas"
+    },
+    {
+      "colunas": [
+        "Data",
+        "O que fazer"
+      ],
+      "linhas": [
+        [
+          "10.10 (sábado, 10/10)",
+          "Primeira data dupla após abrir a loja. Se não houver convite, use Oferta Relâmpago da Loja e cupom."
+        ],
+        [
+          "11.11 (quarta, 11/11)",
+          "Maior data da Shopee. Prepare estoque."
+        ],
+        [
+          "Black Friday (27/11)",
+          "Leve Mais por Menos e cupons."
+        ],
+        [
+          "12.12 (sábado, 12/12)",
+          "Última data dupla; comércio comprando para o fim de ano."
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Calendário comercial até o fim do ano"
+    },
+    {
+      "itens": [
+        {
+          "d": "Responder todas as avaliações; lembrar pelo chat de confirmar o recebimento e avaliar; cartão de instruções no pacote sem contatos.",
+          "t": "Pode"
+        },
+        {
+          "d": "Cartão ou flyer com Instagram, WhatsApp, site ou QR para fora; comprar avaliações; pedir para o comprador mudar o motivo de devolução.",
+          "t": "Não pode"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Engajamento sem quebrar regra"
+    }
+  ],
+  "fontes": [
+    {
+      "data": "24/04/2026",
+      "rotulo": "Qualidade do anúncio (ID 21806)",
+      "url": "https://seller.shopee.com.br/edu/article/21806"
+    },
+    {
+      "rotulo": "Ferramentas de marketing (ID 18421)",
+      "url": "https://seller.shopee.com.br/edu/article/18421"
+    },
+    {
+      "rotulo": "Shopee Vídeo (ID 23493)",
+      "url": "https://seller.shopee.com.br/edu/article/23493"
+    },
+    {
+      "rotulo": "Impulsionar (ID 4521)",
+      "url": "https://seller.shopee.com.br/edu/article/4521"
+    },
+    {
+      "rotulo": "Portal Shopee Ads",
+      "url": "https://ads.shopee.com.br/learn"
+    },
+    {
+      "data": "19/06/2026",
+      "rotulo": "Transações fora da Shopee (ID 11123)",
+      "url": "https://seller.shopee.com.br/edu/article/11123"
+    }
+  ],
+  "intro": "A busca da Shopee é personalizada por comprador e pesa a qualidade do anúncio, o cumprimento de prazos e o uso das ferramentas de marketing. Penalidades cortam de 5% a 30% da visibilidade.",
+  "mkt": "shopee",
+  "ordem": 2,
+  "rotulo": "Visibilidade e vendas",
+  "titulo": "Visibilidade e vendas"
+}

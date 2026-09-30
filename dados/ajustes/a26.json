@@ -1,0 +1,11 @@
+{
+  "antigo": "M104 S210",
+  "chave": "",
+  "decisao": "d03",
+  "grupo": "G-code",
+  "motivo": "Reduzir fiapos no relevo branco.",
+  "nome": "Branco a 210 °C após a pausa 2",
+  "ordem": 26,
+  "padrao": "sem G-code · 200 °C no preset (D01)",
+  "status": "mantido"
+}
