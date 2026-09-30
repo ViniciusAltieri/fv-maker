@@ -14,9 +14,37 @@ https://claude.ai/artifact/TwkYJVNxZQaVQN21QK5yVf
 
 | Caminho | Conteúdo |
 |---|---|
-| `index.html` | Página publicada. O conteúdo é carregado do banco do artefato (`window.claude.use("db")`), então aberta fora do claude.ai ela mostra só a estrutura. |
+| `index.html` | Página publicada. Dentro do claude.ai lê o banco do artefato; fora dele, carrega `dados/canais.js`. |
 | `img/` | Renders e mapas de camada usados nas decisões. |
 | `dados/` | Exportação do banco do artefato, um JSON por documento. |
+| `dados/canais.js` | Conteúdo das áreas Mercado Livre e Shopee num arquivo só, gerado a partir de `dados/mkt_*`. |
+| `ferramentas/gerar_canais_js.py` | Gera o `dados/canais.js`. |
+
+## Abrir fora do claude.ai
+
+As áreas **Mercado Livre** e **Shopee** funcionam em qualquer lugar:
+
+- abrindo o `index.html` direto do disco (duplo clique);
+- num servidor estático, como o GitHub Pages ou a Vercel.
+
+Fora do claude.ai a página é só de consulta:
+
+- o roteiro mostra o progresso da última exportação;
+- as caixas de "feito" e as anotações ficam travadas;
+- a calculadora de taxas funciona normalmente.
+
+O diário de impressão (decisões e ajustes) continua abrindo só no claude.ai.
+
+Para atualizar a cópia depois de mexer no site:
+
+1. Reexporte o banco para `dados/`.
+2. Rode o gerador:
+
+   ```
+   python ferramentas/gerar_canais_js.py
+   ```
+
+3. Faça o commit.
 
 Coleções em `dados/`:
 
