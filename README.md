@@ -55,4 +55,4 @@ Coleções em `dados/`:
 - `mkt_paginas`: páginas de conteúdo.
 - `mkt_calc`: parâmetros da calculadora de taxas.
 
-A exportação é uma fotografia do banco em 30/09/2026. O que for marcado no site depois disso fica só no artefato até uma nova exportação.
+A exportação é uma fotografia do banco em 03/10/2026. O que for marcado no site depois disso fica só no artefato até uma nova exportação.

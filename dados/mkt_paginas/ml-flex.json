@@ -1,0 +1,681 @@
+{
+  "aba": "flex",
+  "atualizado_em": "2026-10-03",
+  "blocos": [
+    {
+      "nivel": "dica",
+      "paragrafos": [
+        "**Agora: não ative.** Sem reputação, o Flex nem libera (exige amarela ou verde, ou o programa Decola). Comece pela agência ou pela coleta.",
+        "**Vendas de R$ 19 a R$ 78,99:** o Flex só compensa se a entrega custar menos de R$ 8,19 a R$ 10,19, conforme a zona. Nenhuma transportadora de SP com preço publicado chega a isso na zona próxima. Nessa faixa, só vale entregando você mesmo, com rota agrupada.",
+        "**Kits de R$ 79 ou mais:** o Flex deixa de pagar o custo de envio da agência (R$ 12,95 até R$ 99,99 na tabela verde). Uma transportadora de R$ 9 a R$ 13 empata ou sai um pouco mais barata, e ainda dá o selo \"Chega hoje\".",
+        "**Quando reavaliar:** com reputação verde e alguns pedidos por dia em SP. O mais forte é começar pelos kits maiores, só nas zonas próximas, com limite diário baixo."
+      ],
+      "tipo": "alerta",
+      "titulo": "Resumo para a FV Maker"
+    },
+    {
+      "itens": [
+        {
+          "d": "Em envios.mercadolivre.com.br/envios-flex. O Flex começa a aparecer nos anúncios 7 dias depois, tempo para organizar a logística.",
+          "t": "Ativação"
+        },
+        {
+          "d": "Em Preferências de venda › Flex você escolhe as zonas de SP atendidas (Central, Norte 1–3, Sul 1–3, Leste etc.), os dias e o horário de corte, o máximo de pacotes por dia, o peso e o tamanho máximos e se entrega em feriados.",
+          "t": "Configuração"
+        },
+        {
+          "d": "Venda até o corte: entrega no mesmo dia. Venda depois do corte, até 00h: entrega no dia seguinte. As transportadoras de SP costumam coletar entre 12h e 14h, então o corte fica perto disso.",
+          "t": "Horário de corte"
+        },
+        {
+          "d": "Sábado e domingo são opcionais, cada um com o próprio corte. O mínimo é atender de segunda a sexta.",
+          "t": "Fim de semana"
+        },
+        {
+          "d": "Passou do máximo de pacotes do dia, os anúncios voltam a oferecer só agência ou coleta. A conta não é penalizada.",
+          "t": "Limite diário"
+        },
+        {
+          "d": "Você imprime a etiqueta com QR code. O entregador usa o app \"Envios Flex\" com a própria conta ML ou Mercado Pago, verificada com CPF e selfie, e escaneia cada pacote no seu endereço antes de sair. O app monta a rota e mostra o telefone do comprador.",
+          "t": "Etiqueta e app"
+        },
+        {
+          "d": "O entregador registra quem recebeu e o documento. Alguns pedidos, sorteados, pedem uma palavra-chave do comprador. A entrega precisa ser marcada no endereço.",
+          "t": "Entrega"
+        },
+        {
+          "d": "O bônus e a venda caem em até 2 dias após a entrega.",
+          "t": "Dinheiro"
+        }
+      ],
+      "ordenada": true,
+      "tipo": "lista",
+      "titulo": "Como funciona, do pedido à entrega"
+    },
+    {
+      "itens": [
+        "Reputação **amarela ou verde**. Quem tem menos de 10 vendas em 365 dias não tem cor.",
+        "Para iniciante, a saída é o **programa Decola**: R$ 250 guardados no Mercado Pago dão reputação verde-clara por até 365 dias, com o Flex entre os benefícios. Mais de 5 vendas com problema (reclamação, cancelamento ou atraso) encerram o programa e reduzem a devolução dos R$ 250.",
+        "Mercado Envios ativo nos anúncios. O Flex se soma à agência ou à coleta, não substitui.",
+        "Entregas pelo menos de segunda a sexta.",
+        "Endereço de envio dentro da área Flex. SP capital e Grande SP estão na lista oficial.",
+        "Dá para usar junto com o Full: o Flex mostra \"Chega hoje\" e o Full \"Chega amanhã\"."
+      ],
+      "tipo": "lista",
+      "titulo": "Requisitos"
+    },
+    {
+      "colunas": [
+        "Peso",
+        "Zona próxima",
+        "Média distância",
+        "Zona distante"
+      ],
+      "linhas": [
+        [
+          "**Até 0,5 kg**",
+          "R$ 7,99",
+          "R$ 9,89",
+          "R$ 9,99"
+        ],
+        [
+          "0,5 a 5 kg",
+          "R$ 8,99",
+          "R$ 10,89",
+          "R$ 10,99"
+        ],
+        [
+          "Mais de 5 kg",
+          "R$ 11,99",
+          "R$ 14,89",
+          "R$ 14,99"
+        ]
+      ],
+      "nota": "As zonas são as que aparecem em Configurações do Envios Flex. Valores de dez/2025 (R$ 8,90 / 10,90 / 11,00), ainda citados em blogs, estão desatualizados.",
+      "texto": "Tarifa oficial por peso e zona. O peso considerado é o maior entre o real e o volumétrico, com a embalagem final. A placa e o kit pequeno estão na primeira linha.",
+      "tipo": "tabela",
+      "titulo": "Quanto o ML paga por entrega Flex em SP"
+    },
+    {
+      "colunas": [
+        "Preço do produto",
+        "Frete para o comprador",
+        "Você recebe (até 0,5 kg)",
+        "Custo fixo por unidade"
+      ],
+      "linhas": [
+        [
+          "Abaixo de R$ 19",
+          "Comprador paga",
+          "R$ 7,99–9,99 (tarifa inteira)",
+          "R$ 6,25"
+        ],
+        [
+          "R$ 19 a R$ 48,99",
+          "Grátis (ML cobre)",
+          "R$ 7,99–9,99 (tarifa inteira)",
+          "R$ 6,65"
+        ],
+        [
+          "R$ 49 a R$ 78,99",
+          "Grátis (ML cobre)",
+          "R$ 7,99–9,99 (tarifa inteira)",
+          "R$ 7,75"
+        ],
+        [
+          "R$ 79 ou mais",
+          "Grátis, obrigatório",
+          "R$ 0,80–1,00, **só com reputação verde**; sem verde, nada",
+          "—"
+        ]
+      ],
+      "nota": "O custo fixo é cobrado por unidade vendida, além da tarifa de venda (Clássico ou Premium). Uma compra de 2 kits paga o fixo 2 vezes. Fontes: ajuda 4726 e nota do fluxo financeiro do Flex.",
+      "tipo": "tabela",
+      "titulo": "Quem paga a entrega, por faixa de preço"
+    },
+    {
+      "colunas": [
+        "Preço do kit",
+        "Agência: você paga",
+        "Flex: bônus − fixo",
+        "Entrega máx. · próxima",
+        "· média",
+        "· distante"
+      ],
+      "linhas": [
+        [
+          "R$ 19–48,99",
+          "R$ 6,85",
+          "+R$ 1,34 a +R$ 3,34",
+          "R$ 8,19",
+          "R$ 10,09",
+          "R$ 10,19"
+        ],
+        [
+          "R$ 49–78,99",
+          "R$ 8,15",
+          "+R$ 0,24 a +R$ 2,24",
+          "R$ 8,39",
+          "R$ 10,29",
+          "R$ 10,39"
+        ],
+        [
+          "R$ 79–99,99",
+          "R$ 12,95",
+          "R$ 0 (verde: +R$ 0,80–1,00)",
+          "R$ 12,95",
+          "R$ 12,95",
+          "R$ 12,95"
+        ],
+        [
+          "R$ 100–119,99",
+          "R$ 14,95",
+          "R$ 0 (verde: +R$ 0,80–1,00)",
+          "R$ 14,95",
+          "R$ 14,95",
+          "R$ 14,95"
+        ]
+      ],
+      "nota": "Com reputação verde, as linhas de R$ 79 ou mais sobem R$ 0,80 a R$ 1,00. Kits acima de 0,3 kg (25 ou 50 placas) mudam de faixa de peso: confira no simulador. Cálculo da FV Maker com as tabelas oficiais; não é número do ML.",
+      "texto": "Comparação por venda, para pacote até 0,3 kg, sem reputação ou verde. Na agência ou na coleta você paga o custo de envio da tabela verde (aba Taxas e tributação) e não tem entregador. No Flex você recebe o bônus, paga o custo fixo e paga o entregador. A tabela mostra o custo da entrega a partir do qual o Flex fica pior que a agência.",
+      "tipo": "tabela",
+      "titulo": "Flex × agência: até quanto a entrega pode custar"
+    },
+    {
+      "nivel": "risco",
+      "paragrafos": [
+        "O envio é **incorreto** se não for entregue até as 21h e o comprador reagendar ou estiver ausente. Também é incorreto se não for entregue até as 23h: nesse caso é reagendado sozinho para o dia seguinte e conta como erro mesmo que o comprador cancele.",
+        "**Medição semanal:** com 97% ou mais de envios corretos, a exposição é excelente, com o selo e o anúncio no topo. Abaixo de 97%, o horário de corte fica limitado nas áreas com mais erros. Abaixo de 90%, o anúncio perde o \"Chega hoje\" e só oferece entrega no dia seguinte.",
+        "Envio incorreto também pesa no termômetro de reputação, junto com reclamações e cancelamentos. Com poucos pedidos, um único atraso da transportadora já derruba a porcentagem da semana."
+      ],
+      "tipo": "alerta",
+      "titulo": "Regras que derrubam a exposição"
+    },
+    {
+      "itens": [
+        {
+          "d": "No app, o entregador marca \"Não pude entregar\" (reagenda), \"Endereço incorreto\", \"Endereço não visitado\" ou \"Recusado pelo comprador\". Custos de reagendamento e de chuva são do vendedor.",
+          "t": "Não entregou"
+        },
+        {
+          "d": "O ML não se responsabiliza pelo serviço das entregadoras. Sem prova de entrega, a disputa tende a ir a favor do comprador. O risco fica com você e com a transportadora, conforme o contrato: peça por escrito o teto do seguro.",
+          "t": "Extravio"
+        },
+        {
+          "d": "Vale a regra geral: 30 dias para produto novo. Arrependimento não pesa na reputação; defeito ou produto diferente pesa. O caminho físico da devolução no Flex não foi confirmado.",
+          "t": "Devolução"
+        },
+        {
+          "d": "Existe dentro da conta, em Preferências de venda › Buscar serviços de entrega (mercadolivre.com.br/preferencias-de-venda/transportadoras-flex), e só abre com login. Vale conferir quais das empresas abaixo estão nela.",
+          "t": "Lista oficial de transportadoras"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Entrega que falha, devolução e extravio"
+    },
+    {
+      "colunas": [
+        "Empresa",
+        "Preço por pacote",
+        "Coleta",
+        "Sábado",
+        "Seguro",
+        "Reclame Aqui"
+      ],
+      "linhas": [
+        [
+          "V3 Flex",
+          "a partir de R$ 8,99 (Centro R$ 8,99–12; Sul R$ 9–13; Norte R$ 10–14; ABC R$ 12–16)",
+          "grátis em toda a Grande SP; corte 13h",
+          "?",
+          "?",
+          "sem página"
+        ],
+        [
+          "Inova Flex",
+          "R$ 10,99 fixo",
+          "mesmo dia; horário ?",
+          "?",
+          "só no serviço Correios",
+          "sem página"
+        ],
+        [
+          "Nobres Entregas Flex",
+          "a partir de R$ 10,99",
+          "grátis, seg–sáb, a partir de 13h",
+          "sim",
+          "?",
+          "sem página"
+        ],
+        [
+          "TM Logística",
+          "a partir de R$ 11,90",
+          "corte 13h",
+          "?",
+          "?",
+          "Não recomendada (4,1)"
+        ],
+        [
+          "Flex&Go",
+          "a partir de R$ 12",
+          "?",
+          "?",
+          "\"entrega garantida\"",
+          "sem dado"
+        ],
+        [
+          "DRK Envios Flex",
+          "R$ 12,90",
+          "grátis; cortes 12h e 13h",
+          "?",
+          "?",
+          "sem página"
+        ],
+        [
+          "J3 Flex",
+          "R$ 12,99 (até 50 pacotes/dia, sem mínimo)",
+          "no seu endereço",
+          "?",
+          "?",
+          "Ótima (8,4) [não verificado]"
+        ],
+        [
+          "SOPREX",
+          "R$ 14 capital / 15 Grande SP / 16 extremos",
+          "12h–14h; fatura quinzenal",
+          "?",
+          "?",
+          "sem dado"
+        ],
+        [
+          "Equipe Motoboys",
+          "sob consulta",
+          "no local; pagamento semanal",
+          "não",
+          "até R$ 1.000 por etiqueta",
+          "sem dado"
+        ],
+        [
+          "MBFlex Express",
+          "sob consulta",
+          "agendada",
+          "sim, 9h–17h",
+          "\"seguro completo\"",
+          "sem dado"
+        ],
+        [
+          "Envios Flex (S. Bernardo)",
+          "sob consulta, por volume",
+          "1 a 3 coletas/dia, 7h–23h",
+          "?",
+          "seguro de carga",
+          "sem dado"
+        ],
+        [
+          "Geração Courrier",
+          "sob consulta",
+          "todo dia, 12h30–14h",
+          "sim",
+          "?",
+          "sem dado"
+        ],
+        [
+          "SOS Envios Express",
+          "sob consulta; \"sem mínimo contratual\"",
+          "manhã, tarde ou noite",
+          "?",
+          "?",
+          "sem dado"
+        ],
+        [
+          "Flash Express",
+          "sob consulta",
+          "grátis, horário combinado",
+          "?",
+          "?",
+          "sem dado"
+        ]
+      ],
+      "nota": "\"?\" = não informado no site. Pergunte por escrito: mínimo por dia, taxa de coleta, sábado, teto do seguro e prazo para reclamar de extravio.",
+      "texto": "Preço por pacote pequeno, conforme o site da empresa em 03/10/2026. As notas do Reclame Aqui vêm do resumo do buscador (o site bloqueia leitura automática) e precisam ser conferidas à mão.",
+      "tipo": "tabela",
+      "titulo": "Transportadoras Flex em SP: preços"
+    },
+    {
+      "itens": [
+        {
+          "tag": "a partir de R$ 8,99",
+          "texto": "**Prós:** Menor preço publicado. É a única que fica perto do bônus na zona média ou distante. Coleta grátis em toda a Grande SP e tabela por região aberta no site. **Contras:** O preço varia com peso e urgência. Mínimo, sábado e seguro não informados. Sem histórico no Reclame Aqui.",
+          "titulo": "V3 Flex"
+        },
+        {
+          "tag": "R$ 10,99",
+          "texto": "**Prós:** Preço fixo, sem surpresa por região. Coleta no mesmo dia. **Contras:** Seguro só no serviço via Correios, não no Flex. Horário de coleta não informado. Sem histórico no Reclame Aqui.",
+          "titulo": "Inova Flex"
+        },
+        {
+          "tag": "a partir de R$ 10,99",
+          "texto": "**Prós:** Coleta grátis de segunda a sábado, atende sábado e não tem limite máximo de pacotes. Centro de distribuição na Vila Maria. **Contras:** Coleta a partir das 13h, então o corte não pode ser cedo. Mínimo e seguro não informados.",
+          "titulo": "Nobres Entregas Flex"
+        },
+        {
+          "tag": "a partir de R$ 11,90",
+          "texto": "**Prós:** Empresa grande: diz ter feito 18 milhões de entregas desde 2020, com SLA de 99,2%. **Contras:** \"Não recomendada\" no Reclame Aqui (4,1), com reclamação de coleta Flex que falhou e tirou o selo \"mesmo dia\" do vendedor.",
+          "titulo": "TM Logística"
+        },
+        {
+          "tag": "a partir de R$ 12",
+          "texto": "**Prós:** Promete \"entrega garantida\". **Contras:** Quase nenhuma informação pública: mínimo, coleta e seguro não informados.",
+          "titulo": "Flex&Go"
+        },
+        {
+          "tag": "R$ 12,90",
+          "texto": "**Prós:** Preço fixo, coleta grátis e dois horários de corte (12h e 13h). **Contras:** Sábado, seguro e mínimo não informados. Sem histórico no Reclame Aqui.",
+          "titulo": "DRK Envios Flex"
+        },
+        {
+          "tag": "R$ 12,99",
+          "texto": "**Prós:** No mercado desde 2010 e ex-certificada do ML. Sem mínimo até 50 pacotes/dia, caixas até 10 kg e boa nota no Reclame Aqui (a conferir). **Contras:** Fica acima do bônus em todas as zonas. Há reclamação de atraso no Flex que custou reputação ao vendedor.",
+          "titulo": "J3 Flex"
+        },
+        {
+          "tag": "R$ 14–16",
+          "texto": "**Prós:** Tabela pública, cobre toda a área Flex e fatura a cada 15 dias, via Pix. **Contras:** A mais cara com preço publicado. Coleta só das 12h às 14h, pacote até 3 kg e 30 cm (a placa cabe).",
+          "titulo": "SOPREX"
+        },
+        {
+          "tag": "sob consulta",
+          "texto": "**Prós:** Único seguro explícito: até R$ 1.000 por etiqueta, com garantia de dinheiro de volta. Pagamento semanal. **Contras:** Não atende sábado. Preço só pelo WhatsApp.",
+          "titulo": "Equipe Motoboys"
+        },
+        {
+          "tag": "sob consulta",
+          "texto": "**Prós:** Atende sábado (9h–17h) e diz ter seguro completo. **Contras:** Preço só pelo WhatsApp e seguro sem detalhes.",
+          "titulo": "MBFlex Express"
+        },
+        {
+          "tag": "sob consulta",
+          "texto": "**Prós:** Até 3 coletas por dia, das 7h às 23h, com seguro de carga e integração por API. **Contras:** Feita para volume: atende \"desde 50 envios/mês\" e o preço cai com escala.",
+          "titulo": "Envios Flex (São Bernardo)"
+        },
+        {
+          "tag": "sob consulta",
+          "texto": "**Prós:** Geração coleta todo dia, inclusive sábado. A SOS tem modalidade por coleta, sem mínimo contratual. A Flash coleta grátis no horário combinado. **Contras:** Nenhuma publica preço nem seguro. Pouco histórico público.",
+          "titulo": "Geração Courrier / SOS Envios / Flash Express"
+        },
+        {
+          "tag": "risco",
+          "texto": "**Prós:** Flexboys é ex-certificada do ML. **Contras:** Flexboys é \"Não recomendada\", com relatos de atraso, Flex bloqueado por 7 dias e extravio sem reembolso. A PEX tem nota 2,5 e relatos de pacote marcado como entregue sem ter sido.",
+          "titulo": "Evitar: Flexboys e PEX"
+        }
+      ],
+      "tipo": "cards",
+      "titulo": "Prós e contras de cada uma"
+    },
+    {
+      "colunas": [
+        "Opção",
+        "Custo típico",
+        "Observação"
+      ],
+      "linhas": [
+        [
+          "Entregar você mesmo",
+          "combustível e tempo",
+          "Com poucos pedidos por dia, é a única forma de ficar abaixo do bônus. Funciona limitando as zonas às próximas e fazendo uma rota só por dia."
+        ],
+        [
+          "Motoboy de diária",
+          "R$ 40–80 por dia",
+          "Com 10 pacotes, sai a R$ 4–8 por pacote; com 2 pacotes, R$ 20–40. Ele precisa instalar o app Flex com conta própria."
+        ],
+        [
+          "Motoboy avulso",
+          "R$ 15–25 por entrega em SP",
+          "Mais caro que o bônus em qualquer zona."
+        ],
+        [
+          "Lalamove, Uber Flash, 99Entrega, Borzo",
+          "por km (Lalamove ~R$ 9,50 até 4 km; Uber R$ 1,40 + R$ 1,01/km)",
+          "Não são integrados ao Flex: o motorista do app não escaneia a etiqueta. Não servem."
+        ]
+      ],
+      "tipo": "tabela",
+      "titulo": "Sem transportadora Flex"
+    },
+    {
+      "itens": [
+        "Selo \"Chega hoje\", filtro próprio e posição melhor na busca de quem está em SP.",
+        "Frete grátis para o comprador entre R$ 19 e R$ 78,99, com o ML pagando o bônus.",
+        "Dinheiro em até 2 dias após a entrega.",
+        "A placa é leve e pequena: cabe em envelope e dá para entregar de moto, bicicleta ou a pé.",
+        "Você controla zonas, limite diário, sábado e feriados. Convive com agência e coleta."
+      ],
+      "tipo": "lista",
+      "titulo": "Prós do Flex para a FV Maker"
+    },
+    {
+      "itens": [
+        "Exige reputação. Para iniciante, só pelo Decola, com R$ 250 retidos.",
+        "Entrega, atraso e extravio são responsabilidade sua, mesmo com transportadora.",
+        "Até R$ 78,99, o custo fixo de R$ 6,65–7,75 come quase todo o bônus, e transportadora sai mais caro que a agência.",
+        "A partir de R$ 79, o bônus é quase zero e o entregador sai do seu bolso. Só empata porque some o custo de envio da agência.",
+        "Meta de 97% de envios corretos por semana: com volume baixo, um erro já derruba a exposição.",
+        "A coleta das transportadoras é entre 12h e 14h. A produção sob demanda precisa ter estoque pronto antes disso."
+      ],
+      "tipo": "lista",
+      "titulo": "Contras do Flex para a FV Maker"
+    },
+    {
+      "itens": [
+        "Ter reputação amarela ou verde (ou entrar no Decola).",
+        "Ter estoque pronto e embalado dos kits que vão ter Flex.",
+        "Atender só as zonas próximas no começo e limitar a 3–5 pacotes por dia.",
+        "Corte às 12h ou 13h, alinhado à coleta. Sábado e feriado desligados.",
+        "Cotar 3 transportadoras (V3, Nobres ou Inova, DRK) e pedir por escrito: preço por zona, mínimo, taxa de coleta, teto do seguro e prazo de reclamação.",
+        "Conferir a empresa no Reclame Aqui e na lista oficial dentro da conta.",
+        "Acompanhar o % de envios corretos toda semana nas primeiras 4 semanas."
+      ],
+      "ordenada": true,
+      "tipo": "lista",
+      "titulo": "Se for ativar: checklist"
+    },
+    {
+      "itens": [
+        {
+          "d": "Flex passou a ter frete grátis de R$ 19 a R$ 78,99, com o ML cobrindo a tarifa.",
+          "t": "25/11/2025"
+        },
+        {
+          "d": "Na agência, na coleta e no Full o custo virou peso × preço. O Flex manteve o custo fixo por unidade.",
+          "t": "02/03/2026"
+        },
+        {
+          "d": "Fora das 7 capitais existe Flex por raio (15 km padrão, até 100 km), mas a documentação para desenvolvedores de 22/09/2026 só cita as capitais.",
+          "t": "Cobertura"
+        },
+        {
+          "d": "Entrega em menos de 3 h. Abaixo de R$ 79, o comprador paga R$ 12 e você recebe R$ 12. A partir de R$ 79, você recebe R$ 8,20 (R$ 7 do comprador + R$ 1,20 de bônus). Mais exigente, mas paga melhor nos kits caros.",
+          "t": "Envios Turbo (só SP)"
+        }
+      ],
+      "tipo": "lista",
+      "titulo": "Novidades 2025–2026"
+    },
+    {
+      "nivel": "incerto",
+      "paragrafos": [
+        "Os nomes da lista oficial de transportadoras Flex: só abre com login.",
+        "Preços de ARR Flex (\"a partir de R$ 11\", só no resumo da busca), Flex Turbo e Flexboys; notas do Reclame Aqui da J3, TM, PEX e Flexboys.",
+        "Para R$ 79 ou mais há duas versões oficiais. Uma fala em bônus de 10% só com reputação verde; a outra diz \"até 10% conforme a reputação\". Confira na primeira venda.",
+        "Se a proteção de pacotes do Mercado Envios cobre extravio no Flex, e o caminho da devolução.",
+        "Blogs dizem que o \"custo fixo do Flex subiu de R$ 6,25 para R$ 7,75\". Parece leitura errada da tabela oficial, que tem os dois valores para faixas de preço diferentes."
+      ],
+      "tipo": "alerta",
+      "titulo": "Não confirmado"
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Tarifas e bônus do Envios Flex — capitais (ajuda 4726)",
+      "url": "https://www.mercadolivre.com.br/ajuda/4726"
+    },
+    {
+      "rotulo": "Tarifas Flex — outras cidades (ajuda 35545)",
+      "url": "https://www.mercadolivre.com.br/ajuda/35545"
+    },
+    {
+      "rotulo": "Como funcionam as tarifas e os bônus do Envios Flex",
+      "url": "https://vendedores.mercadolivre.com.br/nota/como-entender-o-fluxo-financeiro-do-envios-flex"
+    },
+    {
+      "rotulo": "Configurar o Envios Flex (ajuda 22381)",
+      "url": "https://www.mercadolivre.com.br/ajuda/22381"
+    },
+    {
+      "rotulo": "Requisitos do Envios Flex",
+      "url": "https://vendedores.mercadolivre.com.br/nota/envios-flex-requisitos"
+    },
+    {
+      "rotulo": "Envios do mesmo dia: regras e exposição",
+      "url": "https://vendedores.mercadolivre.com.br/nota/envios-flex-envios-do-mesmo-dia"
+    },
+    {
+      "rotulo": "Ajuste suas configurações (corte e limite)",
+      "url": "https://vendedores.mercadolivre.com.br/nota/envios-flex-ajuste-suas-configuracoes"
+    },
+    {
+      "rotulo": "Envios Flex aos fins de semana",
+      "url": "https://vendedores.mercadolivre.com.br/nota/envios-flex-fins-de-semana"
+    },
+    {
+      "rotulo": "Entregar no mesmo dia é possível com o Flex",
+      "url": "https://vendedores.mercadolivre.com.br/nota/entregar-no-mesmo-dia-e-possivel-com-o-envios-flex"
+    },
+    {
+      "rotulo": "Flex e Full no mesmo anúncio",
+      "url": "https://vendedores.mercadolivre.com.br/aprender/nota/como-usar-flex-e-full-no-mesmo-anuncio"
+    },
+    {
+      "rotulo": "Programa Decola",
+      "url": "https://vendedores.mercadolivre.com.br/nota/impulsione-suas-vendas-com-o-programa-decola"
+    },
+    {
+      "rotulo": "Áreas de cobertura de SP (ajuda 4637)",
+      "url": "https://www.mercadolivre.com.br/ajuda/4637"
+    },
+    {
+      "rotulo": "Flex em outras cidades por raio (ajuda 43244)",
+      "url": "https://www.mercadolivre.com.br/ajuda/43244"
+    },
+    {
+      "rotulo": "Manual do app para entregadores (PDF v5)",
+      "url": "https://http2.mlstatic.com/frontend-assets/flex-subscription-fr/instructivos/br/flex_drivers_br_v5.pdf"
+    },
+    {
+      "data": "22/09/2026",
+      "rotulo": "Envios Flex — Developers",
+      "url": "https://developers.mercadolivre.com.br/pt_br/envios-flex"
+    },
+    {
+      "data": "10/06/2026",
+      "rotulo": "Envios Turbo — Developers",
+      "url": "https://developers.mercadolivre.com.br/pt_br/envios-turbo"
+    },
+    {
+      "data": "25/11/2025",
+      "rotulo": "Ferax — Flex agora tem frete grátis",
+      "url": "https://ferax.com.br/blog/news/flex-agora-tem-frete-gratis-mercado-livre-une-o-melhor-dos-dois-mundos/"
+    },
+    {
+      "data": "09/08/2026",
+      "rotulo": "GoSmarter — prova de entrega no Flex",
+      "url": "https://gosmarter.com.br/?p=14338"
+    },
+    {
+      "rotulo": "V3 Flex",
+      "url": "https://v3flexentregas.com.br/"
+    },
+    {
+      "rotulo": "Inova Flex",
+      "url": "https://www.inovaflexenvios.com.br/"
+    },
+    {
+      "rotulo": "Nobres Entregas Flex",
+      "url": "https://nobresentregasflex.com.br/"
+    },
+    {
+      "rotulo": "TM Logística — Envio Flex",
+      "url": "https://tmlogistica.com.br/envio-flex-2/"
+    },
+    {
+      "rotulo": "Reclame Aqui — TM Logística, coleta Flex",
+      "url": "https://www.reclameaqui.com.br/tm-logistica/problemas-com-coleta-flex-da-tm-resultam-em-perda-do-selo-de-entrega-no-mesmo-dia-e-prejuizos-no-mercado-livre_W639nwf18OdUk8ju/"
+    },
+    {
+      "rotulo": "Flex&Go",
+      "url": "https://flexgotransportes.com.br/"
+    },
+    {
+      "rotulo": "DRK Envios Flex",
+      "url": "https://www.drk-enviosflex.com/"
+    },
+    {
+      "rotulo": "J3 Flex",
+      "url": "https://enviosj3flex.com.br/"
+    },
+    {
+      "rotulo": "Reclame Aqui — J3, atraso no Flex",
+      "url": "https://www.reclameaqui.com.br/j3-brasil-express/atraso-na-entrega-via-mercado-livre-flex-causa-prejuizo-ao-cliente_ql9R4fMfoJUk6wci/"
+    },
+    {
+      "rotulo": "SOPREX — Envio Flex",
+      "url": "https://soprex.com.br/envio-flex"
+    },
+    {
+      "rotulo": "Equipe Motoboys",
+      "url": "https://equipemotoboys.com.br/"
+    },
+    {
+      "rotulo": "MBFlex Express",
+      "url": "https://mbflex.com.br/"
+    },
+    {
+      "rotulo": "Envios Flex (São Bernardo do Campo)",
+      "url": "https://enviosflex.com.br/servicos/coleta-mercado-livre-para-empresas"
+    },
+    {
+      "rotulo": "Geração Courrier",
+      "url": "https://geracaocourrier.com.br/"
+    },
+    {
+      "rotulo": "SOS Envios Express — Flex",
+      "url": "https://sosenvioexpress.com.br/servicos/transportadora-flex-mercado-livre"
+    },
+    {
+      "rotulo": "Flash Express",
+      "url": "https://transflashexpress.com.br/"
+    },
+    {
+      "rotulo": "Lista de transportadoras Flex de SP (Market Fácil)",
+      "url": "https://marketfacil.com.br/logistica/transportadoras-para-mercado-envios-flex-lista/"
+    },
+    {
+      "rotulo": "Tabela de motoboys SP 2025",
+      "url": "https://empresamotoboysp.com.br/precos-e-custos/tabelas-de-precos/tabela-precos-atualizada-motoboys-2025/"
+    },
+    {
+      "rotulo": "Saipos — quanto custa um motoboy",
+      "url": "https://saipos.com/sistema/marmitaria/quanto-custa-contratar-um-motoboy-para-delivery-de-marmita"
+    },
+    {
+      "rotulo": "Tecnoblog — Uber Flash Moto",
+      "url": "https://tecnoblog.net/502586/uber-flash-moto-chega-a-sao-paulo-rio-de-janeiro-e-mais-20-cidades/"
+    }
+  ],
+  "intro": "No Flex, quem entrega o pedido é você: pessoalmente, com um motoboy ou com uma transportadora contratada. A entrega é no mesmo dia ou no dia seguinte, dentro da cidade. O Mercado Livre fornece a etiqueta, o app e o rastreio, e paga um bônus por entrega. Em troca, o anúncio ganha o selo \"Chega hoje\" e destaque na busca da região. Esta página reúne as regras, o dinheiro e as transportadoras Flex que atendem São Paulo.",
+  "mkt": "ml",
+  "ordem": 5,
+  "rotulo": "Envios Flex",
+  "titulo": "Envios Flex em São Paulo"
+}
