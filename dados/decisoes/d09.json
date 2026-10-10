@@ -1,0 +1,88 @@
+{
+  "n": 9,
+  "fase": "Acabamento da face",
+  "status": "aberta",
+  "titulo": "Face na mesa: 6 protótipos de placa impressa de cabeça para baixo",
+  "pergunta": "Com a face da placa impressa sobre a chapa texturizada, como os elementos coloridos e o texto branco vão aparecer?",
+  "contexto": [
+    "Pedido de 10/10/2026: o topo preto (Z 6,0) não ficou bom mesmo depois de muitos testes, porque mostra brilho, emendas entre as regiões de topo e marcas nos contornos (veja D00 e D03). Novo conceito: imprimir a placa de cabeça para baixo. A face visível passa a ser a 1ª camada sobre a PEI texturizada, que sai fosca e uniforme e não tem emendas nem ferro. A última camada fica nas costas, onde ninguém vê.",
+    "O problema muda de lugar: com a face na mesa, nada pode ficar em relevo na hora da impressão. Os 6 protótipos são 6 jeitos de fazer o G, as estrelas, o ícone NFC e o texto aparecerem. As imagens são renders conceituais montados no Blender com as malhas reais da placa (88 × 88, R13, as mesmas posições). A textura da PEI foi simulada.",
+    "Vale para todos. A borda da face passa a encostar na mesa, e o arredondado de 0,8 mm vira um balanço logo nas primeiras camadas; o certo é trocá-lo por um chanfro de 0,6 × 45°. Os compartimentos ficam espelhados: as arruelas ocupam Z 2,2–4,8 contando da mesa e o NFC, Z 2,2–3,2. Uma pausa só não dá conta dos dois. A saída mais simples é subir o bolso do NFC para junto das costas (passa a ficar a 3,8 mm da face, hoje fica a 2,2 mm) e manter uma pausa única em Z 4,8. Isso precisa de um teste de leitura com o celular.",
+    "As peças coloridas de hoje já são impressas com a face na chapa texturizada. Por isso as estrelas e o G já têm o mesmo acabamento fosco que a placa passaria a ter.",
+    "Pesos, tempos e purgas são estimativas. Os números reais saem no fatiamento, depois da escolha. Pode marcar mais de uma opção: marque a principal e cite as outras na nota. O fluxo é o mesmo do suporte: escolha, modelagem no Blender e, só depois da aprovação, 3MF e STL. Nenhum arquivo existente foi alterado."
+  ],
+  "metricas_titulo": "O que muda em todos os protótipos",
+  "col_antes": "Hoje (face para cima)",
+  "col_depois": "Face na mesa",
+  "metricas": [
+    {"rotulo": "Superfície da face", "antes": "topo Z 6,0: 4 regiões monotônicas, brilho, marcas nos contornos", "depois": "1ª camada sobre PEI texturizada: fosca e uniforme"},
+    {"rotulo": "Ferro / ajuste de topo", "antes": "testes de ironing, fluxo e direção (D00–D03)", "depois": "dispensado: o topo vira as costas"},
+    {"rotulo": "Borda da face", "antes": "arredondado R0,8", "depois": "chanfro 0,6 × 45° (sem balanço na 1ª camada)"},
+    {"rotulo": "Pausa arruelas/NFC", "antes": "Z 4,0", "depois": "Z 4,8 com o NFC junto das costas, ou 2 pausas (3,2 e 4,8)"},
+    {"rotulo": "NFC até a face", "antes": "2,2 mm", "depois": "3,8 mm (a confirmar com teste de leitura)"},
+    {"rotulo": "Texto e ícone brancos", "antes": "relevo +1 mm impresso por pausa (troca em Z 6,2)", "depois": "depende do protótipo (A–F)"},
+    {"rotulo": "Rotação no prato", "antes": "face para cima", "depois": "girada 180° em X; não precisa espelhar"}
+  ],
+  "imagens": [
+    {"legenda": "Referência: a placa de hoje, com o topo impresso para cima", "src": "img/modelo.png"},
+    {"legenda": "Corte de cada protótipo na posição de impressão, com a face na mesa (esquema, alturas exageradas)", "src": "/_blob/a2714234e389197d18a174d44d015929"},
+    {"legenda": "A · Inlay rente multicor: tudo na mesma face fosca, sem degrau", "src": "/_blob/d9c7a3edb6373290ce2f0f82c3757db4"},
+    {"legenda": "A · Detalhe: a cor e a textura são contínuas entre o preto e as peças", "src": "/_blob/295a54ed4c15e26829fc977c526c7c9b"},
+    {"legenda": "B · Como imprime: as cores ficam na mesa (texto espelhado, porque a face está para baixo) e o corpo preto vem por cima. Vista explodida", "src": "/_blob/9e2f537fcc7339c1b97dcad8db113559"},
+    {"legenda": "C · Peças encaixadas rentes nos bolsos da face", "src": "/_blob/01171b60588111c6f0b3407ae32bea40"},
+    {"legenda": "C · Detalhe: aparece um friso fino (folga de 0,1 mm) em volta de cada peça", "src": "/_blob/a1fdd61020c597e2bedb4092d695c6c1"},
+    {"legenda": "D · Relevo colado sobre a face texturizada: a aparência de hoje com a face fosca", "src": "/_blob/77169cc5bded19245599d94267b9b2d0"},
+    {"legenda": "D · Detalhe do relevo +1 mm sobre a face fosca", "src": "/_blob/899e7b9ac8aee5cd7d660ee58f13720a"},
+    {"legenda": "D · O texto vira uma peça branca só: as letras ficam ligadas por uma barra que entra num sulco da placa (vista por trás)", "src": "/_blob/150bfe74e607d9c92fe72f5beb9fc78b"},
+    {"legenda": "E · Estêncil: o texto e o ícone aparecem brancos, 0,4 mm abaixo da face", "src": "/_blob/34c7a3b1ff4489c7fb47c469cc709395"},
+    {"legenda": "E · Detalhe: o fundo branco das letras e o filete branco que aparece na lateral", "src": "/_blob/8e1c382b3dcb9163a7874e1abed2cd65"},
+    {"legenda": "F · Tom sobre tom: preto puro, desenho gravado 0,6 mm", "src": "/_blob/a412a5c58dff72a8cb1790f9c9991022"},
+    {"legenda": "F · Detalhe: o fundo do gravado sai com filetes de ponte, que contrastam com a face fosca", "src": "/_blob/b043238deaf69fd35392777050ed1af7"}
+  ],
+  "opcoes": [
+    {
+      "id": "A",
+      "titulo": "A · Inlay rente multicor (AMS lite)",
+      "descricao": "As 3 primeiras camadas (0,6 mm) saem com as 6 cores lado a lado, e o resto da placa sai em preto. É o melhor visual: tudo rente, uma textura só, sem montagem nem cola. Só funciona com AMS lite. O branco precisa de pelo menos 3 camadas, senão fica acinzentado sobre o preto.",
+      "custo": "≈ 16 trocas de cor por mesa · purga de ≈ 10–20 g por mesa, dividida entre as placas · exige AMS lite",
+      "recomendada": false
+    },
+    {
+      "id": "B",
+      "titulo": "B · Inlay rente em trabalhos (sem AMS)",
+      "descricao": "Mesmo visual da A, sem AMS. Cada cor é uma impressão curta de 0,6 mm. As peças ficam na mesa e a próxima impressão é enviada por cima: 5 cores e depois o corpo preto. A partir do 2º trabalho, é preciso desligar a calibração da mesa e conferir a linha de purga. Variação: só o branco por trabalho, com as estrelas e o G encaixados como na C (2 trabalhos).",
+      "custo": "6 trabalhos por mesa (2 na variação) · sem purga · risco de o bico bater numa peça já impressa",
+      "recomendada": false
+    },
+    {
+      "id": "C",
+      "titulo": "C · Peças encaixadas rentes pela frente",
+      "descricao": "A placa sai preta, só com bolsos de 1 mm na face. Todas as peças entram depois e ficam rentes (ou 0,05 mm acima). Não tem pausa de cor. O texto vira ≈ 22 pecinhas, posicionadas de uma vez com fita de transferência. Fica um friso fino visível em volta de cada peça.",
+      "custo": "1 filamento na placa · ≈ 40 peças para montar por placa · cola em gel",
+      "recomendada": false
+    },
+    {
+      "id": "D",
+      "titulo": "D · Relevo colado sobre a face texturizada",
+      "descricao": "A aparência de hoje, com relevo de +1 mm, mas a face em volta sai fosca da chapa. A placa sai lisa, com rebaixos de 0,8 mm onde as peças assentam. As estrelas e o G de hoje (1,8 mm) servem sem mudança. O texto e o ícone viram uma peça branca cada, com barras de ligação escondidas no rebaixo. Acaba a troca para branco em Z 6,2.",
+      "custo": "1 filamento na placa + 2 peças brancas novas · ≈ 11 peças coladas por placa (hoje são 9) · cola em gel",
+      "recomendada": true
+    },
+    {
+      "id": "E",
+      "titulo": "E · Estêncil com fundo branco (pausas)",
+      "descricao": "Uma casca preta de 0,4 mm com janelas no formato do texto e do ícone, 2 camadas brancas e depois o resto em preto. O branco aparece 0,4 mm abaixo da face, com fundo de ponte. Aparece um filete branco fino em volta da lateral, que pode virar detalhe de design. As estrelas e o G entram encaixados, como na C.",
+      "custo": "2 pausas de cor + a das arruelas · ≈ 9 peças coloridas por placa · branco com filetes de ponte",
+      "recomendada": false
+    },
+    {
+      "id": "F",
+      "titulo": "F · Tom sobre tom (gravado, sem cores)",
+      "descricao": "A placa inteira em preto, com o desenho gravado 0,6 mm na face. É a mais barata e rápida, sem montagem e sem troca de cor. Fica sóbria, mas lê menos que a versão colorida. Pode servir como versão para marketplace sem as cores do Google (o maior risco de marca). Dá para pintar o gravado com caneta, à mão.",
+      "custo": "1 filamento · nenhuma peça · nenhuma pausa de cor",
+      "recomendada": false
+    }
+  ],
+  "escolha": null,
+  "nota": ""
+}
