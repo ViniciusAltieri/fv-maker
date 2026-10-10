@@ -1,7 +1,7 @@
 {
   "n": 9,
   "fase": "Acabamento da face",
-  "status": "aberta",
+  "status": "decidida",
   "titulo": "Face na mesa: 6 protótipos de placa impressa de cabeça para baixo",
   "pergunta": "Com a face da placa impressa sobre a chapa texturizada, como os elementos coloridos e o texto branco vão aparecer?",
   "contexto": [
@@ -15,29 +15,99 @@
   "col_antes": "Hoje (face para cima)",
   "col_depois": "Face na mesa",
   "metricas": [
-    {"rotulo": "Superfície da face", "antes": "topo Z 6,0: 4 regiões monotônicas, brilho, marcas nos contornos", "depois": "1ª camada sobre PEI texturizada: fosca e uniforme"},
-    {"rotulo": "Ferro / ajuste de topo", "antes": "testes de ironing, fluxo e direção (D00–D03)", "depois": "dispensado: o topo vira as costas"},
-    {"rotulo": "Borda da face", "antes": "arredondado R0,8", "depois": "chanfro 0,6 × 45° (sem balanço na 1ª camada)"},
-    {"rotulo": "Pausa arruelas/NFC", "antes": "Z 4,0", "depois": "Z 4,8 com o NFC junto das costas, ou 2 pausas (3,2 e 4,8)"},
-    {"rotulo": "NFC até a face", "antes": "2,2 mm", "depois": "3,8 mm (a confirmar com teste de leitura)"},
-    {"rotulo": "Texto e ícone brancos", "antes": "relevo +1 mm impresso por pausa (troca em Z 6,2)", "depois": "depende do protótipo (A–F)"},
-    {"rotulo": "Rotação no prato", "antes": "face para cima", "depois": "girada 180° em X; não precisa espelhar"}
+    {
+      "rotulo": "Superfície da face",
+      "antes": "topo Z 6,0: 4 regiões monotônicas, brilho, marcas nos contornos",
+      "depois": "1ª camada sobre PEI texturizada: fosca e uniforme"
+    },
+    {
+      "rotulo": "Ferro / ajuste de topo",
+      "antes": "testes de ironing, fluxo e direção (D00–D03)",
+      "depois": "dispensado: o topo vira as costas"
+    },
+    {
+      "rotulo": "Borda da face",
+      "antes": "arredondado R0,8",
+      "depois": "chanfro 0,6 × 45° (sem balanço na 1ª camada)"
+    },
+    {
+      "rotulo": "Pausa arruelas/NFC",
+      "antes": "Z 4,0",
+      "depois": "Z 4,8 com o NFC junto das costas, ou 2 pausas (3,2 e 4,8)"
+    },
+    {
+      "rotulo": "NFC até a face",
+      "antes": "2,2 mm",
+      "depois": "3,8 mm (a confirmar com teste de leitura)"
+    },
+    {
+      "rotulo": "Texto e ícone brancos",
+      "antes": "relevo +1 mm impresso por pausa (troca em Z 6,2)",
+      "depois": "depende do protótipo (A–F)"
+    },
+    {
+      "rotulo": "Rotação no prato",
+      "antes": "face para cima",
+      "depois": "girada 180° em X; não precisa espelhar"
+    }
   ],
   "imagens": [
-    {"legenda": "Referência: a placa de hoje, com o topo impresso para cima", "src": "img/modelo.png"},
-    {"legenda": "Corte de cada protótipo na posição de impressão, com a face na mesa (esquema, alturas exageradas)", "src": "/_blob/a2714234e389197d18a174d44d015929"},
-    {"legenda": "A · Inlay rente multicor: tudo na mesma face fosca, sem degrau", "src": "/_blob/d9c7a3edb6373290ce2f0f82c3757db4"},
-    {"legenda": "A · Detalhe: a cor e a textura são contínuas entre o preto e as peças", "src": "/_blob/295a54ed4c15e26829fc977c526c7c9b"},
-    {"legenda": "B · Como imprime: as cores ficam na mesa (texto espelhado, porque a face está para baixo) e o corpo preto vem por cima. Vista explodida", "src": "/_blob/9e2f537fcc7339c1b97dcad8db113559"},
-    {"legenda": "C · Peças encaixadas rentes nos bolsos da face", "src": "/_blob/01171b60588111c6f0b3407ae32bea40"},
-    {"legenda": "C · Detalhe: aparece um friso fino (folga de 0,1 mm) em volta de cada peça", "src": "/_blob/a1fdd61020c597e2bedb4092d695c6c1"},
-    {"legenda": "D · Relevo colado sobre a face texturizada: a aparência de hoje com a face fosca", "src": "/_blob/77169cc5bded19245599d94267b9b2d0"},
-    {"legenda": "D · Detalhe do relevo +1 mm sobre a face fosca", "src": "/_blob/899e7b9ac8aee5cd7d660ee58f13720a"},
-    {"legenda": "D · O texto vira uma peça branca só: as letras ficam ligadas por uma barra que entra num sulco da placa (vista por trás)", "src": "/_blob/150bfe74e607d9c92fe72f5beb9fc78b"},
-    {"legenda": "E · Estêncil: o texto e o ícone aparecem brancos, 0,4 mm abaixo da face", "src": "/_blob/34c7a3b1ff4489c7fb47c469cc709395"},
-    {"legenda": "E · Detalhe: o fundo branco das letras e o filete branco que aparece na lateral", "src": "/_blob/8e1c382b3dcb9163a7874e1abed2cd65"},
-    {"legenda": "F · Tom sobre tom: preto puro, desenho gravado 0,6 mm", "src": "/_blob/a412a5c58dff72a8cb1790f9c9991022"},
-    {"legenda": "F · Detalhe: o fundo do gravado sai com filetes de ponte, que contrastam com a face fosca", "src": "/_blob/b043238deaf69fd35392777050ed1af7"}
+    {
+      "legenda": "Referência: a placa de hoje, com o topo impresso para cima",
+      "src": "img/modelo.png"
+    },
+    {
+      "legenda": "Corte de cada protótipo na posição de impressão, com a face na mesa (esquema, alturas exageradas)",
+      "src": "/_blob/a2714234e389197d18a174d44d015929"
+    },
+    {
+      "legenda": "A · Inlay rente multicor: tudo na mesma face fosca, sem degrau",
+      "src": "/_blob/d9c7a3edb6373290ce2f0f82c3757db4"
+    },
+    {
+      "legenda": "A · Detalhe: a cor e a textura são contínuas entre o preto e as peças",
+      "src": "/_blob/295a54ed4c15e26829fc977c526c7c9b"
+    },
+    {
+      "legenda": "B · Como imprime: as cores ficam na mesa (texto espelhado, porque a face está para baixo) e o corpo preto vem por cima. Vista explodida",
+      "src": "/_blob/9e2f537fcc7339c1b97dcad8db113559"
+    },
+    {
+      "legenda": "C · Peças encaixadas rentes nos bolsos da face",
+      "src": "/_blob/01171b60588111c6f0b3407ae32bea40"
+    },
+    {
+      "legenda": "C · Detalhe: aparece um friso fino (folga de 0,1 mm) em volta de cada peça",
+      "src": "/_blob/a1fdd61020c597e2bedb4092d695c6c1"
+    },
+    {
+      "legenda": "D · Relevo colado sobre a face texturizada: a aparência de hoje com a face fosca",
+      "src": "/_blob/77169cc5bded19245599d94267b9b2d0"
+    },
+    {
+      "legenda": "D · Detalhe do relevo +1 mm sobre a face fosca",
+      "src": "/_blob/899e7b9ac8aee5cd7d660ee58f13720a"
+    },
+    {
+      "legenda": "D · O texto vira uma peça branca só: as letras ficam ligadas por uma barra que entra num sulco da placa (vista por trás)",
+      "src": "/_blob/150bfe74e607d9c92fe72f5beb9fc78b"
+    },
+    {
+      "legenda": "E · Estêncil: o texto e o ícone aparecem brancos, 0,4 mm abaixo da face",
+      "src": "/_blob/34c7a3b1ff4489c7fb47c469cc709395"
+    },
+    {
+      "legenda": "E · Detalhe: o fundo branco das letras e o filete branco que aparece na lateral",
+      "src": "/_blob/8e1c382b3dcb9163a7874e1abed2cd65"
+    },
+    {
+      "legenda": "F · Tom sobre tom: preto puro, desenho gravado 0,6 mm",
+      "src": "/_blob/a412a5c58dff72a8cb1790f9c9991022"
+    },
+    {
+      "legenda": "F · Detalhe: o fundo do gravado sai com filetes de ponte, que contrastam com a face fosca",
+      "src": "/_blob/b043238deaf69fd35392777050ed1af7"
+    }
   ],
   "opcoes": [
     {
@@ -83,6 +153,7 @@
       "recomendada": false
     }
   ],
-  "escolha": null,
-  "nota": ""
+  "escolha": "D",
+  "nota": "Escolhido na conversa de 10/10/2026: opção D (relevo colado sobre a face texturizada). A modelagem e o 3MF de teste estão na D10. Na modelagem, as ligações das peças brancas saíram pretas e rentes à face, porque um sulco aberto para a face não esconde a ligação.",
+  "decidido_em": "2026-10-10T13:10:00Z"
 }

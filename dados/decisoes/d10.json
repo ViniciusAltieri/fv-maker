@@ -1,0 +1,55 @@
+{
+  "n": 10,
+  "fase": "Acabamento da face",
+  "status": "aberta",
+  "titulo": "Opção D modelada: placa com a face na mesa e 3MF de teste",
+  "pergunta": "A placa impressa com a face na chapa e as peças coladas por cima ficaram boas o bastante para virar o novo padrão?",
+  "contexto": [
+    "Pedido de 10/10/2026: modelar a opção D da D09 e gerar um 3MF com todas as peças. Os arquivos são novos e nada existente foi alterado. Modelo: face_mesa/placa_google_89mm_face_mesa.blend (coleção Face_Mesa). Projeto: placa_google_face_mesa.3mf. Scripts em ferramentas/face_mesa/.",
+    "Placa: o contorno é o atual (88 × 88, R13), e a borda da face virou chanfro de 0,6 × 45°. Os rebaixos na face têm 0,8 mm. As estrelas e o G usam os mesmos cortadores de hoje, então as peças coloridas atuais servem. As arruelas seguem o prato 9: Ø27 × 2,6 com as nervuras e Z 1,2–3,8. O bolso do NFC desceu para Z 1,2–2,2, junto das costas, e fica a 3,8 mm da face. Na impressão invertida, as arruelas e o NFC terminam juntos em Z 4,8, e uma pausa só basta.",
+    "Correção em relação à D09: as ligações entre as letras não ficam escondidas. Como o rebaixo abre para a face, qualquer ligação aparece de frente. Por isso a parte da peça branca que entra na placa é preta: a raiz das letras e as ligações. A ligação fica rente à face, preta sobre preto, e aparece só como um friso fino da folga. O texto tem 21 ilhas e 20 ligações (vão máximo de 2,3 mm, entre as palavras). O ícone tem 6 ilhas e 5 ligações. As ligações foram calculadas pela menor distância entre as ilhas.",
+    "As peças brancas são impressas com a face na chapa: o relevo branco de 0 a 1,0 mm, e a raiz e as ligações pretas de 1,0 a 1,8 mm. A troca branco → preto é a mesma troca manual da placa de hoje. A folga lateral do rebaixo branco é de 0,2 mm, e a do sulco das ligações também.",
+    "Fatiado no Bambu Studio com as configurações do projeto oficial, sem alteração (processo Base NFC e os mesmos presets de filamento). Nenhum aviso. No G-code, a 1ª camada da placa é Bottom surface: é a face. As pontes sobre os rebaixos saem em Z 1,0–1,2. A pausa é antes da camada Z 5,0, a primeira com Bridge sobre os compartimentos, com a mensagem \"Inserir arruelas e NFC\". O ferro está desligado no processo.",
+    "As cores dos slots vêm do projeto oficial (o slot 1 aparece branco na tela). O que vale é o preset: o slot 1 (Base NFC) imprime a placa e a parte preta das peças brancas, e o slot 2 (topo NFC) imprime o relevo branco.",
+    "Próximo passo: imprimir um jogo (pratos 1 a 6), montar e marcar o checklist abaixo. O que mais precisa de atenção é a leitura do NFC a 3,8 mm da face e o encaixe das peças brancas."
+  ],
+  "metricas_titulo": "Fatiador: 1 placa de hoje (prato 9 do lote econômico) × face na mesa",
+  "col_antes": "Hoje (face para cima)",
+  "col_depois": "Face na mesa",
+  "metricas": [
+    {"rotulo": "Placa: tempo", "antes": "1 h 09 min 54 s", "depois": "1 h 06 min 37 s"},
+    {"rotulo": "Placa: filamento", "antes": "31,33 g preto + 0,44 g branco", "depois": "31,92 g preto"},
+    {"rotulo": "Pausas e trocas na placa", "antes": "pausa Z 4,0 + troca para branco em Z 6,2", "depois": "só a pausa Z 5,0"},
+    {"rotulo": "Peças brancas (prato 2)", "antes": "impressas na placa", "depois": "13 min 10 s · 1,05 + 0,64 g · troca em Z 1,2"},
+    {"rotulo": "Peças coloridas (pratos 3–6)", "antes": "iguais", "depois": "8 min 33 s amarelo · ≈ 7 min 30 s cada G"},
+    {"rotulo": "Peças para colar por placa", "antes": "9 (5 estrelas + 4 G)", "depois": "11 (+ texto + ícone)"},
+    {"rotulo": "NFC até a face", "antes": "2,2 mm", "depois": "3,8 mm"},
+    {"rotulo": "Borda da face", "antes": "arredondado R0,8", "depois": "chanfro 0,6 × 45°"}
+  ],
+  "imagens": [
+    {"legenda": "Montada: estrelas, G, texto e ícone colados sobre a face texturizada", "src": "/_blob/9a961f5f333ebe54af59e596d6ddedd8"},
+    {"legenda": "Detalhe: as ligações pretas aparecem só como frisos rentes à face, entre as letras", "src": "/_blob/25522638cf84a79103245321f6795900"},
+    {"legenda": "Placa sem as peças: rebaixos de 0,8 mm na face, com os sulcos das ligações", "src": "/_blob/502a4eba1c93ad5dfbf5f30113c5d984"},
+    {"legenda": "Detalhe dos rebaixos do ícone e do texto", "src": "/_blob/319a3c091c82864e96d4aebb5d112d7a"},
+    {"legenda": "Peças brancas: relevo branco por cima, raiz e ligações por baixo (aqui em cinza para aparecer)", "src": "/_blob/0d8cebc3774bcd6a7045e2a69e925f2f"},
+    {"legenda": "Os 6 pratos do 3MF, vistos de cima: tudo de face para baixo, por isso o texto aparece espelhado", "src": "/_blob/775c353231267b126b5ce68b00edd70a"}
+  ],
+  "observacoes_titulo": "O que observar no primeiro jogo impresso",
+  "observacoes": [
+    {"id": "face", "item": "Face da placa", "oque": "Textura uniforme da PEI em toda a face, sem marcas, emendas nem brilho. Bordas dos rebaixos limpas na 1ª camada.", "status": "?", "nota": ""},
+    {"id": "chanfro", "item": "Chanfro da borda", "oque": "Chanfro de 0,6 mm regular, sem pé de elefante nem rebarba na borda da face.", "status": "?", "nota": ""},
+    {"id": "nfc", "item": "Leitura do NFC", "oque": "O celular lê a tag a 3,8 mm da face, nas posições de uso, com e sem capinha.", "status": "?", "nota": ""},
+    {"id": "pausa", "item": "Pausa das arruelas e do NFC", "oque": "As arruelas e o NFC entram até o fundo, a pausa para no lugar certo e a tampa das costas fecha sem afundar.", "status": "?", "nota": ""},
+    {"id": "coloridas", "item": "Encaixe das estrelas e do G", "oque": "As peças coloridas atuais entram nos rebaixos da face com a mesma folga de hoje.", "status": "?", "nota": ""},
+    {"id": "brancas", "item": "Peças brancas", "oque": "O texto e o ícone saem inteiros, a troca branco → preto fica na linha certa e as ligações pretas não quebram ao destacar da mesa.", "status": "?", "nota": ""},
+    {"id": "encaixe-branco", "item": "Encaixe do texto e do ícone", "oque": "Entram com a folga de 0,2 mm sem forçar e sem sobrar espaço visível em volta das letras.", "status": "?", "nota": ""},
+    {"id": "ligacoes", "item": "Ligações aparentes", "oque": "De frente, a 30–50 cm, os frisos das ligações entre as letras e entre as palavras incomodam?", "status": "?", "nota": ""}
+  ],
+  "opcoes": [
+    {"id": "aprovar", "titulo": "Aprovar a modelagem", "descricao": "O jogo de teste ficou bom. Próximo passo: lote com várias placas por mesa e prato cheio de peças brancas.", "custo": "gera o 3MF de lote a partir deste", "recomendada": false},
+    {"id": "ajustar", "titulo": "Ajustar e reimprimir", "descricao": "Mudar folgas, profundidade do rebaixo, posição do NFC ou largura das ligações, conforme a nota, e gerar um novo 3MF de teste.", "custo": "≈ 1 h 50 min por jogo completo (pratos 1–6)", "recomendada": false},
+    {"id": "outro", "titulo": "Voltar para outro protótipo da D09", "descricao": "A opção D não resolveu. Indicar na nota qual protótipo (A, B, C, E ou F) seguir.", "custo": "nova modelagem", "recomendada": false}
+  ],
+  "escolha": null,
+  "nota": ""
+}
