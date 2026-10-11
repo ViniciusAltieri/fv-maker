@@ -1,0 +1,181 @@
+{
+  "mkt": "tiktok",
+  "aba": "envio",
+  "ordem": 2,
+  "rotulo": "Envio e NF-e",
+  "titulo": "Envio, prazos e nota fiscal",
+  "atualizado_em": "2026-10-11",
+  "intro": "Loja nova usa o \"Enviados pela plataforma\": você compra a etiqueta no Seller Center, a plataforma escolhe a transportadora e você posta num ponto de entrega. Não há armazém do TikTok no Brasil (nada parecido com o Full).",
+  "blocos": [
+    {
+      "tipo": "tabela",
+      "titulo": "Prazos que contam na sua métrica",
+      "colunas": [
+        "Etapa",
+        "Prazo"
+      ],
+      "linhas": [
+        [
+          "Marcar \"Pronto para envio\"",
+          "1 dia útil"
+        ],
+        [
+          "Postar (entrar em trânsito)",
+          "2 dias úteis após o pedido"
+        ],
+        [
+          "Cancelamento automático se não postar",
+          "6 dias úteis"
+        ]
+      ],
+      "nota": "O prazo vence às 23:59:59 de Brasília. Para quem imprime sob demanda, isso significa ter estoque pronto de cada cor e kit."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Como funciona o envio",
+      "itens": [
+        {
+          "t": "Transportadora",
+          "d": "atribuída pela plataforma entre J&T, Correios e iMile (Total Express também aparece). Você não escolhe. Loggi não está na lista."
+        },
+        {
+          "t": "Postagem",
+          "d": "loja nova faz drop-off em pontos de postagem (Correios, J&T, iMile, Total Express, Jadlog). A coleta no endereço existe só para alguns vendedores do Sudeste, de segunda a sexta 9h–18h e sábado 9h–14h."
+        },
+        {
+          "t": "Envio pelo próprio vendedor",
+          "d": "só para vendedores selecionados, sem compensação por problemas logísticos."
+        },
+        {
+          "t": "Limites",
+          "d": "até 30 kg; nenhum lado acima de 100 cm; soma dos lados até 200 cm. A placa está muito longe disso."
+        },
+        {
+          "t": "Embalagem",
+          "d": "proibido colocar panfleto, adesivo ou material promocional não autorizado no pacote, e pedir avaliação em troca de incentivo. Revise o cartão que vai junto da placa."
+        },
+        {
+          "t": "Devolução",
+          "d": "o comprador posta nas agências dos Correios."
+        }
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Frete com origem em SP, pacote até 0,5 kg (a partir de 12/10/2026)",
+      "colunas": [
+        "Destino",
+        "Faixa de valor"
+      ],
+      "linhas": [
+        [
+          "Sudeste",
+          "R$ 3,66 – 31,90"
+        ],
+        [
+          "Sul",
+          "R$ 4,92 – 26,40"
+        ],
+        [
+          "Nordeste",
+          "R$ 6,18 – 60,50"
+        ],
+        [
+          "Centro-Oeste",
+          "R$ 9,52 – 63,14"
+        ],
+        [
+          "Norte",
+          "R$ 13,86 – 175,56"
+        ]
+      ],
+      "nota": "Redução anunciada pela plataforma, IVA incluso. O comprador normalmente paga esse frete; os cupons do PTE abatem parte dele. Diferenças e ajustes ficam com você."
+    },
+    {
+      "tipo": "alerta",
+      "nivel": "risco",
+      "titulo": "NF-e é obrigatória para despachar",
+      "paragrafos": [
+        "Sem NF-e os canais de envio não liberam a etiqueta (a exceção são os Correios). A nota vai **impressa dentro do pacote**, ao lado da etiqueta, e só pode ser cancelada antes do status \"Pronto para envio\".",
+        "O Seller Center tem um **emissor próprio para MEI e Simples Nacional**. Quem usa ERP sobe o XML (até 10 MB). O Bling tem integração com etiqueta e rastreio; o Tiny/Olist não tem conector nativo confirmado."
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Limites da loja nova (período de experiência)",
+      "colunas": [
+        "Nível",
+        "Pedidos por dia",
+        "Anúncios ativos",
+        "Como chegar"
+      ],
+      "linhas": [
+        [
+          "Iniciante",
+          "50",
+          "1.000",
+          "Começa aqui"
+        ],
+        [
+          "Padrão",
+          "100",
+          "2.000",
+          "30 dias de loja, 10 anúncios ativos, questionário e 50 pedidos entregues"
+        ],
+        [
+          "Premium",
+          "200",
+          "3.000",
+          "100 pedidos entregues e 20 compradores únicos"
+        ],
+        [
+          "Profissional",
+          "Ilimitado",
+          "Ilimitado",
+          "Avaliação da plataforma"
+        ]
+      ],
+      "nota": "Em todos: menos de 4 violações em 30 dias e nota da loja (SPS) de pelo menos 3,0–3,5 nos últimos 60 dias."
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Enviados pela plataforma (SLA, frete e limites)",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2915348630603521",
+      "data": "09/10/2026"
+    },
+    {
+      "rotulo": "Política de Logística",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592",
+      "data": "30/09/2026"
+    },
+    {
+      "rotulo": "Comparação entre soluções de envio",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3023422608852744",
+      "data": "24/08/2026"
+    },
+    {
+      "rotulo": "Envio pelo vendedor",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3028311274702599",
+      "data": "24/08/2026"
+    },
+    {
+      "rotulo": "Emissão de NF-e no TikTok Shop",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4896169624913680",
+      "data": "02/09/2025"
+    },
+    {
+      "rotulo": "Período de experiência",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948507379472",
+      "data": "02/04/2026"
+    },
+    {
+      "rotulo": "Bling: integração TikTok Shop",
+      "url": "https://ajuda.bling.com.br/hc/pt-br/articles/31595141324311"
+    },
+    {
+      "rotulo": "Base.com: ponte TikTok Shop ↔ Tiny",
+      "url": "https://base.com/pt-BR/integracoes/tiktokshop/tiny/"
+    }
+  ]
+}

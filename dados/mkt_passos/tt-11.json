@@ -1,0 +1,21 @@
+{
+  "mkt": "tiktok",
+  "ordem": 211,
+  "fase": "Conteúdo",
+  "titulo": "Vincular a conta oficial do TikTok à loja",
+  "onde": "Seller Center › Contas do TikTok",
+  "tempo": "15 min",
+  "porque": "A conta oficial (uma por loja) mostra a vitrine no perfil e pode marcar produtos em vídeos e lives. Dá para vincular mais 4 contas de marketing.",
+  "como": [
+    "Use uma conta @fvmaker (ou parecida) com 18+ e situação regular.",
+    "Ela vira Business Account automaticamente.",
+    "Confira no TikTok Studio se a conta já pode fazer LIVE com carrinho (o mínimo de seguidores não está confirmado)."
+  ],
+  "fonte": {
+    "rotulo": "Vincular conta oficial",
+    "url": "https://ads.tiktok.com/help/article/how-to-link-an-official-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+  },
+  "feito": false,
+  "nota": "",
+  "incerto": true
+}

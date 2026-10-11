@@ -1,0 +1,316 @@
+{
+  "mkt": "tiktok",
+  "aba": "estrategia",
+  "ordem": 4,
+  "rotulo": "Vídeos e afiliados",
+  "titulo": "Estratégia: vídeos, afiliados e campanhas",
+  "atualizado_em": "2026-10-11",
+  "intro": "No ML e na Shopee o comprador procura a placa. No TikTok ele não sabe que ela existe: a venda depende de um vídeo que mostre o problema (poucas avaliações) e a solução (encostar o celular). O que funciona é volume de vídeos com o produto marcado, seus e de criadores afiliados.",
+  "blocos": [
+    {
+      "tipo": "cards",
+      "titulo": "Onde a placa pode ser vista",
+      "itens": [
+        {
+          "tag": "Principal",
+          "titulo": "Vídeo com produto marcado",
+          "texto": "Vídeos curtos no Para Você com o carrinho. O guia oficial para loja nova diz que ter o link no maior número de vídeos importa mais que o encaixe perfeito do conteúdo."
+        },
+        {
+          "tag": "Escala",
+          "titulo": "Vídeos de afiliados",
+          "texto": "Criadores divulgam e ganham comissão só quando vendem. Os afiliados ativos cresceram 46 vezes no primeiro ano do TikTok Shop no Brasil."
+        },
+        {
+          "tag": "Conversão",
+          "titulo": "Live",
+          "texto": "Demonstração ao vivo. O GMV de lives cresceu 161 vezes em um ano, puxado por beleza e cozinha. Para a placa, serve depois que os vídeos já venderem."
+        },
+        {
+          "tag": "Vitrine",
+          "titulo": "Perfil e aba Loja",
+          "texto": "A vitrine fica acima dos vídeos do perfil da FV Maker; a aba Loja recomenda produtos pelo comportamento de quem assiste. Como a busca ordena produtos não é público."
+        }
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "nivel": "incerto",
+      "titulo": "A placa não é o produto típico do TikTok Shop",
+      "paragrafos": [
+        "As categorias que mais vendem são moda, beleza, casa e eletrônicos, compradas por impulso pelo consumidor final. A placa é para **donos de pequenos comércios**, um público menor dentro do app (idade média acima de 30 anos, segundo o TikTok). Não há caso público de produto B2B pequeno no TikTok Shop Brasil.",
+        "Por isso trate o canal como **teste de 60 dias** dentro do benefício de 0% de comissão: o custo é o seu tempo de gravar e algumas amostras. Se não vender, a loja parada não custa nada."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "O que o TikTok diz que funciona (fontes oficiais)",
+      "itens": [
+        {
+          "t": "Gancho nos 3 primeiros segundos",
+          "d": "ligado ao produto, não ao preço. Pergunta ou afirmação forte."
+        },
+        {
+          "t": "Demonstração resolvendo um problema",
+          "d": "formatos citados: review pessoal, antes e depois, unboxing, tutorial, problema e solução."
+        },
+        {
+          "t": "Rosto, voz e CTA claro",
+          "d": "aparecer falando, pedir a ação (\"toca no carrinho\") e responder comentários: o algoritmo valoriza engajamento."
+        },
+        {
+          "t": "Catálogo inteiro e muitos vídeos",
+          "d": "suba unidade e kits, e poste o máximo de vídeos com o link do produto."
+        },
+        {
+          "t": "Anúncio só com o que já vendeu",
+          "d": "o GMV Max junta vídeo orgânico, de afiliado e pago numa campanha. Comece pelos 3 a 5 vídeos que já converteram e ajuste o orçamento por semana olhando o retorno de 7 dias."
+        }
+      ],
+      "nota": "Duração ideal e frequência não estão em documento oficial. Blogs sugerem 9 a 15 s para vender e 5 a 7 vídeos com carrinho por semana."
+    },
+    {
+      "tipo": "modelos",
+      "titulo": "Roteiros de vídeo para a placa",
+      "texto": "Grave com a versão **sem o logo do Google** e sem QR code legível. Nada de prometer \"5 estrelas garantidas\": o Google proíbe incentivar só clientes satisfeitos a avaliar.",
+      "itens": [
+        {
+          "rotulo": "1 · Demonstração (gancho em 2 s)",
+          "texto": "[0–2 s] Close: celular encosta na placa, a tela de avaliação abre sozinha.\n[2–6 s] Fala: \"Seu cliente avalia seu negócio em 3 segundos, sem baixar app e sem procurar nada.\"\n[6–12 s] Mostra no balcão de um café ou salão, cliente encostando o celular.\n[12–15 s] \"Funciona em iPhone e Android. Toca no carrinho e escolhe a cor.\""
+        },
+        {
+          "rotulo": "2 · POV do dono",
+          "texto": "Texto na tela: \"POV: seu restaurante é ótimo, mas tem 12 avaliações.\"\nCena: dono olhando o celular, preocupado.\nCorte: placa no balcão, clientes encostando o celular na saída.\nTexto final: \"Avaliação virou parte do pagamento.\" CTA: \"Link no carrinho.\""
+        },
+        {
+          "rotulo": "3 · Antes e depois",
+          "texto": "Use números reais de um cliente, com autorização por escrito.\n[0–3 s] \"Essa barbearia tinha 18 avaliações em março.\"\n[3–8 s] Mostra a placa no espelho, cliente encostando o celular.\n[8–14 s] \"Três meses depois...\" e o número novo.\n[14–16 s] \"A placa está no carrinho.\""
+        },
+        {
+          "rotulo": "4 · Objeções",
+          "texto": "Gancho: \"As 3 perguntas que todo mundo faz sobre a placa de avaliação:\"\n1. Precisa de app? Não, o celular lê sozinho.\n2. Funciona em iPhone? Sim, do XS em diante é só encostar.\n3. Alguém pode trocar o link? Não, o chip sai bloqueado.\nCTA: \"Kit de 5 no carrinho para quem tem mais de um balcão.\""
+        },
+        {
+          "rotulo": "5 · Unboxing do kit",
+          "texto": "Mesa limpa, luz lateral, sem música alta.\nAbre o pacote do kit de 10, espalha as placas por cor.\nFala: \"Feitas em impressão 3D aqui em São Paulo, cada uma já configurada para o seu negócio.\"\nTermina encostando o celular numa delas. CTA no carrinho."
+        }
+      ]
+    },
+    {
+      "tipo": "modelos",
+      "titulo": "Título e descrição do anúncio (sem marca de terceiros)",
+      "contar": true,
+      "texto": "Título de 25 a 200 caracteres; descrição com pelo menos 30 palavras, sem link, QR, telefone ou nome de outra plataforma.",
+      "itens": [
+        {
+          "rotulo": "Título · unidade",
+          "texto": "Placa NFC de Avaliação para Comércio Aproxime o Celular e Avalie Sem App 9 cm"
+        },
+        {
+          "rotulo": "Título · kit",
+          "texto": "Kit 5 Placas NFC de Avaliação para Balcão Restaurante Salão Barbearia Clínica"
+        },
+        {
+          "rotulo": "Descrição",
+          "texto": "Placa de avaliação com chip NFC para o seu comércio. O cliente aproxima o celular e a página de avaliação do seu negócio abre na hora, sem baixar aplicativo e sem procurar o nome da loja.\n\nChega pronta para usar: depois da compra, envie pelo chat da loja o nome e a cidade do seu negócio. Geramos o link de avaliação, gravamos o chip e testamos antes de enviar.\n\nMedidas: 88 × 88 × 6 mm, impressa em 3D em PLA. Funciona com celulares com NFC: a maioria dos Android e iPhone XS ou mais novo. O chip sai bloqueado contra regravação, não tem bateria e não tem mensalidade.\n\nProduto independente, sem afiliação com nenhuma empresa de buscas ou mapas."
+        }
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Afiliados: como configurar",
+      "colunas": [
+        "Plano",
+        "Para quê",
+        "Comissão sugerida"
+      ],
+      "linhas": [
+        [
+          "Colaboração aberta",
+          "Qualquer criador elegível pega o produto. Pode exigir aprovação e oferecer amostra grátis.",
+          "10% para começar (guia oficial)"
+        ],
+        [
+          "Colaboração direcionada",
+          "Convite a criadores escolhidos (até 50 por convite). A taxa dela prevalece sobre a aberta.",
+          "Acima da aberta, p.ex. 15%"
+        ]
+      ],
+      "nota": "Aumento de comissão vale na hora; redução só depois de 30 dias para quem já vinculou o produto. A comissão sai do seu repasse e é paga ao criador às quartas-feiras."
+    },
+    {
+      "tipo": "cards",
+      "titulo": "Criadores que fazem sentido para a placa",
+      "texto": "Inferência: não há dado público de produto B2B no TikTok Shop Brasil. Mande amostra só para quem tem público de donos de negócio.",
+      "itens": [
+        {
+          "tag": "Gestão",
+          "titulo": "Empreendedorismo e MEI",
+          "texto": "Dicas de negócio, finanças de pequena empresa, formalização."
+        },
+        {
+          "tag": "Marketing",
+          "titulo": "Marketing local",
+          "texto": "Google Meu Negócio, Instagram para loja física, como conseguir clientes no bairro."
+        },
+        {
+          "tag": "Segmento",
+          "titulo": "Food service e beleza",
+          "texto": "Donos de restaurante, hamburgueria, barbeiros, salões e clínicas de estética que mostram a rotina."
+        },
+        {
+          "tag": "Gadget",
+          "titulo": "Achadinhos tech",
+          "texto": "Perfis de demonstração de gadgets; vendem pelo efeito \"encostou, abriu\"."
+        }
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Calendário de fim de ano 2026",
+      "colunas": [
+        "Período",
+        "O que acontece"
+      ],
+      "linhas": [
+        [
+          "27/10 a 12/12",
+          "Campanha de fim de ano do TikTok Shop: R$ 100 milhões em cupons, descontos de até 70%, cupons de até R$ 200, 12x sem juros"
+        ],
+        [
+          "19 a 30/11",
+          "Fase forte (Black Friday)"
+        ],
+        [
+          "Agora",
+          "Fixe o preço: em 2025 a inscrição exigia o menor preço dos últimos 30 dias, estoque e prazo de entrega em dia"
+        ]
+      ],
+      "nota": "Regras de inscrição de 2026 e um 11.11 próprio do TikTok não foram confirmados. A inscrição em campanhas grandes depende da nota da loja."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Erros de iniciante que derrubam a loja",
+      "itens": [
+        "Postar o logo do Google na placa, no anúncio ou no vídeo.",
+        "Atrasar o despacho ou cancelar por falta de estoque: as duas métricas cortam alcance e campanhas.",
+        "Desistir com poucos vídeos: quem vende bem testa dezenas de versões do mesmo produto.",
+        "Começar o vídeo pelo preço, usar voz de IA sem ritmo ou copiar vídeo de outro.",
+        "Live gravada, em loop ou com imagem parada: é punida.",
+        "Deixar a comissão da colaboração direcionada menor ou igual à da aberta.",
+        "Promoção falsa (\"só hoje\" todo dia) ou promessa de resultado."
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "O mercado em números",
+      "colunas": [
+        "Dado",
+        "Valor",
+        "Fonte"
+      ],
+      "linhas": [
+        [
+          "Lançamento no Brasil",
+          "08/05/2025",
+          "Imprensa"
+        ],
+        [
+          "Crescimento do GMV diário no 1º ano",
+          "102 vezes",
+          "TikTok, 04/06/2026"
+        ],
+        [
+          "Usuários do TikTok no Brasil",
+          "134 milhões",
+          "Imprensa"
+        ],
+        [
+          "Compram depois de descobrir no app",
+          "57,8%",
+          "TikTok (17 mil usuários)"
+        ],
+        [
+          "GMV no 1º semestre de 2026",
+          "≈ R$ 5,3 bilhões",
+          "Momentum Works (estimativa)"
+        ],
+        [
+          "Lojas ativas",
+          "≈ 110 mil",
+          "Momentum Works (estimativa)"
+        ]
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "TikTok Newsroom: TikTok Shop cresce 102 vezes no primeiro ano",
+      "data": "04/06/2026",
+      "url": "https://newsroom.tiktok.com/tiktok-shop-cresce-102-vezes-em-seu-primeiro-ano-no-brasil?lang=pt-BR"
+    },
+    {
+      "rotulo": "TikTok Ads: considerações ao lançar a loja",
+      "data": "11/2025",
+      "url": "https://ads.tiktok.com/help/article/considerations-when-launching-your-tiktok-shop-journey"
+    },
+    {
+      "rotulo": "TikTok Ads: colaborações abertas",
+      "data": "08/2025",
+      "url": "https://ads.tiktok.com/help/article/about-open-collaborations-in-seller-center"
+    },
+    {
+      "rotulo": "Academy BR: comissão de afiliados",
+      "data": "10/02/2026",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2850789359355649"
+    },
+    {
+      "rotulo": "TikTok Ads: vincular conta oficial",
+      "url": "https://ads.tiktok.com/help/article/how-to-link-an-official-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+    },
+    {
+      "rotulo": "TikTok Ads: vincular conta de marketing",
+      "url": "https://ads.tiktok.com/resources/help/article/how-to-link-a-marketing-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+    },
+    {
+      "rotulo": "TikTok for Business: GMV Max",
+      "data": "13/05/2026",
+      "url": "https://ads.tiktok.com/business/pt-BR/blog/gmv-max-automate-shop-roi"
+    },
+    {
+      "rotulo": "TikTok for Business: boas práticas de vídeo curto",
+      "data": "24/11/2024",
+      "url": "https://ads.tiktok.com/business/pt-BR/blog/tiktok-short-video-best-practice"
+    },
+    {
+      "rotulo": "Mercado&Consumo: R$ 100 milhões em cupons na Black Friday 2026",
+      "data": "30/09/2026",
+      "url": "https://mercadoeconsumo.com.br/30/09/2026/black-friday/tiktok-shop-brasil-vai-investir-r-100-milhoes-em-cupons-na-black-friday-2026/"
+    },
+    {
+      "rotulo": "Mercado&Consumo: 10 dicas para a Black Friday",
+      "data": "21/10/2025",
+      "url": "https://mercadoeconsumo.com.br/21/10/2025/black-friday/tiktok-shop-revela-10-dicas-para-maximizar-vendas-na-primeira-black-friday-da-plataforma-no-brasil/"
+    },
+    {
+      "rotulo": "PPC Land: guia de vídeo com produto do TikTok Shop",
+      "data": "08/06/2026",
+      "url": "https://ppc.land/tiktok-shops-shoppable-video-content-guide-tells-creators-what-actually-works/"
+    },
+    {
+      "rotulo": "Momentum Works: TikTok Shop no Brasil, 1º semestre de 2026",
+      "data": "08/2026",
+      "url": "https://momentum.asia/insights/detail/tiktok-shop-in-brazil-h1-2026"
+    },
+    {
+      "rotulo": "Bem Paraná: criadoras de Curitiba no TikTok Shop",
+      "data": "09/07/2026",
+      "url": "https://www.bemparana.com.br/noticias/economia/criadoras-de-curitiba-somam-mais-de-r-10-milhoes-em-vendas-no-tiktok-shop/"
+    },
+    {
+      "rotulo": "ViniEnsina: vídeos que vendem no TikTok Shop",
+      "data": "08/07/2026",
+      "url": "https://www.viniensina.com.br/videos-que-vendem-tiktok-shop/"
+    }
+  ]
+}

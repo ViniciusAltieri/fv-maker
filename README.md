@@ -1,6 +1,6 @@
 # FV Maker
 
-Site interno da FV Maker, marca das placas NFC "Avalie-nos no Google" impressas em 3D e das lojas no Mercado Livre e na Shopee.
+Site interno da FV Maker, marca das placas NFC "Avalie-nos no Google" impressas em 3D e das lojas no Mercado Livre, na Shopee e no TikTok Shop.
 
 O site está publicado como artefato no claude.ai (privado):
 https://claude.ai/artifact/TwkYJVNxZQaVQN21QK5yVf
@@ -9,6 +9,7 @@ https://claude.ai/artifact/TwkYJVNxZQaVQN21QK5yVf
 
 - **Diário de impressão:** decisões de ajuste da placa (D00 em diante), comparador de camadas e ajustes em quarentena.
 - **Mercado Livre** e **Shopee:** roteiro de configuração da loja, taxas e tributação (com calculadora de repasse), visibilidade, reputação e o kit do anúncio da placa.
+- **TikTok Shop:** roteiro, taxas (com calculadora), envio e NF-e, políticas e penalidades, e estratégia de vídeos e afiliados.
 
 ## Estrutura
 
@@ -17,12 +18,12 @@ https://claude.ai/artifact/TwkYJVNxZQaVQN21QK5yVf
 | `index.html` | Página publicada. Dentro do claude.ai lê o banco do artefato; fora dele, carrega `dados/canais.js`. |
 | `img/` | Renders e mapas de camada usados nas decisões. |
 | `dados/` | Exportação do banco do artefato, um JSON por documento. |
-| `dados/canais.js` | Conteúdo das áreas Mercado Livre e Shopee num arquivo só, gerado a partir de `dados/mkt_*`. |
+| `dados/canais.js` | Conteúdo das áreas Mercado Livre, Shopee e TikTok Shop num arquivo só, gerado a partir de `dados/mkt_*`. |
 | `ferramentas/gerar_canais_js.py` | Gera o `dados/canais.js`. |
 
 ## Abrir fora do claude.ai
 
-As áreas **Mercado Livre** e **Shopee** funcionam em qualquer lugar:
+As áreas **Mercado Livre**, **Shopee** e **TikTok Shop** funcionam em qualquer lugar:
 
 - abrindo o `index.html` direto do disco (duplo clique);
 - num servidor estático, como o GitHub Pages ou a Vercel.

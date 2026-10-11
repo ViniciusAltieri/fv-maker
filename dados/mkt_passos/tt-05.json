@@ -1,0 +1,19 @@
+{
+  "mkt": "tiktok",
+  "ordem": 205,
+  "fase": "Conta e cadastro",
+  "titulo": "Cadastrar a conta de recebimento do CNPJ",
+  "onde": "Seller Center › Finanças",
+  "tempo": "15 min",
+  "porque": "O repasse cai 7 dias após a entrega, por conta bancária ou Pix em nome da empresa.",
+  "como": [
+    "Cadastre a mesma conta PJ usada no ML e na Shopee, ou uma chave Pix do CNPJ.",
+    "Confira os dados fiscais da empresa na mesma tela."
+  ],
+  "fonte": {
+    "rotulo": "Pagamentos do TikTok Shop",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=28418234664705"
+  },
+  "feito": false,
+  "nota": ""
+}

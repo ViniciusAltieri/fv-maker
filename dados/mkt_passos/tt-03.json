@@ -1,0 +1,19 @@
+{
+  "mkt": "tiktok",
+  "ordem": 203,
+  "fase": "Antes de abrir a loja",
+  "titulo": "Ter estoque pronto de cada cor e kit",
+  "onde": "Bancada",
+  "tempo": "Contínuo",
+  "porque": "O despacho é em 2 dias úteis e cancelamento por falta de estoque derruba a métrica (limite de 2,5%).",
+  "como": [
+    "Mantenha pelo menos alguns kits de cada variação impressos e com tag gravável.",
+    "Gravar o link do cliente no chip leva minutos: deixe isso para depois do pedido."
+  ],
+  "fonte": {
+    "rotulo": "Política de Logística",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592"
+  },
+  "feito": false,
+  "nota": ""
+}

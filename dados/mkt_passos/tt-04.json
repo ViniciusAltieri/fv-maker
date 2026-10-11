@@ -1,0 +1,24 @@
+{
+  "mkt": "tiktok",
+  "ordem": 204,
+  "fase": "Conta e cadastro",
+  "titulo": "Criar a conta de vendedor com o CNPJ do MEI",
+  "onde": "seller-br.tiktok.com",
+  "tempo": "30 min + 2 a 6 dias de análise",
+  "porque": "O TikTok Shop só aceita CNPJ; o MEI serve. Durante a análise já dá para configurar envio e subir produtos.",
+  "como": [
+    "Tenha em mãos RG ou CNH, o Cartão CNPJ ou CCMEI, razão social, data de abertura e endereço comercial.",
+    "Tire as duas selfies pedidas (rosto e segurando o documento), coloridas e legíveis.",
+    "Use o nome de loja **FV Maker**, sem nenhuma marca de terceiros."
+  ],
+  "fonte": {
+    "rotulo": "Registro de Vendedores",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3995530205677329"
+  },
+  "feito": false,
+  "nota": "",
+  "atencao": [
+    "o nome da loja também conta para a política de marcas."
+  ],
+  "critico": true
+}

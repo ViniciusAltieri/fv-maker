@@ -1,0 +1,236 @@
+{
+  "mkt": "tiktok",
+  "aba": "taxas",
+  "ordem": 1,
+  "rotulo": "Taxas e tributação",
+  "titulo": "Taxas e tributação",
+  "atualizado_em": "2026-10-11",
+  "calculadora": true,
+  "inclui": [
+    "comum-tributacao"
+  ],
+  "intro": "O TikTok Shop não cobra mensalidade. Cada item vendido paga comissão + taxa fixa (que mudam em R$ 50), mais 6% do Programa de Taxas de Envio se ele estiver ligado, mais a comissão do afiliado quando a venda vem de um criador.",
+  "blocos": [
+    {
+      "tipo": "tabela",
+      "titulo": "Comissão por faixa de preço (desde 15/07/2026)",
+      "colunas": [
+        "Preço do item após seus descontos",
+        "Comissão",
+        "Taxa fixa por item",
+        "Antes de 15/07"
+      ],
+      "linhas": [
+        [
+          "Abaixo de R$ 50,00",
+          "10%",
+          "R$ 4,00",
+          "6% + R$ 4"
+        ],
+        [
+          "R$ 50,00 ou mais",
+          "6%",
+          "R$ 6,00",
+          "6% + R$ 4"
+        ]
+      ],
+      "nota": "Não há tabela por categoria. Blogs ainda citam 6% + R$ 2 abaixo de R$ 79: é a regra de 2025, já superada."
+    },
+    {
+      "tipo": "alerta",
+      "nivel": "dica",
+      "titulo": "Não existe zona ruim de preço como no ML e na Shopee",
+      "paragrafos": [
+        "A R$ 49,90 a taxa é R$ 8,99; a R$ 50,00 é R$ 9,00. A virada de faixa custa um centavo, e acima de R$ 50 o percentual cai depressa: a R$ 79,90 a comissão + taxa fixa é R$ 10,79 (13,5%).",
+        "Por isso o TikTok é o canal mais barato para os **kits de 5 e 10**."
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Quanto o TikTok desconta da placa",
+      "colunas": [
+        "Preço",
+        "Comissão + taxa fixa",
+        "Com frete grátis (PTE 6%)",
+        "% do preço"
+      ],
+      "linhas": [
+        [
+          "R$ 39,90",
+          "R$ 7,99",
+          "R$ 10,38",
+          "26%"
+        ],
+        [
+          "R$ 49,90",
+          "R$ 8,99",
+          "R$ 11,98",
+          "24%"
+        ],
+        [
+          "R$ 59,90",
+          "R$ 9,59",
+          "R$ 13,19",
+          "22%"
+        ],
+        [
+          "R$ 79,90",
+          "R$ 10,79",
+          "R$ 15,59",
+          "19,5%"
+        ]
+      ],
+      "nota": "Sem afiliado, imposto ou frete. Na Shopee, R$ 49,90 deixa R$ 14,48 de taxa (29%)."
+    },
+    {
+      "tipo": "alerta",
+      "nivel": "dica",
+      "titulo": "Benefício de novo vendedor: 0% de comissão por 60 dias",
+      "paragrafos": [
+        "Desde 01/03/2026, quem conclui a **missão de novo vendedor** e resgata a recompensa fica 60 dias sem comissão, limitado a R$ 17.000 em vendas. A missão tem prazo: se expirar, o benefício se perde.",
+        "Fica em Seller Center › Crescimento › Oportunidades de crescimento. Não está claro se a taxa fixa por item também é isenta; a calculadora considera que não."
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Programa de Taxas de Envio (PTE, o \"frete grátis\")",
+      "texto": "Todo vendedor entra automaticamente e pode sair e voltar quando quiser. Em troca de **6% de cada item entregue** (teto de R$ 50 por produto), a plataforma dá cupons de frete aos compradores:",
+      "colunas": [
+        "Comprador",
+        "Cupom de frete"
+      ],
+      "linhas": [
+        [
+          "Novo usuário",
+          "R$ 5 em compras a partir de R$ 109"
+        ],
+        [
+          "Recorrente (níveis 1 a 3)",
+          "de R$ 9 em compras a partir de R$ 9 até R$ 40 em compras a partir de R$ 159"
+        ]
+      ],
+      "nota": "A taxa é cobrada em todo pedido entregue, mesmo que o comprador não use cupom, e não é estornada em devolução."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Outras cobranças",
+      "itens": [
+        {
+          "t": "Afiliados",
+          "d": "você define de 1% a 80%; é descontado do seu repasse. Se o comprador for reembolsado mais de 14 dias depois da entrega, a comissão do criador continua com você."
+        },
+        {
+          "t": "Frete de devolução",
+          "d": "pago por você quando o motivo é defeito, item errado, danificado, descrição imprecisa ou atraso. Arrependimento (\"não preciso mais\") fica com o TikTok."
+        },
+        {
+          "t": "Diferença de peso",
+          "d": "o frete é cobrado pelo maior entre peso real, cubado (C×L×A/6000) e cadastrado. A diferença sai do seu repasse."
+        },
+        {
+          "t": "DIFAL",
+          "d": "venda para outro estado está sujeita ao ICMS DIFAL. Se você não pagar, a transportadora pode pagar e descontar no ajuste mensal. Confirme com o contador como fica para o MEI."
+        },
+        {
+          "t": "Anúncios (GMV Max)",
+          "d": "opcionais. Formato padrão de anúncio do Shop desde 07/2025; o orçamento mínimo em R$ não está publicado (confira no Seller Center)."
+        },
+        {
+          "t": "Saque",
+          "d": "repasse por conta bancária ou Pix do CNPJ, até 5 contas. Taxa de saque não aparece em página oficial."
+        }
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Quando o dinheiro cai",
+      "colunas": [
+        "Tipo de repasse",
+        "Depois da entrega",
+        "Quem"
+      ],
+      "linhas": [
+        [
+          "Padrão",
+          "7 dias",
+          "Toda loja nova"
+        ],
+        [
+          "Expresso",
+          "3 dias",
+          "SPS acima de 3,5, sem medidas corretivas"
+        ],
+        [
+          "Adiado",
+          "31 dias",
+          "Durante verificações de segurança"
+        ]
+      ],
+      "nota": "O pagamento é iniciado automaticamente e chega em 0 a 2 dias úteis. O tipo é revisto todo mês. Relatos no Reclame Aqui falam de lojas novas movidas para 30 dias."
+    },
+    {
+      "tipo": "alerta",
+      "nivel": "incerto",
+      "titulo": "O que confirmar na primeira venda",
+      "paragrafos": [
+        "Os Termos citam uma **taxa de transação** sem percentual publicado para o Brasil; se haverá taxa fixa no período de 0% de comissão; taxa de saque; e quanto do frete realmente fica com você num pacote de 100 g. Anote no roteiro o que aparecer no extrato."
+      ]
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Tarifa de Comissão da Plataforma",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201",
+      "data": "12/06/2026"
+    },
+    {
+      "rotulo": "Programa de Taxas de Envio",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5665577566734097",
+      "data": "31/08/2026"
+    },
+    {
+      "rotulo": "Desconto na Taxa de Envio",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5702401538754320",
+      "data": "01/10/2026"
+    },
+    {
+      "rotulo": "Casos comuns de taxa de envio",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4814789939824401",
+      "data": "16/10/2025"
+    },
+    {
+      "rotulo": "Política de Pagamentos aos Vendedores",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1442971112769281",
+      "data": "22/06/2026"
+    },
+    {
+      "rotulo": "Pagamentos do TikTok Shop",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=28418234664705",
+      "data": "29/05/2026"
+    },
+    {
+      "rotulo": "Termos de Serviço do Vendedor",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3268441302615809",
+      "data": "26/05/2026"
+    },
+    {
+      "rotulo": "Colaborações de afiliados",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6580476438529809",
+      "data": "14/04/2025"
+    },
+    {
+      "rotulo": "Exame: nichos e novas taxas do TikTok Shop",
+      "data": "01/10/2026",
+      "url": "https://exame.com/tecnologia/examelab/tiktok-shop-no-brasil-os-nichos-mais-lucrativos-e-as-novas-taxas-de-comissao/"
+    },
+    {
+      "rotulo": "GEcommerce: novas taxas a partir de 15 de julho",
+      "data": "23/06/2026",
+      "url": "https://gecommerce.com.br/marketing-digital-ecommerce/novas-taxas-do-tiktok-shop-em-2026-o-que-muda-a-partir-de-15-de-julho-e-como-recalcular-sua-margem/"
+    },
+    {
+      "rotulo": "TikTok Ads: orçamentos diários",
+      "url": "https://ads.tiktok.com/help/article/about-daily-budgets?lang=pt"
+    }
+  ]
+}

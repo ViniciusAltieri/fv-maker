@@ -1,0 +1,21 @@
+{
+  "mkt": "tiktok",
+  "ordem": 202,
+  "fase": "Antes de abrir a loja",
+  "titulo": "Escolher como emitir a NF-e",
+  "onde": "Seller Center › Pedidos › NF-e",
+  "tempo": "1 h",
+  "porque": "Sem NF-e os canais de envio não liberam a etiqueta (exceto Correios), e a nota vai impressa dentro do pacote.",
+  "como": [
+    "Para começar, use o emissor do próprio Seller Center (feito para MEI e Simples).",
+    "Se já usar o Bling no ML e na Shopee, a integração com o TikTok Shop sobe o XML e puxa etiqueta e rastreio.",
+    "Peça ao contador o CFOP e a configuração de venda para outros estados (DIFAL)."
+  ],
+  "fonte": {
+    "rotulo": "Emissão de NF-e no TikTok Shop",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4896169624913680"
+  },
+  "feito": false,
+  "nota": "",
+  "critico": true
+}

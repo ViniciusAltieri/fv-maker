@@ -1,0 +1,20 @@
+{
+  "mkt": "tiktok",
+  "ordem": 206,
+  "fase": "Conta e cadastro",
+  "titulo": "Configurar endereço de envio, devolução e ponto de postagem",
+  "onde": "Seller Center › Envio",
+  "tempo": "20 min",
+  "porque": "Loja nova posta em pontos de entrega (Correios, J&T, iMile, Total Express, Jadlog). A coleta em casa só vale para alguns vendedores do Sudeste.",
+  "como": [
+    "Cadastre o endereço de devolução.",
+    "Procure no mapa do Seller Center o ponto de postagem mais perto e confira o horário.",
+    "Veja se a sua região já tem coleta disponível."
+  ],
+  "fonte": {
+    "rotulo": "Enviados pela plataforma",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2915348630603521"
+  },
+  "feito": false,
+  "nota": ""
+}

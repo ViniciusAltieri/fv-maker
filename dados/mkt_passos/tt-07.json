@@ -1,0 +1,25 @@
+{
+  "mkt": "tiktok",
+  "ordem": 207,
+  "fase": "Conta e cadastro",
+  "titulo": "Resgatar a missão de novo vendedor (0% por 60 dias)",
+  "onde": "Seller Center › Crescimento › Oportunidades de crescimento",
+  "tempo": "10 min",
+  "porque": "Comissão zerada por 60 dias, até R$ 17.000 em vendas. A missão expira se não for concluída a tempo.",
+  "como": [
+    "Abra a missão logo que a conta for aprovada e veja o prazo.",
+    "Cumpra as tarefas e **resgate a recompensa**: sem resgate não vale.",
+    "Anote aqui a data de início e de fim dos 60 dias."
+  ],
+  "fonte": {
+    "rotulo": "Tarifa de Comissão da Plataforma",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201"
+  },
+  "feito": false,
+  "nota": "",
+  "atencao": [
+    "confirme no extrato se a taxa fixa por item também foi isenta."
+  ],
+  "critico": true,
+  "incerto": true
+}

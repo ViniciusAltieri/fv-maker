@@ -1,6 +1,6 @@
 // Gerado por ferramentas/gerar_canais_js.py — não edite à mão.
 window.FV_DADOS = {
- "exportado_em": "2026-10-03T12:00:00",
+ "exportado_em": "2026-10-11T12:00:00",
  "canais": {
   "ml": {
    "atualizado_em": "2026-09-29",
@@ -41,6 +41,30 @@ window.FV_DADOS = {
    "eyebrow": "FV Maker · canal de venda da placa NFC de avaliação",
    "lede": "A Shopee cobra mais por venda barata, é rígida com prazo de envio e com qualquer menção a contato externo (inclusive QR code nas fotos), e empurra quem vende com frequência para o CNPJ. Em troca, não cobra frete do vendedor e tem ferramentas gratuitas de promoção desde o primeiro dia.",
    "roteiro_intro": "Siga na ordem. O cadastro leva até 3 dias úteis para ser validado e o primeiro anúncio até 48 horas úteis para ser aprovado: comece pela conta enquanto prepara fotos e estoque. O progresso fica salvo no diário."
+  },
+  "tiktok": {
+   "atualizado_em": "2026-10-11",
+   "eyebrow": "FV Maker · canal de venda da placa NFC de avaliação",
+   "lede": "No TikTok Shop a venda nasce do vídeo: a placa aparece num vídeo curto ou numa live, com o produto marcado, e o comprador fecha sem sair do app. Só aceita CNPJ (o MEI serve), cobra menos que a Shopee por venda barata e exige NF-e e despacho em 2 dias úteis. O maior risco é o mesmo dos outros canais, só que mais rígido: qualquer uso do logo ou do nome Google sem autorização é tratado como contrafação.",
+   "destaques": [
+    {
+     "rotulo": "Comissão abaixo de R$ 50",
+     "valor": "10% + R$ 4"
+    },
+    {
+     "rotulo": "R$ 50 ou mais",
+     "valor": "6% + R$ 6"
+    },
+    {
+     "rotulo": "Frete grátis (PTE)",
+     "valor": "+6%"
+    },
+    {
+     "rotulo": "Despacho",
+     "valor": "2 dias úteis"
+    }
+   ],
+   "roteiro_intro": "Siga na ordem. A análise do cadastro leva de 2 a 6 dias, e dá para configurar envio e subir produtos enquanto isso. A loja nova começa no nível Iniciante (50 pedidos por dia) e só sobe depois de 30 dias. O progresso fica salvo no diário."
   }
  },
  "passos": [
@@ -953,6 +977,401 @@ window.FV_DADOS = {
    "tempo": "Meta de 3 meses",
    "titulo": "Depois de 90 dias com CNPJ: mirar o Vendedor Indicado",
    "id": "sp-23"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 201,
+   "fase": "Antes de abrir a loja",
+   "titulo": "Separar a versão da placa sem o logo do Google",
+   "onde": "Modelo 3D e fotos",
+   "tempo": "1 dia",
+   "porque": "A política de propriedade intelectual do TikTok trata logo de terceiro sem autorização como contrafação, no produto, no anúncio e no vídeo. Relatos falam em 24 pontos por violação, de 200 iniciais.",
+   "como": [
+    "A versão marketplace (sem o G colorido) ainda traz a palavra Google no relevo, e a política do TikTok cita marca de terceiros \"em seus produtos físicos\". O mais seguro aqui é uma versão com \"Avalie-nos!\" ou com a logo do cliente.",
+    "Fotografe só essa versão e grave os vídeos só com ela.",
+    "Revise o cartão que vai no pacote: sem logo e sem material promocional."
+   ],
+   "fonte": {
+    "rotulo": "Como evitar violações de marcas",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5398633114650369"
+   },
+   "feito": false,
+   "nota": "",
+   "critico": true,
+   "id": "tt-01"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 202,
+   "fase": "Antes de abrir a loja",
+   "titulo": "Escolher como emitir a NF-e",
+   "onde": "Seller Center › Pedidos › NF-e",
+   "tempo": "1 h",
+   "porque": "Sem NF-e os canais de envio não liberam a etiqueta (exceto Correios), e a nota vai impressa dentro do pacote.",
+   "como": [
+    "Para começar, use o emissor do próprio Seller Center (feito para MEI e Simples).",
+    "Se já usar o Bling no ML e na Shopee, a integração com o TikTok Shop sobe o XML e puxa etiqueta e rastreio.",
+    "Peça ao contador o CFOP e a configuração de venda para outros estados (DIFAL)."
+   ],
+   "fonte": {
+    "rotulo": "Emissão de NF-e no TikTok Shop",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4896169624913680"
+   },
+   "feito": false,
+   "nota": "",
+   "critico": true,
+   "id": "tt-02"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 203,
+   "fase": "Antes de abrir a loja",
+   "titulo": "Ter estoque pronto de cada cor e kit",
+   "onde": "Bancada",
+   "tempo": "Contínuo",
+   "porque": "O despacho é em 2 dias úteis e cancelamento por falta de estoque derruba a métrica (limite de 2,5%).",
+   "como": [
+    "Mantenha pelo menos alguns kits de cada variação impressos e com tag gravável.",
+    "Gravar o link do cliente no chip leva minutos: deixe isso para depois do pedido."
+   ],
+   "fonte": {
+    "rotulo": "Política de Logística",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-03"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 204,
+   "fase": "Conta e cadastro",
+   "titulo": "Criar a conta de vendedor com o CNPJ do MEI",
+   "onde": "seller-br.tiktok.com",
+   "tempo": "30 min + 2 a 6 dias de análise",
+   "porque": "O TikTok Shop só aceita CNPJ; o MEI serve. Durante a análise já dá para configurar envio e subir produtos.",
+   "como": [
+    "Tenha em mãos RG ou CNH, o Cartão CNPJ ou CCMEI, razão social, data de abertura e endereço comercial.",
+    "Tire as duas selfies pedidas (rosto e segurando o documento), coloridas e legíveis.",
+    "Use o nome de loja **FV Maker**, sem nenhuma marca de terceiros."
+   ],
+   "fonte": {
+    "rotulo": "Registro de Vendedores",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3995530205677329"
+   },
+   "feito": false,
+   "nota": "",
+   "atencao": [
+    "o nome da loja também conta para a política de marcas."
+   ],
+   "critico": true,
+   "id": "tt-04"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 205,
+   "fase": "Conta e cadastro",
+   "titulo": "Cadastrar a conta de recebimento do CNPJ",
+   "onde": "Seller Center › Finanças",
+   "tempo": "15 min",
+   "porque": "O repasse cai 7 dias após a entrega, por conta bancária ou Pix em nome da empresa.",
+   "como": [
+    "Cadastre a mesma conta PJ usada no ML e na Shopee, ou uma chave Pix do CNPJ.",
+    "Confira os dados fiscais da empresa na mesma tela."
+   ],
+   "fonte": {
+    "rotulo": "Pagamentos do TikTok Shop",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=28418234664705"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-05"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 206,
+   "fase": "Conta e cadastro",
+   "titulo": "Configurar endereço de envio, devolução e ponto de postagem",
+   "onde": "Seller Center › Envio",
+   "tempo": "20 min",
+   "porque": "Loja nova posta em pontos de entrega (Correios, J&T, iMile, Total Express, Jadlog). A coleta em casa só vale para alguns vendedores do Sudeste.",
+   "como": [
+    "Cadastre o endereço de devolução.",
+    "Procure no mapa do Seller Center o ponto de postagem mais perto e confira o horário.",
+    "Veja se a sua região já tem coleta disponível."
+   ],
+   "fonte": {
+    "rotulo": "Enviados pela plataforma",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2915348630603521"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-06"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 207,
+   "fase": "Conta e cadastro",
+   "titulo": "Resgatar a missão de novo vendedor (0% por 60 dias)",
+   "onde": "Seller Center › Crescimento › Oportunidades de crescimento",
+   "tempo": "10 min",
+   "porque": "Comissão zerada por 60 dias, até R$ 17.000 em vendas. A missão expira se não for concluída a tempo.",
+   "como": [
+    "Abra a missão logo que a conta for aprovada e veja o prazo.",
+    "Cumpra as tarefas e **resgate a recompensa**: sem resgate não vale.",
+    "Anote aqui a data de início e de fim dos 60 dias."
+   ],
+   "fonte": {
+    "rotulo": "Tarifa de Comissão da Plataforma",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201"
+   },
+   "feito": false,
+   "nota": "",
+   "atencao": [
+    "confirme no extrato se a taxa fixa por item também foi isenta."
+   ],
+   "critico": true,
+   "incerto": true,
+   "id": "tt-07"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 208,
+   "fase": "Loja e anúncios",
+   "titulo": "Subir os anúncios: unidade, kit 5 e kit 10",
+   "onde": "Seller Center › Produtos",
+   "tempo": "2 h",
+   "porque": "Para sair do nível Iniciante são pedidos 10 anúncios ativos, e o guia oficial recomenda subir o catálogo inteiro.",
+   "como": [
+    "Imagem principal com fundo branco, no mínimo 600×600 px, sem texto ou logo sobreposto.",
+    "Foto real da placa impressa; render só como imagem secundária e fiel ao produto.",
+    "Nenhum QR code legível nas fotos.",
+    "Use os modelos de título e descrição da aba Vídeos e afiliados.",
+    "Preço: lembre que em R$ 50 a comissão muda de 10% + R$ 4 para 6% + R$ 6 (quase sem diferença)."
+   ],
+   "fonte": {
+    "rotulo": "Política de listagem de produtos",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6483182812759824"
+   },
+   "feito": false,
+   "nota": "",
+   "atencao": [
+    "sem link, telefone, e-mail, nome de outra plataforma ou a palavra TikTok no anúncio."
+   ],
+   "critico": true,
+   "id": "tt-08"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 209,
+   "fase": "Loja e anúncios",
+   "titulo": "Decidir o Programa de Taxas de Envio",
+   "onde": "Seller Center › Envio › Programa de Taxas de Envio",
+   "tempo": "10 min",
+   "porque": "Vem ligado: cobra 6% de cada item entregue e em troca dá cupons de frete e o selo de frete grátis ao comprador, além de tráfego em certos períodos.",
+   "como": [
+    "Recomendação: manter ligado nos primeiros 60 dias (o comprador do TikTok espera frete grátis).",
+    "Compare na calculadora da aba Taxas com e sem o PTE.",
+    "Dá para sair e voltar a qualquer momento."
+   ],
+   "fonte": {
+    "rotulo": "Programa de Taxas de Envio",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5665577566734097"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-09"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 210,
+   "fase": "Loja e anúncios",
+   "titulo": "Concluir o questionário do período de experiência",
+   "onde": "Seller Center › Integridade da conta",
+   "tempo": "20 min",
+   "porque": "É requisito para subir do nível Iniciante (50 pedidos por dia) junto com 30 dias de loja e 10 anúncios ativos.",
+   "como": [
+    "Leia as políticas de listagem, conteúdo e logística antes de responder."
+   ],
+   "fonte": {
+    "rotulo": "Período de experiência",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948507379472"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-10"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 211,
+   "fase": "Conteúdo",
+   "titulo": "Vincular a conta oficial do TikTok à loja",
+   "onde": "Seller Center › Contas do TikTok",
+   "tempo": "15 min",
+   "porque": "A conta oficial (uma por loja) mostra a vitrine no perfil e pode marcar produtos em vídeos e lives. Dá para vincular mais 4 contas de marketing.",
+   "como": [
+    "Use uma conta @fvmaker (ou parecida) com 18+ e situação regular.",
+    "Ela vira Business Account automaticamente.",
+    "Confira no TikTok Studio se a conta já pode fazer LIVE com carrinho (o mínimo de seguidores não está confirmado)."
+   ],
+   "fonte": {
+    "rotulo": "Vincular conta oficial",
+    "url": "https://ads.tiktok.com/help/article/how-to-link-an-official-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+   },
+   "feito": false,
+   "nota": "",
+   "incerto": true,
+   "id": "tt-11"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 212,
+   "fase": "Conteúdo",
+   "titulo": "Gravar os 5 primeiros vídeos com o produto marcado",
+   "onde": "App do TikTok",
+   "tempo": "1 dia",
+   "porque": "A venda no TikTok nasce do vídeo. Os 5 roteiros da aba Vídeos e afiliados cobrem demonstração, POV, antes e depois, objeções e unboxing.",
+   "como": [
+    "Gancho nos 3 primeiros segundos: o celular encostando e a avaliação abrindo.",
+    "Fale com o rosto aparecendo; nada de voz de IA.",
+    "Marque o produto certo em cada vídeo."
+   ],
+   "fonte": {
+    "rotulo": "Política de Conteúdo",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1413208980588305"
+   },
+   "feito": false,
+   "nota": "",
+   "atencao": [
+    "vídeo só com imagem parada ou reaproveitado sem edição é proibido."
+   ],
+   "id": "tt-12"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 213,
+   "fase": "Conteúdo",
+   "titulo": "Postar 1 vídeo com carrinho por dia durante 30 dias",
+   "onde": "App do TikTok",
+   "tempo": "20 min por dia",
+   "porque": "O guia oficial para loja nova: ter o link do produto no maior número de vídeos importa mais que o encaixe perfeito.",
+   "como": [
+    "Varie o gancho mantendo a demonstração.",
+    "Responda os comentários (engajamento conta).",
+    "Anote aqui os 3 vídeos que mais venderam: eles viram criativo do GMV Max depois."
+   ],
+   "fonte": {
+    "rotulo": "TikTok Ads: considerações ao lançar a loja",
+    "url": "https://ads.tiktok.com/help/article/considerations-when-launching-your-tiktok-shop-journey"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-13"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 214,
+   "fase": "Afiliados e campanhas",
+   "titulo": "Abrir a colaboração aberta com 10% e amostra grátis",
+   "onde": "Seller Center › Afiliados",
+   "tempo": "20 min",
+   "porque": "Afiliados são o motor de escala do TikTok Shop no Brasil. O guia oficial sugere começar com 10% sem referência prévia.",
+   "como": [
+    "Exija aprovação prévia para controlar quem recebe amostra.",
+    "Ofereça amostra grátis só a quem tem público de donos de negócio.",
+    "Lembre: reduzir a comissão depois só vale 30 dias mais tarde."
+   ],
+   "fonte": {
+    "rotulo": "Colaborações abertas",
+    "url": "https://ads.tiktok.com/help/article/about-open-collaborations-in-seller-center"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-14"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 215,
+   "fase": "Afiliados e campanhas",
+   "titulo": "Convidar 10 criadores de nicho na colaboração direcionada",
+   "onde": "Seller Center › Afiliados › Colaboração direcionada",
+   "tempo": "1 h",
+   "porque": "Criadores de empreendedorismo, marketing local, food service e barbearia falam com quem compra a placa. A taxa direcionada prevalece sobre a aberta.",
+   "como": [
+    "Ofereça mais que a aberta (por exemplo 15%).",
+    "Mande um briefing curto com os roteiros e o aviso: sem logo do Google, sem QR na tela, sem prometer 5 estrelas."
+   ],
+   "fonte": {
+    "rotulo": "Colaborações de afiliados",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6580476438529809"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-15"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 216,
+   "fase": "Afiliados e campanhas",
+   "titulo": "Fixar o preço da Black Friday e checar a inscrição na campanha",
+   "onde": "Seller Center › Campanhas",
+   "tempo": "30 min",
+   "porque": "A campanha de fim de ano vai de 27/10 a 12/12/2026, com fase forte de 19 a 30/11. Em 2025 a inscrição exigia o menor preço dos últimos 30 dias.",
+   "como": [
+    "Não suba o preço agora para dar desconto depois.",
+    "Veja quais campanhas aparecem para loja nova e os requisitos de nota da loja."
+   ],
+   "fonte": {
+    "rotulo": "Mercado&Consumo: Black Friday 2026 no TikTok Shop",
+    "url": "https://mercadoeconsumo.com.br/30/09/2026/black-friday/tiktok-shop-brasil-vai-investir-r-100-milhoes-em-cupons-na-black-friday-2026/"
+   },
+   "feito": false,
+   "nota": "",
+   "incerto": true,
+   "id": "tt-16"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 217,
+   "fase": "Primeiras semanas",
+   "titulo": "Vigiar envio atrasado, cancelamento e nota da loja",
+   "onde": "Central do Vendedor › Integridade da conta",
+   "tempo": "5 min por semana",
+   "porque": "Atraso acima de 4% ou cancelamento acima de 2,5% gera limite de pedidos, corte de campanhas e congelamento de saque. Nota da loja acima de 3,5 libera repasse em 3 dias.",
+   "como": [
+    "Despache no mesmo dia útil sempre que puder.",
+    "Responda pedido de cancelamento em até 24 h e devolução em até 3 dias úteis.",
+    "Confira os pontos de saúde da conta (começa em 200)."
+   ],
+   "fonte": {
+    "rotulo": "Política de Fiscalização",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508641040"
+   },
+   "feito": false,
+   "nota": "",
+   "id": "tt-17"
+  },
+  {
+   "mkt": "tiktok",
+   "ordem": 218,
+   "fase": "Primeiras semanas",
+   "titulo": "Só então testar o GMV Max com os vídeos que já venderam",
+   "onde": "TikTok Ads Manager › GMV Max",
+   "tempo": "1 h",
+   "porque": "O GMV Max é o formato de anúncio do Shop desde 07/2025. Funciona melhor alimentado por vídeos que já converteram no orgânico.",
+   "como": [
+    "Use 3 a 5 vídeos que venderam (seus ou de afiliados, com código de autorização do criador).",
+    "Comece com o menor orçamento que o painel aceitar e revise por semana olhando o retorno de 7 dias.",
+    "Anote aqui o orçamento mínimo que aparecer: ele não está publicado."
+   ],
+   "fonte": {
+    "rotulo": "TikTok for Business: GMV Max",
+    "url": "https://ads.tiktok.com/business/pt-BR/blog/gmv-max-automate-shop-roi"
+   },
+   "feito": false,
+   "nota": "",
+   "incerto": true,
+   "id": "tt-18"
   }
  ],
  "paginas": {
@@ -3480,6 +3899,939 @@ window.FV_DADOS = {
    "ordem": 2,
    "rotulo": "Visibilidade e vendas",
    "titulo": "Visibilidade e vendas"
+  },
+  "tiktok-envio": {
+   "mkt": "tiktok",
+   "aba": "envio",
+   "ordem": 2,
+   "rotulo": "Envio e NF-e",
+   "titulo": "Envio, prazos e nota fiscal",
+   "atualizado_em": "2026-10-11",
+   "intro": "Loja nova usa o \"Enviados pela plataforma\": você compra a etiqueta no Seller Center, a plataforma escolhe a transportadora e você posta num ponto de entrega. Não há armazém do TikTok no Brasil (nada parecido com o Full).",
+   "blocos": [
+    {
+     "tipo": "tabela",
+     "titulo": "Prazos que contam na sua métrica",
+     "colunas": [
+      "Etapa",
+      "Prazo"
+     ],
+     "linhas": [
+      [
+       "Marcar \"Pronto para envio\"",
+       "1 dia útil"
+      ],
+      [
+       "Postar (entrar em trânsito)",
+       "2 dias úteis após o pedido"
+      ],
+      [
+       "Cancelamento automático se não postar",
+       "6 dias úteis"
+      ]
+     ],
+     "nota": "O prazo vence às 23:59:59 de Brasília. Para quem imprime sob demanda, isso significa ter estoque pronto de cada cor e kit."
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Como funciona o envio",
+     "itens": [
+      {
+       "t": "Transportadora",
+       "d": "atribuída pela plataforma entre J&T, Correios e iMile (Total Express também aparece). Você não escolhe. Loggi não está na lista."
+      },
+      {
+       "t": "Postagem",
+       "d": "loja nova faz drop-off em pontos de postagem (Correios, J&T, iMile, Total Express, Jadlog). A coleta no endereço existe só para alguns vendedores do Sudeste, de segunda a sexta 9h–18h e sábado 9h–14h."
+      },
+      {
+       "t": "Envio pelo próprio vendedor",
+       "d": "só para vendedores selecionados, sem compensação por problemas logísticos."
+      },
+      {
+       "t": "Limites",
+       "d": "até 30 kg; nenhum lado acima de 100 cm; soma dos lados até 200 cm. A placa está muito longe disso."
+      },
+      {
+       "t": "Embalagem",
+       "d": "proibido colocar panfleto, adesivo ou material promocional não autorizado no pacote, e pedir avaliação em troca de incentivo. Revise o cartão que vai junto da placa."
+      },
+      {
+       "t": "Devolução",
+       "d": "o comprador posta nas agências dos Correios."
+      }
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Frete com origem em SP, pacote até 0,5 kg (a partir de 12/10/2026)",
+     "colunas": [
+      "Destino",
+      "Faixa de valor"
+     ],
+     "linhas": [
+      [
+       "Sudeste",
+       "R$ 3,66 – 31,90"
+      ],
+      [
+       "Sul",
+       "R$ 4,92 – 26,40"
+      ],
+      [
+       "Nordeste",
+       "R$ 6,18 – 60,50"
+      ],
+      [
+       "Centro-Oeste",
+       "R$ 9,52 – 63,14"
+      ],
+      [
+       "Norte",
+       "R$ 13,86 – 175,56"
+      ]
+     ],
+     "nota": "Redução anunciada pela plataforma, IVA incluso. O comprador normalmente paga esse frete; os cupons do PTE abatem parte dele. Diferenças e ajustes ficam com você."
+    },
+    {
+     "tipo": "alerta",
+     "nivel": "risco",
+     "titulo": "NF-e é obrigatória para despachar",
+     "paragrafos": [
+      "Sem NF-e os canais de envio não liberam a etiqueta (a exceção são os Correios). A nota vai **impressa dentro do pacote**, ao lado da etiqueta, e só pode ser cancelada antes do status \"Pronto para envio\".",
+      "O Seller Center tem um **emissor próprio para MEI e Simples Nacional**. Quem usa ERP sobe o XML (até 10 MB). O Bling tem integração com etiqueta e rastreio; o Tiny/Olist não tem conector nativo confirmado."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Limites da loja nova (período de experiência)",
+     "colunas": [
+      "Nível",
+      "Pedidos por dia",
+      "Anúncios ativos",
+      "Como chegar"
+     ],
+     "linhas": [
+      [
+       "Iniciante",
+       "50",
+       "1.000",
+       "Começa aqui"
+      ],
+      [
+       "Padrão",
+       "100",
+       "2.000",
+       "30 dias de loja, 10 anúncios ativos, questionário e 50 pedidos entregues"
+      ],
+      [
+       "Premium",
+       "200",
+       "3.000",
+       "100 pedidos entregues e 20 compradores únicos"
+      ],
+      [
+       "Profissional",
+       "Ilimitado",
+       "Ilimitado",
+       "Avaliação da plataforma"
+      ]
+     ],
+     "nota": "Em todos: menos de 4 violações em 30 dias e nota da loja (SPS) de pelo menos 3,0–3,5 nos últimos 60 dias."
+    }
+   ],
+   "fontes": [
+    {
+     "rotulo": "Enviados pela plataforma (SLA, frete e limites)",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2915348630603521",
+     "data": "09/10/2026"
+    },
+    {
+     "rotulo": "Política de Logística",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592",
+     "data": "30/09/2026"
+    },
+    {
+     "rotulo": "Comparação entre soluções de envio",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3023422608852744",
+     "data": "24/08/2026"
+    },
+    {
+     "rotulo": "Envio pelo vendedor",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3028311274702599",
+     "data": "24/08/2026"
+    },
+    {
+     "rotulo": "Emissão de NF-e no TikTok Shop",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4896169624913680",
+     "data": "02/09/2025"
+    },
+    {
+     "rotulo": "Período de experiência",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948507379472",
+     "data": "02/04/2026"
+    },
+    {
+     "rotulo": "Bling: integração TikTok Shop",
+     "url": "https://ajuda.bling.com.br/hc/pt-br/articles/31595141324311"
+    },
+    {
+     "rotulo": "Base.com: ponte TikTok Shop ↔ Tiny",
+     "url": "https://base.com/pt-BR/integracoes/tiktokshop/tiny/"
+    }
+   ]
+  },
+  "tiktok-estrategia": {
+   "mkt": "tiktok",
+   "aba": "estrategia",
+   "ordem": 4,
+   "rotulo": "Vídeos e afiliados",
+   "titulo": "Estratégia: vídeos, afiliados e campanhas",
+   "atualizado_em": "2026-10-11",
+   "intro": "No ML e na Shopee o comprador procura a placa. No TikTok ele não sabe que ela existe: a venda depende de um vídeo que mostre o problema (poucas avaliações) e a solução (encostar o celular). O que funciona é volume de vídeos com o produto marcado, seus e de criadores afiliados.",
+   "blocos": [
+    {
+     "tipo": "cards",
+     "titulo": "Onde a placa pode ser vista",
+     "itens": [
+      {
+       "tag": "Principal",
+       "titulo": "Vídeo com produto marcado",
+       "texto": "Vídeos curtos no Para Você com o carrinho. O guia oficial para loja nova diz que ter o link no maior número de vídeos importa mais que o encaixe perfeito do conteúdo."
+      },
+      {
+       "tag": "Escala",
+       "titulo": "Vídeos de afiliados",
+       "texto": "Criadores divulgam e ganham comissão só quando vendem. Os afiliados ativos cresceram 46 vezes no primeiro ano do TikTok Shop no Brasil."
+      },
+      {
+       "tag": "Conversão",
+       "titulo": "Live",
+       "texto": "Demonstração ao vivo. O GMV de lives cresceu 161 vezes em um ano, puxado por beleza e cozinha. Para a placa, serve depois que os vídeos já venderem."
+      },
+      {
+       "tag": "Vitrine",
+       "titulo": "Perfil e aba Loja",
+       "texto": "A vitrine fica acima dos vídeos do perfil da FV Maker; a aba Loja recomenda produtos pelo comportamento de quem assiste. Como a busca ordena produtos não é público."
+      }
+     ]
+    },
+    {
+     "tipo": "alerta",
+     "nivel": "incerto",
+     "titulo": "A placa não é o produto típico do TikTok Shop",
+     "paragrafos": [
+      "As categorias que mais vendem são moda, beleza, casa e eletrônicos, compradas por impulso pelo consumidor final. A placa é para **donos de pequenos comércios**, um público menor dentro do app (idade média acima de 30 anos, segundo o TikTok). Não há caso público de produto B2B pequeno no TikTok Shop Brasil.",
+      "Por isso trate o canal como **teste de 60 dias** dentro do benefício de 0% de comissão: o custo é o seu tempo de gravar e algumas amostras. Se não vender, a loja parada não custa nada."
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "O que o TikTok diz que funciona (fontes oficiais)",
+     "itens": [
+      {
+       "t": "Gancho nos 3 primeiros segundos",
+       "d": "ligado ao produto, não ao preço. Pergunta ou afirmação forte."
+      },
+      {
+       "t": "Demonstração resolvendo um problema",
+       "d": "formatos citados: review pessoal, antes e depois, unboxing, tutorial, problema e solução."
+      },
+      {
+       "t": "Rosto, voz e CTA claro",
+       "d": "aparecer falando, pedir a ação (\"toca no carrinho\") e responder comentários: o algoritmo valoriza engajamento."
+      },
+      {
+       "t": "Catálogo inteiro e muitos vídeos",
+       "d": "suba unidade e kits, e poste o máximo de vídeos com o link do produto."
+      },
+      {
+       "t": "Anúncio só com o que já vendeu",
+       "d": "o GMV Max junta vídeo orgânico, de afiliado e pago numa campanha. Comece pelos 3 a 5 vídeos que já converteram e ajuste o orçamento por semana olhando o retorno de 7 dias."
+      }
+     ],
+     "nota": "Duração ideal e frequência não estão em documento oficial. Blogs sugerem 9 a 15 s para vender e 5 a 7 vídeos com carrinho por semana."
+    },
+    {
+     "tipo": "modelos",
+     "titulo": "Roteiros de vídeo para a placa",
+     "texto": "Grave com a versão **sem o logo do Google** e sem QR code legível. Nada de prometer \"5 estrelas garantidas\": o Google proíbe incentivar só clientes satisfeitos a avaliar.",
+     "itens": [
+      {
+       "rotulo": "1 · Demonstração (gancho em 2 s)",
+       "texto": "[0–2 s] Close: celular encosta na placa, a tela de avaliação abre sozinha.\n[2–6 s] Fala: \"Seu cliente avalia seu negócio em 3 segundos, sem baixar app e sem procurar nada.\"\n[6–12 s] Mostra no balcão de um café ou salão, cliente encostando o celular.\n[12–15 s] \"Funciona em iPhone e Android. Toca no carrinho e escolhe a cor.\""
+      },
+      {
+       "rotulo": "2 · POV do dono",
+       "texto": "Texto na tela: \"POV: seu restaurante é ótimo, mas tem 12 avaliações.\"\nCena: dono olhando o celular, preocupado.\nCorte: placa no balcão, clientes encostando o celular na saída.\nTexto final: \"Avaliação virou parte do pagamento.\" CTA: \"Link no carrinho.\""
+      },
+      {
+       "rotulo": "3 · Antes e depois",
+       "texto": "Use números reais de um cliente, com autorização por escrito.\n[0–3 s] \"Essa barbearia tinha 18 avaliações em março.\"\n[3–8 s] Mostra a placa no espelho, cliente encostando o celular.\n[8–14 s] \"Três meses depois...\" e o número novo.\n[14–16 s] \"A placa está no carrinho.\""
+      },
+      {
+       "rotulo": "4 · Objeções",
+       "texto": "Gancho: \"As 3 perguntas que todo mundo faz sobre a placa de avaliação:\"\n1. Precisa de app? Não, o celular lê sozinho.\n2. Funciona em iPhone? Sim, do XS em diante é só encostar.\n3. Alguém pode trocar o link? Não, o chip sai bloqueado.\nCTA: \"Kit de 5 no carrinho para quem tem mais de um balcão.\""
+      },
+      {
+       "rotulo": "5 · Unboxing do kit",
+       "texto": "Mesa limpa, luz lateral, sem música alta.\nAbre o pacote do kit de 10, espalha as placas por cor.\nFala: \"Feitas em impressão 3D aqui em São Paulo, cada uma já configurada para o seu negócio.\"\nTermina encostando o celular numa delas. CTA no carrinho."
+      }
+     ]
+    },
+    {
+     "tipo": "modelos",
+     "titulo": "Título e descrição do anúncio (sem marca de terceiros)",
+     "contar": true,
+     "texto": "Título de 25 a 200 caracteres; descrição com pelo menos 30 palavras, sem link, QR, telefone ou nome de outra plataforma.",
+     "itens": [
+      {
+       "rotulo": "Título · unidade",
+       "texto": "Placa NFC de Avaliação para Comércio Aproxime o Celular e Avalie Sem App 9 cm"
+      },
+      {
+       "rotulo": "Título · kit",
+       "texto": "Kit 5 Placas NFC de Avaliação para Balcão Restaurante Salão Barbearia Clínica"
+      },
+      {
+       "rotulo": "Descrição",
+       "texto": "Placa de avaliação com chip NFC para o seu comércio. O cliente aproxima o celular e a página de avaliação do seu negócio abre na hora, sem baixar aplicativo e sem procurar o nome da loja.\n\nChega pronta para usar: depois da compra, envie pelo chat da loja o nome e a cidade do seu negócio. Geramos o link de avaliação, gravamos o chip e testamos antes de enviar.\n\nMedidas: 88 × 88 × 6 mm, impressa em 3D em PLA. Funciona com celulares com NFC: a maioria dos Android e iPhone XS ou mais novo. O chip sai bloqueado contra regravação, não tem bateria e não tem mensalidade.\n\nProduto independente, sem afiliação com nenhuma empresa de buscas ou mapas."
+      }
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Afiliados: como configurar",
+     "colunas": [
+      "Plano",
+      "Para quê",
+      "Comissão sugerida"
+     ],
+     "linhas": [
+      [
+       "Colaboração aberta",
+       "Qualquer criador elegível pega o produto. Pode exigir aprovação e oferecer amostra grátis.",
+       "10% para começar (guia oficial)"
+      ],
+      [
+       "Colaboração direcionada",
+       "Convite a criadores escolhidos (até 50 por convite). A taxa dela prevalece sobre a aberta.",
+       "Acima da aberta, p.ex. 15%"
+      ]
+     ],
+     "nota": "Aumento de comissão vale na hora; redução só depois de 30 dias para quem já vinculou o produto. A comissão sai do seu repasse e é paga ao criador às quartas-feiras."
+    },
+    {
+     "tipo": "cards",
+     "titulo": "Criadores que fazem sentido para a placa",
+     "texto": "Inferência: não há dado público de produto B2B no TikTok Shop Brasil. Mande amostra só para quem tem público de donos de negócio.",
+     "itens": [
+      {
+       "tag": "Gestão",
+       "titulo": "Empreendedorismo e MEI",
+       "texto": "Dicas de negócio, finanças de pequena empresa, formalização."
+      },
+      {
+       "tag": "Marketing",
+       "titulo": "Marketing local",
+       "texto": "Google Meu Negócio, Instagram para loja física, como conseguir clientes no bairro."
+      },
+      {
+       "tag": "Segmento",
+       "titulo": "Food service e beleza",
+       "texto": "Donos de restaurante, hamburgueria, barbeiros, salões e clínicas de estética que mostram a rotina."
+      },
+      {
+       "tag": "Gadget",
+       "titulo": "Achadinhos tech",
+       "texto": "Perfis de demonstração de gadgets; vendem pelo efeito \"encostou, abriu\"."
+      }
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Calendário de fim de ano 2026",
+     "colunas": [
+      "Período",
+      "O que acontece"
+     ],
+     "linhas": [
+      [
+       "27/10 a 12/12",
+       "Campanha de fim de ano do TikTok Shop: R$ 100 milhões em cupons, descontos de até 70%, cupons de até R$ 200, 12x sem juros"
+      ],
+      [
+       "19 a 30/11",
+       "Fase forte (Black Friday)"
+      ],
+      [
+       "Agora",
+       "Fixe o preço: em 2025 a inscrição exigia o menor preço dos últimos 30 dias, estoque e prazo de entrega em dia"
+      ]
+     ],
+     "nota": "Regras de inscrição de 2026 e um 11.11 próprio do TikTok não foram confirmados. A inscrição em campanhas grandes depende da nota da loja."
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Erros de iniciante que derrubam a loja",
+     "itens": [
+      "Postar o logo do Google na placa, no anúncio ou no vídeo.",
+      "Atrasar o despacho ou cancelar por falta de estoque: as duas métricas cortam alcance e campanhas.",
+      "Desistir com poucos vídeos: quem vende bem testa dezenas de versões do mesmo produto.",
+      "Começar o vídeo pelo preço, usar voz de IA sem ritmo ou copiar vídeo de outro.",
+      "Live gravada, em loop ou com imagem parada: é punida.",
+      "Deixar a comissão da colaboração direcionada menor ou igual à da aberta.",
+      "Promoção falsa (\"só hoje\" todo dia) ou promessa de resultado."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "O mercado em números",
+     "colunas": [
+      "Dado",
+      "Valor",
+      "Fonte"
+     ],
+     "linhas": [
+      [
+       "Lançamento no Brasil",
+       "08/05/2025",
+       "Imprensa"
+      ],
+      [
+       "Crescimento do GMV diário no 1º ano",
+       "102 vezes",
+       "TikTok, 04/06/2026"
+      ],
+      [
+       "Usuários do TikTok no Brasil",
+       "134 milhões",
+       "Imprensa"
+      ],
+      [
+       "Compram depois de descobrir no app",
+       "57,8%",
+       "TikTok (17 mil usuários)"
+      ],
+      [
+       "GMV no 1º semestre de 2026",
+       "≈ R$ 5,3 bilhões",
+       "Momentum Works (estimativa)"
+      ],
+      [
+       "Lojas ativas",
+       "≈ 110 mil",
+       "Momentum Works (estimativa)"
+      ]
+     ]
+    }
+   ],
+   "fontes": [
+    {
+     "rotulo": "TikTok Newsroom: TikTok Shop cresce 102 vezes no primeiro ano",
+     "data": "04/06/2026",
+     "url": "https://newsroom.tiktok.com/tiktok-shop-cresce-102-vezes-em-seu-primeiro-ano-no-brasil?lang=pt-BR"
+    },
+    {
+     "rotulo": "TikTok Ads: considerações ao lançar a loja",
+     "data": "11/2025",
+     "url": "https://ads.tiktok.com/help/article/considerations-when-launching-your-tiktok-shop-journey"
+    },
+    {
+     "rotulo": "TikTok Ads: colaborações abertas",
+     "data": "08/2025",
+     "url": "https://ads.tiktok.com/help/article/about-open-collaborations-in-seller-center"
+    },
+    {
+     "rotulo": "Academy BR: comissão de afiliados",
+     "data": "10/02/2026",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=2850789359355649"
+    },
+    {
+     "rotulo": "TikTok Ads: vincular conta oficial",
+     "url": "https://ads.tiktok.com/help/article/how-to-link-an-official-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+    },
+    {
+     "rotulo": "TikTok Ads: vincular conta de marketing",
+     "url": "https://ads.tiktok.com/resources/help/article/how-to-link-a-marketing-account-to-your-tiktok-shop-in-seller-center?lang=pt"
+    },
+    {
+     "rotulo": "TikTok for Business: GMV Max",
+     "data": "13/05/2026",
+     "url": "https://ads.tiktok.com/business/pt-BR/blog/gmv-max-automate-shop-roi"
+    },
+    {
+     "rotulo": "TikTok for Business: boas práticas de vídeo curto",
+     "data": "24/11/2024",
+     "url": "https://ads.tiktok.com/business/pt-BR/blog/tiktok-short-video-best-practice"
+    },
+    {
+     "rotulo": "Mercado&Consumo: R$ 100 milhões em cupons na Black Friday 2026",
+     "data": "30/09/2026",
+     "url": "https://mercadoeconsumo.com.br/30/09/2026/black-friday/tiktok-shop-brasil-vai-investir-r-100-milhoes-em-cupons-na-black-friday-2026/"
+    },
+    {
+     "rotulo": "Mercado&Consumo: 10 dicas para a Black Friday",
+     "data": "21/10/2025",
+     "url": "https://mercadoeconsumo.com.br/21/10/2025/black-friday/tiktok-shop-revela-10-dicas-para-maximizar-vendas-na-primeira-black-friday-da-plataforma-no-brasil/"
+    },
+    {
+     "rotulo": "PPC Land: guia de vídeo com produto do TikTok Shop",
+     "data": "08/06/2026",
+     "url": "https://ppc.land/tiktok-shops-shoppable-video-content-guide-tells-creators-what-actually-works/"
+    },
+    {
+     "rotulo": "Momentum Works: TikTok Shop no Brasil, 1º semestre de 2026",
+     "data": "08/2026",
+     "url": "https://momentum.asia/insights/detail/tiktok-shop-in-brazil-h1-2026"
+    },
+    {
+     "rotulo": "Bem Paraná: criadoras de Curitiba no TikTok Shop",
+     "data": "09/07/2026",
+     "url": "https://www.bemparana.com.br/noticias/economia/criadoras-de-curitiba-somam-mais-de-r-10-milhoes-em-vendas-no-tiktok-shop/"
+    },
+    {
+     "rotulo": "ViniEnsina: vídeos que vendem no TikTok Shop",
+     "data": "08/07/2026",
+     "url": "https://www.viniensina.com.br/videos-que-vendem-tiktok-shop/"
+    }
+   ]
+  },
+  "tiktok-politicas": {
+   "mkt": "tiktok",
+   "aba": "politicas",
+   "ordem": 3,
+   "rotulo": "Políticas e penalidades",
+   "titulo": "Políticas, devolução e penalidades",
+   "atualizado_em": "2026-10-11",
+   "intro": "O TikTok Shop fiscaliza o anúncio e também cada vídeo e live que marca o produto. A loja começa com 200 pontos de saúde e perde pontos a cada violação; com 0, é desativada.",
+   "blocos": [
+    {
+     "tipo": "alerta",
+     "nivel": "risco",
+     "titulo": "Logo e nome Google: risco alto, maior que no ML e na Shopee",
+     "paragrafos": [
+      "A política de propriedade intelectual proíbe usar marcas de terceiros \"em seus produtos físicos, em suas ofertas, em seu conteúdo ou no nome da loja\" sem autorização, e trata logotipo não autorizado em página, vídeo ou live como **contrafação**. A página sobre violações de marca não abre exceção para uso descritivo ou \"compatível com\".",
+      "Relatos de vendedores falam em **24 pontos** por uma única violação de PI, mesmo com o vídeo já aprovado na pré-verificação. Com 200 pontos iniciais, oito violações desativam a loja; a primeira já pode travar saque e novos anúncios.",
+      "**Recomendação:** no TikTok, venda uma versão sem o G colorido e, de preferência, sem a palavra Google no relevo (\"Avalie-nos!\" ou a logo do cliente), e use textos genéricos (\"placa de avaliação NFC\", \"avaliações do seu negócio\"). Se citar o Google, que seja só na descrição, de forma descritiva, e sabendo que a tolerância não está confirmada."
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Anúncio: o que é proibido ou obrigatório",
+     "itens": [
+      {
+       "t": "QR code, links, e-mail, telefone",
+       "d": "proibidos nas fotos, no título e na descrição, assim como citar \"TikTok\" ou outros marketplaces. Foto da placa com QR legível pode ser marcada: borre ou use um QR de exemplo."
+      },
+      {
+       "t": "Imagem principal",
+       "d": "fundo branco, pelo menos 600×600 px, sem logotipo ou texto sobreposto."
+      },
+      {
+       "t": "Render ou IA",
+       "d": "proibido se não mostrar o produto real. Use fotos da placa impressa; o render do Blender só como imagem secundária, se for fiel."
+      },
+      {
+       "t": "Título e descrição",
+       "d": "título de 25 a 200 caracteres; descrição com pelo menos 30 palavras; tudo em português."
+      },
+      {
+       "t": "Produto",
+       "d": "nada específico sobre NFC na lista de proibidos (ela barra clonadores de cartão, Flipper Zero e leitores). Não está confirmado se tag NFC passiva exige homologação da Anatel."
+      }
+     ]
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Vídeos e lives",
+     "itens": [
+      "Proibido link, chamada para fora do app, telefone, outra rede social ou QR code na tela.",
+      "Proibido vídeo só com GIF ou imagem parada, conteúdo reaproveitado sem edição própria e promessas enganosas (\"aumenta suas vendas em 300%\").",
+      "Tudo o que vale para o anúncio vale para o vídeo: o logo do Google na placa aparecendo no vídeo também é violação."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Devolução e reembolso",
+     "colunas": [
+      "Regra",
+      "Prazo ou responsável"
+     ],
+     "linhas": [
+      [
+       "Comprador pede devolução",
+       "até 30 dias após a entrega (90 dias se defeito)"
+      ],
+      [
+       "Você analisa o pedido de devolução",
+       "3 dias úteis, senão aprova sozinho"
+      ],
+      [
+       "Pedido de cancelamento",
+       "24 h para responder"
+      ],
+      [
+       "Comprador posta a devolução",
+       "até 14 dias"
+      ],
+      [
+       "Você confere o item devolvido",
+       "2 dias úteis"
+      ],
+      [
+       "Frete de volta por arrependimento",
+       "TikTok"
+      ],
+      [
+       "Frete de volta por defeito, erro, dano ou atraso",
+       "Você"
+      ],
+      [
+       "Item até R$ 25",
+       "pode ter reembolso sem devolução"
+      ]
+     ],
+     "nota": "O comprador cancela sem sua aprovação enquanto o pedido não estiver \"Aguardando coleta\"."
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Pontos de saúde da conta (0 a 1000, começa em 200)",
+     "colunas": [
+      "Ao cair para",
+      "Consequência"
+     ],
+     "linhas": [
+      [
+       "150 pontos",
+       "7 dias sem novos anúncios, campanhas grandes e saque"
+      ],
+      [
+       "100 pontos",
+       "as mesmas restrições por 14 dias"
+      ],
+      [
+       "50 pontos",
+       "28 dias de restrição e limite de pedidos"
+      ],
+      [
+       "0 pontos",
+       "desativação da loja"
+      ]
+     ],
+     "nota": "Pontos perdidos vencem em 180 dias. 300 pedidos em 180 dias recuperam até 200 pontos. Recurso em até 30 dias (algumas violações dão só 12 a 72 h). A tabela de pontos por violação não é pública."
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Métricas de envio exigidas",
+     "colunas": [
+      "Métrica",
+      "Limite"
+     ],
+     "linhas": [
+      [
+       "Envio atrasado",
+       "até 4%"
+      ],
+      [
+       "Cancelamento por sua culpa",
+       "até 2,5%"
+      ],
+      [
+       "Rastreio válido",
+       "95% ou mais"
+      ],
+      [
+       "Envio rápido (meta)",
+       "90% ou mais"
+      ]
+     ],
+     "nota": "Estourar gera limite de pedidos, corte de campanhas, desconto no repasse e congelamento de saque. A nota da loja (SPS, 0 a 5) fica em Central do Vendedor › Integridade da conta; SPS acima de 3,5 libera o repasse em 3 dias."
+    }
+   ],
+   "fontes": [
+    {
+     "rotulo": "Política de Propriedade Intelectual",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5385814784837393",
+     "data": "24/03/2025"
+    },
+    {
+     "rotulo": "Como evitar violações de marcas",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5398633114650369",
+     "data": "15/09/2026"
+    },
+    {
+     "rotulo": "Política de listagem de produtos",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6483182812759824",
+     "data": "23/09/2026"
+    },
+    {
+     "rotulo": "Política de Conteúdo",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1413208980588305",
+     "data": "01/07/2026"
+    },
+    {
+     "rotulo": "Produtos proibidos e restritos",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6483182812481296",
+     "data": "17/08/2026"
+    },
+    {
+     "rotulo": "Cancelamento, devolução e reembolso",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=894339073115921",
+     "data": "24/09/2026"
+    },
+    {
+     "rotulo": "Política de Fiscalização (pontos)",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508641040",
+     "data": "09/07/2026"
+    },
+    {
+     "rotulo": "Política de Logística (métricas)",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592",
+     "data": "30/09/2026"
+    },
+    {
+     "rotulo": "Olhar Digital: regra da Anatel para marketplaces",
+     "data": "08/05/2026",
+     "url": "https://olhardigital.com.br/2026/05/08/reviews/justica-restabelece-regra-da-anatel-para-produtos-na-amazon/"
+    }
+   ]
+  },
+  "tiktok-taxas": {
+   "mkt": "tiktok",
+   "aba": "taxas",
+   "ordem": 1,
+   "rotulo": "Taxas e tributação",
+   "titulo": "Taxas e tributação",
+   "atualizado_em": "2026-10-11",
+   "calculadora": true,
+   "inclui": [
+    "comum-tributacao"
+   ],
+   "intro": "O TikTok Shop não cobra mensalidade. Cada item vendido paga comissão + taxa fixa (que mudam em R$ 50), mais 6% do Programa de Taxas de Envio se ele estiver ligado, mais a comissão do afiliado quando a venda vem de um criador.",
+   "blocos": [
+    {
+     "tipo": "tabela",
+     "titulo": "Comissão por faixa de preço (desde 15/07/2026)",
+     "colunas": [
+      "Preço do item após seus descontos",
+      "Comissão",
+      "Taxa fixa por item",
+      "Antes de 15/07"
+     ],
+     "linhas": [
+      [
+       "Abaixo de R$ 50,00",
+       "10%",
+       "R$ 4,00",
+       "6% + R$ 4"
+      ],
+      [
+       "R$ 50,00 ou mais",
+       "6%",
+       "R$ 6,00",
+       "6% + R$ 4"
+      ]
+     ],
+     "nota": "Não há tabela por categoria. Blogs ainda citam 6% + R$ 2 abaixo de R$ 79: é a regra de 2025, já superada."
+    },
+    {
+     "tipo": "alerta",
+     "nivel": "dica",
+     "titulo": "Não existe zona ruim de preço como no ML e na Shopee",
+     "paragrafos": [
+      "A R$ 49,90 a taxa é R$ 8,99; a R$ 50,00 é R$ 9,00. A virada de faixa custa um centavo, e acima de R$ 50 o percentual cai depressa: a R$ 79,90 a comissão + taxa fixa é R$ 10,79 (13,5%).",
+      "Por isso o TikTok é o canal mais barato para os **kits de 5 e 10**."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Quanto o TikTok desconta da placa",
+     "colunas": [
+      "Preço",
+      "Comissão + taxa fixa",
+      "Com frete grátis (PTE 6%)",
+      "% do preço"
+     ],
+     "linhas": [
+      [
+       "R$ 39,90",
+       "R$ 7,99",
+       "R$ 10,38",
+       "26%"
+      ],
+      [
+       "R$ 49,90",
+       "R$ 8,99",
+       "R$ 11,98",
+       "24%"
+      ],
+      [
+       "R$ 59,90",
+       "R$ 9,59",
+       "R$ 13,19",
+       "22%"
+      ],
+      [
+       "R$ 79,90",
+       "R$ 10,79",
+       "R$ 15,59",
+       "19,5%"
+      ]
+     ],
+     "nota": "Sem afiliado, imposto ou frete. Na Shopee, R$ 49,90 deixa R$ 14,48 de taxa (29%)."
+    },
+    {
+     "tipo": "alerta",
+     "nivel": "dica",
+     "titulo": "Benefício de novo vendedor: 0% de comissão por 60 dias",
+     "paragrafos": [
+      "Desde 01/03/2026, quem conclui a **missão de novo vendedor** e resgata a recompensa fica 60 dias sem comissão, limitado a R$ 17.000 em vendas. A missão tem prazo: se expirar, o benefício se perde.",
+      "Fica em Seller Center › Crescimento › Oportunidades de crescimento. Não está claro se a taxa fixa por item também é isenta; a calculadora considera que não."
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Programa de Taxas de Envio (PTE, o \"frete grátis\")",
+     "texto": "Todo vendedor entra automaticamente e pode sair e voltar quando quiser. Em troca de **6% de cada item entregue** (teto de R$ 50 por produto), a plataforma dá cupons de frete aos compradores:",
+     "colunas": [
+      "Comprador",
+      "Cupom de frete"
+     ],
+     "linhas": [
+      [
+       "Novo usuário",
+       "R$ 5 em compras a partir de R$ 109"
+      ],
+      [
+       "Recorrente (níveis 1 a 3)",
+       "de R$ 9 em compras a partir de R$ 9 até R$ 40 em compras a partir de R$ 159"
+      ]
+     ],
+     "nota": "A taxa é cobrada em todo pedido entregue, mesmo que o comprador não use cupom, e não é estornada em devolução."
+    },
+    {
+     "tipo": "lista",
+     "titulo": "Outras cobranças",
+     "itens": [
+      {
+       "t": "Afiliados",
+       "d": "você define de 1% a 80%; é descontado do seu repasse. Se o comprador for reembolsado mais de 14 dias depois da entrega, a comissão do criador continua com você."
+      },
+      {
+       "t": "Frete de devolução",
+       "d": "pago por você quando o motivo é defeito, item errado, danificado, descrição imprecisa ou atraso. Arrependimento (\"não preciso mais\") fica com o TikTok."
+      },
+      {
+       "t": "Diferença de peso",
+       "d": "o frete é cobrado pelo maior entre peso real, cubado (C×L×A/6000) e cadastrado. A diferença sai do seu repasse."
+      },
+      {
+       "t": "DIFAL",
+       "d": "venda para outro estado está sujeita ao ICMS DIFAL. Se você não pagar, a transportadora pode pagar e descontar no ajuste mensal. Confirme com o contador como fica para o MEI."
+      },
+      {
+       "t": "Anúncios (GMV Max)",
+       "d": "opcionais. Formato padrão de anúncio do Shop desde 07/2025; o orçamento mínimo em R$ não está publicado (confira no Seller Center)."
+      },
+      {
+       "t": "Saque",
+       "d": "repasse por conta bancária ou Pix do CNPJ, até 5 contas. Taxa de saque não aparece em página oficial."
+      }
+     ]
+    },
+    {
+     "tipo": "tabela",
+     "titulo": "Quando o dinheiro cai",
+     "colunas": [
+      "Tipo de repasse",
+      "Depois da entrega",
+      "Quem"
+     ],
+     "linhas": [
+      [
+       "Padrão",
+       "7 dias",
+       "Toda loja nova"
+      ],
+      [
+       "Expresso",
+       "3 dias",
+       "SPS acima de 3,5, sem medidas corretivas"
+      ],
+      [
+       "Adiado",
+       "31 dias",
+       "Durante verificações de segurança"
+      ]
+     ],
+     "nota": "O pagamento é iniciado automaticamente e chega em 0 a 2 dias úteis. O tipo é revisto todo mês. Relatos no Reclame Aqui falam de lojas novas movidas para 30 dias."
+    },
+    {
+     "tipo": "alerta",
+     "nivel": "incerto",
+     "titulo": "O que confirmar na primeira venda",
+     "paragrafos": [
+      "Os Termos citam uma **taxa de transação** sem percentual publicado para o Brasil; se haverá taxa fixa no período de 0% de comissão; taxa de saque; e quanto do frete realmente fica com você num pacote de 100 g. Anote no roteiro o que aparecer no extrato."
+     ]
+    }
+   ],
+   "fontes": [
+    {
+     "rotulo": "Tarifa de Comissão da Plataforma",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201",
+     "data": "12/06/2026"
+    },
+    {
+     "rotulo": "Programa de Taxas de Envio",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5665577566734097",
+     "data": "31/08/2026"
+    },
+    {
+     "rotulo": "Desconto na Taxa de Envio",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5702401538754320",
+     "data": "01/10/2026"
+    },
+    {
+     "rotulo": "Casos comuns de taxa de envio",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=4814789939824401",
+     "data": "16/10/2025"
+    },
+    {
+     "rotulo": "Política de Pagamentos aos Vendedores",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1442971112769281",
+     "data": "22/06/2026"
+    },
+    {
+     "rotulo": "Pagamentos do TikTok Shop",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=28418234664705",
+     "data": "29/05/2026"
+    },
+    {
+     "rotulo": "Termos de Serviço do Vendedor",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=3268441302615809",
+     "data": "26/05/2026"
+    },
+    {
+     "rotulo": "Colaborações de afiliados",
+     "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6580476438529809",
+     "data": "14/04/2025"
+    },
+    {
+     "rotulo": "Exame: nichos e novas taxas do TikTok Shop",
+     "data": "01/10/2026",
+     "url": "https://exame.com/tecnologia/examelab/tiktok-shop-no-brasil-os-nichos-mais-lucrativos-e-as-novas-taxas-de-comissao/"
+    },
+    {
+     "rotulo": "GEcommerce: novas taxas a partir de 15 de julho",
+     "data": "23/06/2026",
+     "url": "https://gecommerce.com.br/marketing-digital-ecommerce/novas-taxas-do-tiktok-shop-em-2026-o-que-muda-a-partir-de-15-de-julho-e-como-recalcular-sua-margem/"
+    },
+    {
+     "rotulo": "TikTok Ads: orçamentos diários",
+     "url": "https://ads.tiktok.com/help/article/about-daily-budgets?lang=pt"
+    }
+   ]
   }
  },
  "calc": {
@@ -3740,6 +5092,177 @@ window.FV_DADOS = {
    "rodape": "Itens muito baratos têm regra própria (CNPJ abaixo de R$ 9, CPF abaixo de R$ 12). Acima de R$ 80 o pagamento via Pix recebe subsídio de 5% da Shopee sem mudar o seu líquido.",
    "texto": "Tabela oficial em vigor a partir de **01/10/2026** (taxa fixa da primeira faixa sobe de R$ 4,00 para R$ 4,50). A comissão já inclui a taxa de transação e o Programa de Frete Grátis; a Shopee não cobra frete do vendedor.",
    "titulo": "Quanto sobra de cada venda na Shopee"
+  },
+  "tiktok": {
+   "titulo": "Quanto sobra de cada venda no TikTok Shop",
+   "texto": "Tabela oficial em vigor desde **15/07/2026**: abaixo de R$ 50 a comissão é 10% + R$ 4 por item; de R$ 50 em diante, 6% + R$ 6. O **Programa de Taxas de Envio** (frete grátis bancado por cupons da plataforma) cobra mais 6% de cada item entregue e vem ligado por padrão. A comissão de afiliado só entra quando a venda vem do vídeo de um criador.",
+   "componentes": [
+    {
+     "tipo": "faixa",
+     "rotulo": "Comissão + taxa fixa",
+     "se": {
+      "variante": "pte"
+     },
+     "faixas": [
+      {
+       "ate": 49.99,
+       "pct": 0.1,
+       "valor": 4
+      },
+      {
+       "ate": 1000000,
+       "pct": 0.06,
+       "valor": 6
+      }
+     ]
+    },
+    {
+     "tipo": "faixa",
+     "rotulo": "Comissão + taxa fixa",
+     "se": {
+      "variante": "sem"
+     },
+     "faixas": [
+      {
+       "ate": 49.99,
+       "pct": 0.1,
+       "valor": 4
+      },
+      {
+       "ate": 1000000,
+       "pct": 0.06,
+       "valor": 6
+      }
+     ]
+    },
+    {
+     "tipo": "faixa",
+     "rotulo": "Taxa fixa por item",
+     "nota": "Comissão zerada nos 60 dias do benefício de novo vendedor (a isenção da taxa fixa não está confirmada)",
+     "se": {
+      "variante": "novo"
+     },
+     "faixas": [
+      {
+       "ate": 49.99,
+       "pct": 0,
+       "valor": 4
+      },
+      {
+       "ate": 1000000,
+       "pct": 0,
+       "valor": 6
+      }
+     ]
+    },
+    {
+     "tipo": "pct",
+     "rotulo": "Programa de Taxas de Envio",
+     "nota": "6% do preço, teto de R$ 50 por item",
+     "valor": 0.06,
+     "teto": 50,
+     "se": {
+      "variante": "pte"
+     }
+    },
+    {
+     "tipo": "pct",
+     "rotulo": "Programa de Taxas de Envio",
+     "nota": "6% do preço, teto de R$ 50 por item",
+     "valor": 0.06,
+     "teto": 50,
+     "se": {
+      "variante": "novo"
+     }
+    },
+    {
+     "tipo": "pct",
+     "rotulo": "Comissão do afiliado",
+     "nota": "Venda que veio do vídeo ou da live de um criador",
+     "valor": 0.1,
+     "se": {
+      "conta": "af10"
+     }
+    },
+    {
+     "tipo": "pct",
+     "rotulo": "Comissão do afiliado",
+     "nota": "Venda que veio do vídeo ou da live de um criador",
+     "valor": 0.15,
+     "se": {
+      "conta": "af15"
+     }
+    },
+    {
+     "tipo": "pct",
+     "rotulo": "Comissão do afiliado",
+     "nota": "Venda que veio do vídeo ou da live de um criador",
+     "valor": 0.2,
+     "se": {
+      "conta": "af20"
+     }
+    },
+    {
+     "tipo": "frete",
+     "rotulo": "Frete que fica com você"
+    }
+   ],
+   "variantes": {
+    "rotulo": "Situação da loja",
+    "padrao": "pte",
+    "nota": "O frete grátis (PTE) vem ligado e pode ser desligado a qualquer momento. O benefício de novo vendedor exige resgatar a missão no Seller Center.",
+    "opcoes": [
+     {
+      "id": "pte",
+      "rotulo": "Com frete grátis"
+     },
+     {
+      "id": "sem",
+      "rotulo": "Sem frete grátis"
+     },
+     {
+      "id": "novo",
+      "rotulo": "60 dias 0%"
+     }
+    ]
+   },
+   "contas": {
+    "rotulo": "Origem da venda",
+    "padrao": "propria",
+    "nota": "Você define a comissão do afiliado (1% a 80%). No mercado, 8–15% é o mais comum.",
+    "opcoes": [
+     {
+      "id": "propria",
+      "rotulo": "Seu vídeo"
+     },
+     {
+      "id": "af10",
+      "rotulo": "Afiliado 10%"
+     },
+     {
+      "id": "af15",
+      "rotulo": "Afiliado 15%"
+     },
+     {
+      "id": "af20",
+      "rotulo": "Afiliado 20%"
+     }
+    ]
+   },
+   "frete_rotulo": "Frete que fica com você (R$)",
+   "frete_nota": "Normalmente o comprador paga o frete e ele só passa por você. Use para diferença de peso, desconto de frete que você decidir bancar ou passagem até o ponto de postagem.",
+   "padrao": {
+    "preco": 49.9,
+    "custo": 8,
+    "frete": 0,
+    "imposto": 0,
+    "custo_nota": "Exemplo: ~25 g de PLA, tag NTAG213 e envelope. Troque pelo seu custo real."
+   },
+   "rodape": "A base da comissão é o preço depois dos descontos que você paga; desconto bancado pela plataforma não reduz a base. Em devolução o PTE não volta. A taxa de transação citada nos Termos não tem percentual publicado para o Brasil: confira o extrato da primeira venda.",
+   "fonte": {
+    "rotulo": "Tarifa de Comissão da Plataforma (atualizada em 12/06/2026)",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201"
+   }
   }
  }
 };

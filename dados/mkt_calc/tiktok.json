@@ -1,0 +1,171 @@
+{
+  "titulo": "Quanto sobra de cada venda no TikTok Shop",
+  "texto": "Tabela oficial em vigor desde **15/07/2026**: abaixo de R$ 50 a comissão é 10% + R$ 4 por item; de R$ 50 em diante, 6% + R$ 6. O **Programa de Taxas de Envio** (frete grátis bancado por cupons da plataforma) cobra mais 6% de cada item entregue e vem ligado por padrão. A comissão de afiliado só entra quando a venda vem do vídeo de um criador.",
+  "componentes": [
+    {
+      "tipo": "faixa",
+      "rotulo": "Comissão + taxa fixa",
+      "se": {
+        "variante": "pte"
+      },
+      "faixas": [
+        {
+          "ate": 49.99,
+          "pct": 0.1,
+          "valor": 4
+        },
+        {
+          "ate": 1000000,
+          "pct": 0.06,
+          "valor": 6
+        }
+      ]
+    },
+    {
+      "tipo": "faixa",
+      "rotulo": "Comissão + taxa fixa",
+      "se": {
+        "variante": "sem"
+      },
+      "faixas": [
+        {
+          "ate": 49.99,
+          "pct": 0.1,
+          "valor": 4
+        },
+        {
+          "ate": 1000000,
+          "pct": 0.06,
+          "valor": 6
+        }
+      ]
+    },
+    {
+      "tipo": "faixa",
+      "rotulo": "Taxa fixa por item",
+      "nota": "Comissão zerada nos 60 dias do benefício de novo vendedor (a isenção da taxa fixa não está confirmada)",
+      "se": {
+        "variante": "novo"
+      },
+      "faixas": [
+        {
+          "ate": 49.99,
+          "pct": 0,
+          "valor": 4
+        },
+        {
+          "ate": 1000000,
+          "pct": 0,
+          "valor": 6
+        }
+      ]
+    },
+    {
+      "tipo": "pct",
+      "rotulo": "Programa de Taxas de Envio",
+      "nota": "6% do preço, teto de R$ 50 por item",
+      "valor": 0.06,
+      "teto": 50,
+      "se": {
+        "variante": "pte"
+      }
+    },
+    {
+      "tipo": "pct",
+      "rotulo": "Programa de Taxas de Envio",
+      "nota": "6% do preço, teto de R$ 50 por item",
+      "valor": 0.06,
+      "teto": 50,
+      "se": {
+        "variante": "novo"
+      }
+    },
+    {
+      "tipo": "pct",
+      "rotulo": "Comissão do afiliado",
+      "nota": "Venda que veio do vídeo ou da live de um criador",
+      "valor": 0.1,
+      "se": {
+        "conta": "af10"
+      }
+    },
+    {
+      "tipo": "pct",
+      "rotulo": "Comissão do afiliado",
+      "nota": "Venda que veio do vídeo ou da live de um criador",
+      "valor": 0.15,
+      "se": {
+        "conta": "af15"
+      }
+    },
+    {
+      "tipo": "pct",
+      "rotulo": "Comissão do afiliado",
+      "nota": "Venda que veio do vídeo ou da live de um criador",
+      "valor": 0.2,
+      "se": {
+        "conta": "af20"
+      }
+    },
+    {
+      "tipo": "frete",
+      "rotulo": "Frete que fica com você"
+    }
+  ],
+  "variantes": {
+    "rotulo": "Situação da loja",
+    "padrao": "pte",
+    "nota": "O frete grátis (PTE) vem ligado e pode ser desligado a qualquer momento. O benefício de novo vendedor exige resgatar a missão no Seller Center.",
+    "opcoes": [
+      {
+        "id": "pte",
+        "rotulo": "Com frete grátis"
+      },
+      {
+        "id": "sem",
+        "rotulo": "Sem frete grátis"
+      },
+      {
+        "id": "novo",
+        "rotulo": "60 dias 0%"
+      }
+    ]
+  },
+  "contas": {
+    "rotulo": "Origem da venda",
+    "padrao": "propria",
+    "nota": "Você define a comissão do afiliado (1% a 80%). No mercado, 8–15% é o mais comum.",
+    "opcoes": [
+      {
+        "id": "propria",
+        "rotulo": "Seu vídeo"
+      },
+      {
+        "id": "af10",
+        "rotulo": "Afiliado 10%"
+      },
+      {
+        "id": "af15",
+        "rotulo": "Afiliado 15%"
+      },
+      {
+        "id": "af20",
+        "rotulo": "Afiliado 20%"
+      }
+    ]
+  },
+  "frete_rotulo": "Frete que fica com você (R$)",
+  "frete_nota": "Normalmente o comprador paga o frete e ele só passa por você. Use para diferença de peso, desconto de frete que você decidir bancar ou passagem até o ponto de postagem.",
+  "padrao": {
+    "preco": 49.9,
+    "custo": 8,
+    "frete": 0,
+    "imposto": 0,
+    "custo_nota": "Exemplo: ~25 g de PLA, tag NTAG213 e envelope. Troque pelo seu custo real."
+  },
+  "rodape": "A base da comissão é o preço depois dos descontos que você paga; desconto bancado pela plataforma não reduz a base. Em devolução o PTE não volta. A taxa de transação citada nos Termos não tem percentual publicado para o Brasil: confira o extrato da primeira venda.",
+  "fonte": {
+    "rotulo": "Tarifa de Comissão da Plataforma (atualizada em 12/06/2026)",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=24428156307201"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "mkt": "tiktok",
+  "aba": "politicas",
+  "ordem": 3,
+  "rotulo": "Políticas e penalidades",
+  "titulo": "Políticas, devolução e penalidades",
+  "atualizado_em": "2026-10-11",
+  "intro": "O TikTok Shop fiscaliza o anúncio e também cada vídeo e live que marca o produto. A loja começa com 200 pontos de saúde e perde pontos a cada violação; com 0, é desativada.",
+  "blocos": [
+    {
+      "tipo": "alerta",
+      "nivel": "risco",
+      "titulo": "Logo e nome Google: risco alto, maior que no ML e na Shopee",
+      "paragrafos": [
+        "A política de propriedade intelectual proíbe usar marcas de terceiros \"em seus produtos físicos, em suas ofertas, em seu conteúdo ou no nome da loja\" sem autorização, e trata logotipo não autorizado em página, vídeo ou live como **contrafação**. A página sobre violações de marca não abre exceção para uso descritivo ou \"compatível com\".",
+        "Relatos de vendedores falam em **24 pontos** por uma única violação de PI, mesmo com o vídeo já aprovado na pré-verificação. Com 200 pontos iniciais, oito violações desativam a loja; a primeira já pode travar saque e novos anúncios.",
+        "**Recomendação:** no TikTok, venda uma versão sem o G colorido e, de preferência, sem a palavra Google no relevo (\"Avalie-nos!\" ou a logo do cliente), e use textos genéricos (\"placa de avaliação NFC\", \"avaliações do seu negócio\"). Se citar o Google, que seja só na descrição, de forma descritiva, e sabendo que a tolerância não está confirmada."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Anúncio: o que é proibido ou obrigatório",
+      "itens": [
+        {
+          "t": "QR code, links, e-mail, telefone",
+          "d": "proibidos nas fotos, no título e na descrição, assim como citar \"TikTok\" ou outros marketplaces. Foto da placa com QR legível pode ser marcada: borre ou use um QR de exemplo."
+        },
+        {
+          "t": "Imagem principal",
+          "d": "fundo branco, pelo menos 600×600 px, sem logotipo ou texto sobreposto."
+        },
+        {
+          "t": "Render ou IA",
+          "d": "proibido se não mostrar o produto real. Use fotos da placa impressa; o render do Blender só como imagem secundária, se for fiel."
+        },
+        {
+          "t": "Título e descrição",
+          "d": "título de 25 a 200 caracteres; descrição com pelo menos 30 palavras; tudo em português."
+        },
+        {
+          "t": "Produto",
+          "d": "nada específico sobre NFC na lista de proibidos (ela barra clonadores de cartão, Flipper Zero e leitores). Não está confirmado se tag NFC passiva exige homologação da Anatel."
+        }
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Vídeos e lives",
+      "itens": [
+        "Proibido link, chamada para fora do app, telefone, outra rede social ou QR code na tela.",
+        "Proibido vídeo só com GIF ou imagem parada, conteúdo reaproveitado sem edição própria e promessas enganosas (\"aumenta suas vendas em 300%\").",
+        "Tudo o que vale para o anúncio vale para o vídeo: o logo do Google na placa aparecendo no vídeo também é violação."
+      ]
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Devolução e reembolso",
+      "colunas": [
+        "Regra",
+        "Prazo ou responsável"
+      ],
+      "linhas": [
+        [
+          "Comprador pede devolução",
+          "até 30 dias após a entrega (90 dias se defeito)"
+        ],
+        [
+          "Você analisa o pedido de devolução",
+          "3 dias úteis, senão aprova sozinho"
+        ],
+        [
+          "Pedido de cancelamento",
+          "24 h para responder"
+        ],
+        [
+          "Comprador posta a devolução",
+          "até 14 dias"
+        ],
+        [
+          "Você confere o item devolvido",
+          "2 dias úteis"
+        ],
+        [
+          "Frete de volta por arrependimento",
+          "TikTok"
+        ],
+        [
+          "Frete de volta por defeito, erro, dano ou atraso",
+          "Você"
+        ],
+        [
+          "Item até R$ 25",
+          "pode ter reembolso sem devolução"
+        ]
+      ],
+      "nota": "O comprador cancela sem sua aprovação enquanto o pedido não estiver \"Aguardando coleta\"."
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Pontos de saúde da conta (0 a 1000, começa em 200)",
+      "colunas": [
+        "Ao cair para",
+        "Consequência"
+      ],
+      "linhas": [
+        [
+          "150 pontos",
+          "7 dias sem novos anúncios, campanhas grandes e saque"
+        ],
+        [
+          "100 pontos",
+          "as mesmas restrições por 14 dias"
+        ],
+        [
+          "50 pontos",
+          "28 dias de restrição e limite de pedidos"
+        ],
+        [
+          "0 pontos",
+          "desativação da loja"
+        ]
+      ],
+      "nota": "Pontos perdidos vencem em 180 dias. 300 pedidos em 180 dias recuperam até 200 pontos. Recurso em até 30 dias (algumas violações dão só 12 a 72 h). A tabela de pontos por violação não é pública."
+    },
+    {
+      "tipo": "tabela",
+      "titulo": "Métricas de envio exigidas",
+      "colunas": [
+        "Métrica",
+        "Limite"
+      ],
+      "linhas": [
+        [
+          "Envio atrasado",
+          "até 4%"
+        ],
+        [
+          "Cancelamento por sua culpa",
+          "até 2,5%"
+        ],
+        [
+          "Rastreio válido",
+          "95% ou mais"
+        ],
+        [
+          "Envio rápido (meta)",
+          "90% ou mais"
+        ]
+      ],
+      "nota": "Estourar gera limite de pedidos, corte de campanhas, desconto no repasse e congelamento de saque. A nota da loja (SPS, 0 a 5) fica em Central do Vendedor › Integridade da conta; SPS acima de 3,5 libera o repasse em 3 dias."
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "Política de Propriedade Intelectual",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5385814784837393",
+      "data": "24/03/2025"
+    },
+    {
+      "rotulo": "Como evitar violações de marcas",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=5398633114650369",
+      "data": "15/09/2026"
+    },
+    {
+      "rotulo": "Política de listagem de produtos",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6483182812759824",
+      "data": "23/09/2026"
+    },
+    {
+      "rotulo": "Política de Conteúdo",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1413208980588305",
+      "data": "01/07/2026"
+    },
+    {
+      "rotulo": "Produtos proibidos e restritos",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=6483182812481296",
+      "data": "17/08/2026"
+    },
+    {
+      "rotulo": "Cancelamento, devolução e reembolso",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=894339073115921",
+      "data": "24/09/2026"
+    },
+    {
+      "rotulo": "Política de Fiscalização (pontos)",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508641040",
+      "data": "09/07/2026"
+    },
+    {
+      "rotulo": "Política de Logística (métricas)",
+      "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508280592",
+      "data": "30/09/2026"
+    },
+    {
+      "rotulo": "Olhar Digital: regra da Anatel para marketplaces",
+      "data": "08/05/2026",
+      "url": "https://olhardigital.com.br/2026/05/08/reviews/justica-restabelece-regra-da-anatel-para-produtos-na-amazon/"
+    }
+  ]
+}

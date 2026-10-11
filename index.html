@@ -8,7 +8,7 @@
   --bg:#ECEEEF; --surface:#FFFFFF; --surface-2:#F4F5F6; --ink:#15181B; --muted:#58616A; --line:#D3D8DC;
   --accent:#8A5C12; --accent-ink:#FFFFFF; --accent-soft:#F4E7D1; --plate:#17191B; --plate-line:#2C3034;
   --ok:#1C7646; --ok-soft:#DDF1E5; --bad:#B0281F; --bad-soft:#F8DEDB; --wait:#6B5A1E; --wait-soft:#F1EBD3;
-  --ch-ml:#C99A00; --ch-sp:#D4532B; --ch-ml-ink:#7A5C00; --ch-sp-ink:#A83A17;
+  --ch-ml:#C99A00; --ch-sp:#D4532B; --ch-ml-ink:#7A5C00; --ch-sp-ink:#A83A17; --ch-tt:#C2185B; --ch-tt-ink:#9B1049;
   --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"IBM Plex Sans","Segoe UI",Roboto,sans-serif; --mono:"JetBrains Mono",Consolas,"Courier New",monospace;
 }
 @media (prefers-color-scheme: dark){
@@ -17,7 +17,7 @@
     --bg:#0F1113; --surface:#171A1D; --surface-2:#1E2226; --ink:#E6E9EB; --muted:#98A1A8; --line:#2A3035;
     --accent:#D9A34D; --accent-ink:#1A1206; --accent-soft:#3A2D18; --plate:#0A0B0C; --plate-line:#24282C;
     --ok:#62C48F; --ok-soft:#173326; --bad:#F07C72; --bad-soft:#3A1C1A; --wait:#D9C27A; --wait-soft:#302A17;
-    --ch-ml:#E6BE3A; --ch-sp:#F07A52; --ch-ml-ink:#EBC85A; --ch-sp-ink:#F59A78;
+    --ch-ml:#E6BE3A; --ch-sp:#F07A52; --ch-ml-ink:#EBC85A; --ch-sp-ink:#F59A78; --ch-tt:#F06292; --ch-tt-ink:#F48FB1;
   }
 }
 :root[data-theme="dark"]{
@@ -25,7 +25,7 @@
   --bg:#0F1113; --surface:#171A1D; --surface-2:#1E2226; --ink:#E6E9EB; --muted:#98A1A8; --line:#2A3035;
   --accent:#D9A34D; --accent-ink:#1A1206; --accent-soft:#3A2D18; --plate:#0A0B0C; --plate-line:#24282C;
   --ok:#62C48F; --ok-soft:#173326; --bad:#F07C72; --bad-soft:#3A1C1A; --wait:#D9C27A; --wait-soft:#302A17;
-  --ch-ml:#E6BE3A; --ch-sp:#F07A52; --ch-ml-ink:#EBC85A; --ch-sp-ink:#F59A78;
+  --ch-ml:#E6BE3A; --ch-sp:#F07A52; --ch-ml-ink:#EBC85A; --ch-sp-ink:#F59A78; --ch-tt:#F06292; --ch-tt-ink:#F48FB1;
 }
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);padding-inline:16px;padding-block:0 64px}
@@ -167,6 +167,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
 .topnav a .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
 .topnav a[data-view="ml"] .dot{background:var(--ch-ml)}
 .topnav a[data-view="shopee"] .dot{background:var(--ch-sp)}
+.topnav a[data-view="tiktok"] .dot{background:var(--ch-tt)}
 
 /* ---------- área do canal ---------- */
 .mk-head{display:flex;flex-direction:column;gap:12px;padding-block:28px 8px}
@@ -259,6 +260,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
 .mk{--ch:var(--muted);--ch-ink:var(--ink)}
 .mk-ml{--ch:var(--ch-ml);--ch-ink:var(--ch-ml-ink)}
 .mk-shopee{--ch:var(--ch-sp);--ch-ink:var(--ch-sp-ink)}
+.mk-tiktok{--ch:var(--ch-tt);--ch-ink:var(--ch-tt-ink)}
 
 @media (max-width:860px){
   .head{grid-template-columns:1fr}
@@ -277,6 +279,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
     <a href="#" data-view="diario" aria-current="page"><span class="dot"></span>Diário de impressão</a>
     <a href="#ml" data-view="ml"><span class="dot"></span>Mercado Livre</a>
     <a href="#shopee" data-view="shopee"><span class="dot"></span>Shopee</a>
+    <a href="#tiktok" data-view="tiktok"><span class="dot"></span>TikTok Shop</a>
   </nav>
   <div id="view-diario">
   <header class="head">
@@ -607,7 +610,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
 })();
 </script>
 <script>
-/* ---------- canais de venda (Mercado Livre / Shopee) ---------- */
+/* ---------- canais de venda (Mercado Livre / Shopee / TikTok Shop) ---------- */
 (function(){
   const M = { db:null, offline:null, writable:true, canais:{}, passos:[], paginas:{}, calc:{}, view:"diario", tab:null, calcState:{} };
   const $ = (id) => document.getElementById(id);
@@ -640,19 +643,19 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
     return out;
   }
 
-  const CHANNELS = { ml:"Mercado Livre", shopee:"Shopee" };
+  const CHANNELS = { ml:"Mercado Livre", shopee:"Shopee", tiktok:"TikTok Shop" };
 
   // ---------- roteamento ----------
   function parseHash(){
     const hs = (location.hash || "").slice(1);
-    const m = hs.match(/^(ml|shopee)(?:-([a-z0-9]+))?$/);
+    const m = hs.match(/^(ml|shopee|tiktok)(?:-([a-z0-9]+))?$/);
     if (m) return { view:m[1], tab:m[2] || "roteiro" };
     return { view:"diario", tab:null };
   }
   function go(view, tab){
     const hs = view === "diario" ? "" : (tab && tab !== "roteiro" ? view + "-" + tab : view);
     if (hs) { if (location.hash.slice(1) !== hs) history.replaceState(null, "", "#" + hs); }
-    else if (location.hash && /^#(ml|shopee)/.test(location.hash)) history.replaceState(null, "", location.pathname + location.search);
+    else if (location.hash && /^#(ml|shopee|tiktok)/.test(location.hash)) history.replaceState(null, "", location.pathname + location.search);
     M.view = view; M.tab = tab; store.set("mk-view", hs);
     render(); window.scrollTo({top:0});
   }
@@ -771,7 +774,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
     for (const inc of arr(pg.inclui)){
       const other = M.paginas[inc];
       if (!other) continue;
-      kids.push(h("div",{class:"blk", style:"margin-top:12px"}, h("p",{class:"eyebrow", text:"Vale para os dois canais"}), h("h2",{text:str(other.titulo)}), other.intro ? h("p",{class:"intro", style:"color:var(--muted)", text:str(other.intro)}) : null));
+      kids.push(h("div",{class:"blk", style:"margin-top:12px"}, h("p",{class:"eyebrow", text:"Vale para todos os canais"}), h("h2",{text:str(other.titulo)}), other.intro ? h("p",{class:"intro", style:"color:var(--muted)", text:str(other.intro)}) : null));
       for (const b of arr(other.blocos)) kids.push(renderBlock(b));
       kids.push(renderFontes(other));
     }
@@ -924,7 +927,7 @@ td .key{display:block;font:12px/1.3 var(--mono);color:var(--muted);margin-top:2p
   }
   async function start(){
     const init = parseHash();
-    if (init.view === "diario"){ const s = store.get("mk-view"); const m = s && s.match(/^(ml|shopee)(?:-([a-z0-9]+))?$/); if (m && !location.hash){ M.view = m[1]; M.tab = m[2] || "roteiro"; } }
+    if (init.view === "diario"){ const s = store.get("mk-view"); const m = s && s.match(/^(ml|shopee|tiktok)(?:-([a-z0-9]+))?$/); if (m && !location.hash){ M.view = m[1]; M.tab = m[2] || "roteiro"; } }
     else { M.view = init.view; M.tab = init.tab; }
     for (const a of document.querySelectorAll(".topnav a")) a.addEventListener("click", (e) => { e.preventDefault(); go(a.dataset.view, a.dataset.view === "diario" ? null : "roteiro"); });
     window.addEventListener("hashchange", () => { const p = parseHash(); if (p.view !== "diario" || /^#?$/.test(location.hash)) { M.view = p.view; M.tab = p.tab; render(); } });

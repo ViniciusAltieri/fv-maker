@@ -1,0 +1,20 @@
+{
+  "mkt": "tiktok",
+  "ordem": 217,
+  "fase": "Primeiras semanas",
+  "titulo": "Vigiar envio atrasado, cancelamento e nota da loja",
+  "onde": "Central do Vendedor › Integridade da conta",
+  "tempo": "5 min por semana",
+  "porque": "Atraso acima de 4% ou cancelamento acima de 2,5% gera limite de pedidos, corte de campanhas e congelamento de saque. Nota da loja acima de 3,5 libera repasse em 3 dias.",
+  "como": [
+    "Despache no mesmo dia útil sempre que puder.",
+    "Responda pedido de cancelamento em até 24 h e devolução em até 3 dias úteis.",
+    "Confira os pontos de saúde da conta (começa em 200)."
+  ],
+  "fonte": {
+    "rotulo": "Política de Fiscalização",
+    "url": "https://seller-br.tiktok.com/university/essay?knowledge_id=1444948508641040"
+  },
+  "feito": false,
+  "nota": ""
+}
